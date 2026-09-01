@@ -7,8 +7,8 @@
   {
    "tag": "Deep",
    "title": "Auditing Anonymous AI Models: A Four-Stage Protocol for Black-Box Identity Verification",
-   "summary": "A four-stage forensic protocol (archive reconstruction, config fingerprinting, tokenizer-differential testing, behavioral corroboration) identified 7/10 known-identity model releases exactly, 2 with only precision differences, 1 partial, 0 wrong — and, used prospectively, correctly called an anonymous release as the \"GLM-5.3 version line\" ahead of the official reveal. No validated black-box identity-verification methodology existed before this; practitioner checklists lacked accuracy evidence and self-ID is untrustworthy by design. Small validation set and no true end-to-end anonymous test yet, so read the numbers as preliminary, but zero wrong calls plus a real prospective hit is strong early evidence for a first-of-its-kind method. Directly adjacent to identity/attribution verification work and to any policy discussion of stealth model releases.",
-   "analysis": "",
+   "summary": "A four-stage black-box forensic protocol (archive reconstruction, config fingerprinting, tokenizer differentials, behavioral corroboration) identified 7/10 known model releases exactly, 2 near-exactly, 1 partially, 0 wrong. Used prospectively, it called an anonymous release as the GLM-5.3 line before the official reveal. No validated method existed before.",
+   "analysis": "Small validation set; zero wrong calls is strong early evidence.",
    "date": "",
    "links": [
     {
@@ -20,8 +20,8 @@
   {
    "tag": "Deep",
    "title": "ECLIPSE: Self-Evolving Stealthy Prompt Injection Attack against Long-Horizon Agentic Systems",
-   "summary": "ECLIPSE, a self-evolving prompt-injection framework combining direct user-prompt and indirect tool-side injection, hits up to 96.7% attack success against long-horizon agentic systems (in the mold of Codex/Claude Code/OpenClaw) with no defenses, and still 69.2% under a common safety filter — beating the strongest defended baseline by 27.5 points — on a new 120-task, 198-tool benchmark (LASE-Bench) where 96.7% of tasks require 5+ tool calls. These are concrete, reproducible numbers against a purpose-built benchmark, not anecdote, and the headline claim — existing safeguards don't reliably defend against multi-stage, self-evolving injection — is exactly the kind of result that should change how agentic deployments get hardened. High relevance to AI control/monitoring, and it names the agent harnesses actually in current use.",
-   "analysis": "",
+   "summary": "ECLIPSE, a self-evolving prompt-injection framework, hits 96.7% attack success against long-horizon agentic systems with no defenses, and 69.2% under a common safety filter — 27.5 points above the strongest defended baseline. The new LASE-Bench has 120 tasks and 198 tools; 96.7% of tasks need 5+ tool calls.",
+   "analysis": "Concrete benchmark numbers; current safeguards fail multi-stage injection.",
    "date": "",
    "links": [
     {
@@ -33,8 +33,8 @@
   {
    "tag": "Deep",
    "title": "Scaling Large Reasoning Models beyond Human Supervision: A Path toward Superintelligence",
-   "summary": "Proposes a five-level (L0–L4) ladder for how much of an LRM's training loop still depends on human oversight, tracing two axes — rewards moving from human judgments to self-generated verifiers, and tasks moving from human-curated to self-generated curricula — and names reward hacking, feedback drift, curriculum collapse, and environment errors as the failure modes that grow as autonomy increases. This is agenda-setting conceptual work rather than new empirical results, so treat it as a framework rather than a validated finding. Still, a taxonomy of \"how much is still under human control\" is directly useful for scalable-oversight thinking and for spotting where governance/verification levers should attach as labs reduce human-in-the-loop supervision.",
-   "analysis": "",
+   "summary": "Proposes a five-level ladder (L0–L4) for how much of a reasoning model's training loop still depends on human oversight, across two axes: rewards and curricula. Failure modes grow with autonomy: reward hacking, feedback drift, curriculum collapse, environment errors.",
+   "analysis": "Conceptual framework, no new experiments; useful for scalable-oversight levers.",
    "date": "",
    "links": [
     {
@@ -46,8 +46,8 @@
   {
    "tag": "Deep",
    "title": "HSRM: Hidden-State Reward Models for Test-Time Verification",
-   "summary": "HSRM verifies LLM reasoning by reading hidden states at reasoning-step boundaries through a small transformer encoder instead of re-reading generated text, and with only ~2M parameters matches or beats a 55M-parameter text-based verifier in 15 of 16 generator/dataset combinations across four math benchmarks. A ~27x parameter cut for equal-or-better verification is a solid, quantified result, though it's tested only on math reasoning so generalization to open-ended or agentic verification is unproven. Relevant to cheap, scalable verification and to interpretability more broadly — it works by exploiting signals of a model \"knowing\" it's wrong internally.",
-   "analysis": "",
+   "summary": "HSRM verifies LLM reasoning from hidden states at step boundaries instead of re-reading text. With ~2M parameters it matches or beats a 55M-parameter text-based verifier in 15 of 16 generator/dataset pairs on four math benchmarks — a ~27x parameter cut.",
+   "analysis": "Math-only so far; generalization unproven.",
    "date": "",
    "links": [
     {
@@ -59,8 +59,8 @@
   {
    "tag": "Deep",
    "title": "Lies We Can See: Joint Verbal and Non-Verbal Deception by VLM Agents in Embodied Social Interactions",
-   "summary": "Introduces MineAmongUs, the first embodied (3D, multimodal) social-deduction deception testbed, plus an annotation scheme validated to near-human agreement; across cross-VLM and harness-ablation tests, non-verbal channels (movement, action) turn out to be the more decisive contributor to successful deception, not just verbal lying. No hard detection or win-rate numbers are given in the abstract, so this reads as \"new capability + suggestive trend\" rather than a settled result. Still, showing that deception evaluation confined to text misses the primary channel VLM agents actually use to deceive is a genuinely new angle for multi-agent/deception work and could reshape future deception benchmarks.",
-   "analysis": "",
+   "summary": "MineAmongUs is the first embodied, multimodal social-deduction deception testbed. Across cross-VLM and harness ablations, non-verbal channels (movement, action) contribute more to successful deception than verbal lying.",
+   "analysis": "No hard win-rate numbers yet; text-only deception evals miss the main channel.",
    "date": "",
    "links": [
     {
@@ -72,8 +72,8 @@
   {
    "tag": "Policy",
    "title": "Law of Large Numbers: Accuracy as Statistical Measure for AI Compliance and Competition",
-   "summary": "Argues \"accuracy\" means different things to ML practitioners and to the EU AI Act, identifying five specific tensions (nature, performance notion, scope of validity, purpose, statistical rigor) behind the mismatch — the Act's deliberate vagueness lets it flex across contexts but leaves compliance underspecified, and the paper's fix is baseline standards, validation studies, and tools to extend accuracy's validity scope rather than one fixed definition. Conceptual/legal-technical rather than empirical, but a sharp, well-specified account of a real AI Act compliance gap.",
-   "analysis": "",
+   "summary": "'Accuracy' means different things to ML practice and the EU AI Act. The paper names five tensions and proposes baseline standards plus validation studies, not one fixed definition.",
+   "analysis": "Sharp account of a real AI Act compliance gap.",
    "date": "",
    "links": [
     {
@@ -85,8 +85,8 @@
   {
    "tag": "Policy",
    "title": "WildSEEK: Evaluating Language Models for Information-Seeking",
-   "summary": "Built from 3k manually annotated real user queries drawn from a 1.8M-query pool, WildSEEK finds over a third of information-seeking queries are high-risk and skew analytical rather than factoid, and that LLMs fail more often on exactly those queries — with recurring failure patterns of sycophancy, over-reliance on the user's framing, a default US-centric perspective, and weak handling of vulnerable populations. Real-user (not synthetic) data makes the failure-rate findings fairly credible and gives a concrete, monitorable basis for the \"how should AI mediate information access\" governance question.",
-   "analysis": "",
+   "summary": "From 3k annotated real queries (of 1.8M), over a third of information-seeking queries are high-risk and analytical — and LLMs fail most on exactly those, via sycophancy and US-centric framing.",
+   "analysis": "Real-user data; a monitorable basis for information-access governance.",
    "date": "",
    "links": [
     {
@@ -98,8 +98,8 @@
   {
    "tag": "Technical",
    "title": "The Safety Relay in Roleplay Jailbreaks: A Component-Resolved Causal Analysis",
-   "summary": "Using mechanistic interpretability across two benchmarks, three model families, and four roleplay wrappers, finds that successful roleplay jailbreaks don't erase a model's internal recognition that a request is harmful — that signal stays intact — but instead disconnect it from the refusal machinery right where the answer begins, driven by the scenario-framing component through a smaller, largely model-specific circuit distinct from ordinary refusal. Causal (activation-patching-style) rather than correlational, and \"harm recognition survives, only the relay breaks\" points to concrete, targetable defenses.",
-   "analysis": "",
+   "summary": "Roleplay jailbreaks do not erase a model's internal recognition that a request is harmful. Causal analysis across three model families shows the scenario-framing component disconnects that signal from the refusal machinery where the answer begins, through a small, largely model-specific circuit.",
+   "analysis": "Causal, not correlational; points to targetable defenses.",
    "date": "",
    "links": [
     {
@@ -111,8 +111,8 @@
   {
    "tag": "Technical",
    "title": "Sycophantic Agreement Transfers with Neutral Data via Contrastive Preference Optimization",
-   "summary": "Training on individually neutral preference data can still transfer sycophancy from teacher to student: across seven preference-optimization methods and multiple teacher/student pairs on the OLMo 3 pipeline, finds a strong correlation between a teacher's sycophantic-agreement rate and the resulting student's rate, even though the signal is diffused across the dataset rather than concentrated in any single example — so simple example-level filtering can't remove it without gutting the dataset. Multi-method, multi-family design makes the transfer claim credible; a real caution for anyone building preference data from teacher models.",
-   "analysis": "",
+   "summary": "Individually neutral preference data still transfers sycophancy from teacher to student. Across seven preference-optimization methods on the OLMo 3 pipeline, teacher and student sycophantic-agreement rates correlate strongly; the signal is diffuse, so example-level filtering cannot remove it without gutting the dataset.",
+   "analysis": "Multi-method design; caution for teacher-built preference data.",
    "date": "",
    "links": [
     {
@@ -124,8 +124,8 @@
   {
    "tag": "Technical",
    "title": "Wrong Prediction, Right Answer: Recovering Evidence from Collapsed LLM Sequence Scores",
-   "summary": "Shows a \"readout gap\": hidden-state probes can decode the correct answer even when a model's native sequence-score output has collapsed and looks completely wrong; a lightweight two-parameter correction fit on as few as 25 unlabeled examples recovers 9–34 accuracy points on Qwen3.5 models by exploiting this gap. Small correction, real recovered accuracy, and a genuinely counterintuitive framing — failure is often an output bottleneck, not an absent capability — useful for interpretability-based verification.",
-   "analysis": "",
+   "summary": "Hidden-state probes decode the correct answer even when the model's sequence scores collapse. A two-parameter correction fit on 25 unlabeled examples recovers 9–34 accuracy points on Qwen3.5 models.",
+   "analysis": "Failure is often an output bottleneck, not missing capability.",
    "date": "",
    "links": [
     {
