@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>What is Emlyn reading?</title>
+<style>
+  :root {
+    --bg: #faf9f6; --fg: #1a1a1a; --muted: #6b6b6b; --line: #e3e0d8;
+    --card: #ffffff; --accent: #0b6e4f; --tag-bg: #eef2ee;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #16181a; --fg: #e8e6e1; --muted: #9a9890; --line: #2e3236;
+      --card: #1e2124; --accent: #58b895; --tag-bg: #24312b;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--fg);
+    font: 16px/1.55 Georgia, 'Times New Roman', serif;
+  }
+  .wrap { max-width: 46rem; margin: 0 auto; padding: 2rem 1.25rem 4rem; }
+  header h1 { font-size: 1.7rem; margin: 0 0 .25rem; }
+  .sub { color: var(--muted); font-size: .95rem; margin: 0 0 .5rem; }
+  .disclaimer {
+    font-size: .8rem; color: var(--muted); border: 1px solid var(--line);
+    border-radius: 6px; padding: .5rem .75rem; margin: 1rem 0 1.5rem;
+  }
+  nav.dates { display: flex; flex-wrap: wrap; gap: .35rem; margin-bottom: 1.5rem; }
+  nav.dates a {
+    font: .78rem/1 system-ui, sans-serif; color: var(--muted);
+    text-decoration: none; border: 1px solid var(--line); border-radius: 4px;
+    padding: .25rem .45rem;
+  }
+  nav.dates a.active { color: var(--accent); border-color: var(--accent); }
+  h2.day { font-size: 1.25rem; border-bottom: 1px solid var(--line); padding-bottom: .3rem; }
+  .pick { background: var(--card); border: 1px solid var(--line); border-radius: 8px;
+          padding: .9rem 1rem; margin: 1rem 0; }
+  .pick .label { font: .72rem/1 system-ui, sans-serif; letter-spacing: .08em;
+                 text-transform: uppercase; color: var(--accent); }
+  article.entry { margin: 1.15rem 0; }
+  .tag {
+    display: inline-block; font: .7rem/1 system-ui, sans-serif;
+    letter-spacing: .05em; text-transform: uppercase; color: var(--accent);
+    background: var(--tag-bg); border-radius: 4px; padding: .2rem .45rem;
+    margin-right: .4rem; vertical-align: 15%;
+  }
+  article.entry h3 { display: inline; font-size: 1.02rem; }
+  article.entry .body { margin: .35rem 0 .2rem; }
+  .analysis { color: var(--muted); font-style: italic; }
+  .links { font: .82rem/1.6 system-ui, sans-serif; }
+  .links a { color: var(--accent); word-break: break-all; }
+  .meta-date { color: var(--muted); font: .78rem/1 system-ui, sans-serif; margin-left: .5rem; }
+  section.opps { margin-top: 2rem; }
+  .oppwrap { overflow-x: auto; }
+  table { border-collapse: collapse; font: .82rem/1.45 system-ui, sans-serif; min-width: 100%; }
+  th, td { text-align: left; border-bottom: 1px solid var(--line); padding: .4rem .6rem .4rem 0; vertical-align: top; }
+  th { color: var(--muted); font-weight: 600; }
+  footer { margin-top: 3rem; color: var(--muted); font-size: .8rem; }
+  #status { color: var(--muted); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>What is Emlyn reading?</h1>
+    <p class="sub">A daily, automated digest of AI safety, governance and verification —
+      papers, policy, frontier news, and open opportunities. Kept for 60 days.</p>
+    <p class="disclaimer">Compiled automatically by an AI and not human-reviewed —
+      descriptions may contain errors or hallucinations. Always check the linked
+      source before relying on anything here.</p>
+  </header>
+  <nav class="dates" id="dates"></nav>
+  <main id="digest"><p id="status">Loading the latest digest…</p></main>
+  <footer>
+    <p>Format inspired by <a href="https://thestephencasper.github.io/whatiscasreading/">What is Cas reading?</a>.
+    Generated daily by an automated pipeline + Claude.</p>
+  </footer>
+</div>
+<script>
+(async function () {
+  const $ = (s) => document.querySelector(s);
+  const esc = (t) => { const d = document.createElement('span'); d.textContent = t ?? ''; return d.innerHTML; };
+  let index;
+  try {
+    index = await (await fetch('data/index.json', {cache: 'no-store'})).json();
+  } catch (e) {
+    $('#status').textContent = 'Could not load the digest index.';
+    return;
+  }
+  const dates = index.digests || [];
+  if (!dates.length) { $('#status').textContent = 'No digests yet.'; return; }
+
+  function renderNav(active) {
+    $('#dates').innerHTML = dates.map(d =>
+      `<a href="#${d}" class="${d === active ? 'active' : ''}">${d}</a>`).join('');
+  }
+
+  async function show(date) {
+    if (!dates.includes(date)) date = dates[0];
+    renderNav(date);
+    let doc;
+    try {
+      doc = await (await fetch(`data/${date}.json`, {cache: 'no-store'})).json();
+    } catch (e) {
+      $('#digest').innerHTML = '<p id="status">Could not load that day.</p>';
+      return;
+    }
+    const parts = [`<h2 class="day">${esc(doc.date)}</h2>`];
+    if (doc.read_this_today) {
+      parts.push(`<div class="pick"><span class="label">Read this today</span>
+        <h3>${esc(doc.read_this_today.title)}</h3>
+        <p class="body">${esc(doc.read_this_today.why)}</p></div>`);
+    }
+    for (const e of (doc.entries || [])) {
+      const links = (e.links || []).map(u =>
+        `<a href="${esc(u)}" rel="noopener">${esc(u.replace(/^https?:\/\//, ''))}</a>`).join(' · ');
+      parts.push(`<article class="entry">
+        <span class="tag">${esc(e.tag)}</span><h3>${esc(e.title)}</h3>
+        ${e.date ? `<span class="meta-date">${esc(e.date)}</span>` : ''}
+        <p class="body">${esc(e.summary)}${e.analysis ? ` <span class="analysis">${esc(e.analysis)}</span>` : ''}</p>
+        <p class="links">${links}</p></article>`);
+    }
+    const opps = doc.opportunities || [];
+    if (opps.length) {
+      const rows = opps.map(o => `<tr><td>${esc(o.name)}</td><td>${esc(o.what)}</td>
+        <td>${esc(o.deadline)}</td><td>${esc(o.dates)}</td><td>${esc(o.commitment)}</td>
+        <td>${esc(o.location_mode)}</td></tr>`).join('');
+      parts.push(`<section class="opps"><h2 class="day">Opportunities</h2><div class="oppwrap">
+        <table><thead><tr><th>Name</th><th>What</th><th>Deadline</th><th>Dates</th>
+        <th>Commitment</th><th>Location &amp; mode</th></tr></thead>
+        <tbody>${rows}</tbody></table></div></section>`);
+    }
+    $('#digest').innerHTML = parts.join('\n');
+  }
+
+  window.addEventListener('hashchange', () => show(location.hash.slice(1)));
+  show(location.hash.slice(1) || dates[0]);
+})();
+</script>
+</body>
+</html>
