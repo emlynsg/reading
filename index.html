@@ -83,10 +83,27 @@
 (async function () {
   const $ = (s) => document.querySelector(s);
   const esc = (t) => { const d = document.createElement('span'); d.textContent = t ?? ''; return d.innerHTML; };
+  // Attribute context: esc() does not encode quotes, so it must never be used
+  // inside a quoted attribute on its own.
+  const attr = (t) => esc(t).replaceAll('"', '&quot;').replaceAll("'", '&#39;');
+  // All link URLs come from an LLM pipeline and are untrusted: parse, allow
+  // only http(s), else render as plain text (no anchor).
+  const safeHref = (u) => {
+    try {
+      const p = new URL(u);
+      return (p.protocol === 'http:' || p.protocol === 'https:') ? p.href : null;
+    } catch (e) { return null; }
+  };
+  const DATE_RE = /^\d{4}-\d{2}-\d{2}$/;
 
   function entryHtml(e) {
-    const links = (e.links || []).map(l =>
-      `<li><a href="${esc(l.url)}" rel="noopener">${esc(l.title || l.url)}</a></li>`).join('');
+    const links = (e.links || []).map(l => {
+      const href = safeHref(l.url);
+      const label = esc(l.title || l.url);
+      return href
+        ? `<li><a href="${attr(href)}" rel="noopener">${label}</a></li>`
+        : `<li>${label} <span class="analysis">(link withheld: invalid URL)</span></li>`;
+    }).join('');
     return `<article class="entry">
       <p class="entry-title"><span class="entry-tag">${esc(e.tag)}:</span>${esc(e.title)}</p>
       ${e.date ? `<p class="entry-date">${esc(e.date)}</p>` : ''}
@@ -120,7 +137,7 @@
     $('#status').textContent = 'Could not load the digest index.';
     return;
   }
-  const dates = index.digests || [];
+  const dates = (index.digests || []).filter(d => DATE_RE.test(d));
   if (!dates.length) { $('#status').textContent = 'No digests yet.'; return; }
 
   // Main digest: the hash-linked day if present, else the latest.
