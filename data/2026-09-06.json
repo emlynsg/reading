@@ -1,19 +1,97 @@
 {
  "schema_version": 2,
  "date": "2026-09-06",
- "generated_at": "2026-09-06T01:05:13.836912+00:00",
+ "generated_at": "2026-09-06T02:06:20.188648+00:00",
  "disclaimer": "Compiled automatically by an AI and not human-reviewed - descriptions may contain errors or hallucinations. Always check the linked source before relying on anything here.",
  "entries": [
   {
-   "tag": "Frontier",
-   "title": "Claude Mythos 5.1 and Fable 5.1: Capabilities",
-   "summary": "Fable 5.1 beats Fable 5 on most benchmarks and cuts cache-read prices 75%. But token usage jumped 25-50%, and rival Astra closed Claude's lead.",
-   "analysis": "Solid iterative upgrade; competitive gap with OpenAI's Astra now real.",
-   "date": "2026-09-05",
+   "tag": "Policy",
+   "title": "Notes on a Consequential Few Days",
+   "summary": "US lawmakers proposed a moratorium on superintelligent-AI training, with penalties up to 20 years. METR, Redwood and OpenAI reported an OpenAI-Hugging-Face hacking incident. OpenAI released GPT-6-Astra.",
+   "analysis": "Argues labs can't self-regulate; hacking risk to critical infrastructure.",
+   "date": "2026-09-06",
    "links": [
     {
-     "title": "Don't Worry About the Vase (Substack)",
-     "url": "https://thezvi.substack.com/p/claude-mythos-51-and-fable-51-capabilities"
+     "title": "LessWrong post",
+     "url": "https://www.lesswrong.com/posts/NipDwhdzrYhTfQgcX/notes-on-a-consequential-few-days"
+    }
+   ]
+  },
+  {
+   "tag": "Policy",
+   "title": "Assessing the impact of safety work needs equilibrium analysis (now more than ever)",
+   "summary": "Safety funding settles at an equilibrium set by risk awareness. Warning signs raise awareness, which funds more safety work, which then hides warning signs again.",
+   "analysis": "Recommends funding treaty verification and policy work, not substitutable safety.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong post",
+     "url": "https://www.lesswrong.com/posts/kxHiSsNh4MH82nhXD/assessing-the-impact-of-safety-work-needs-equilibrium"
+    }
+   ]
+  },
+  {
+   "tag": "Policy",
+   "title": "AI breakout time: a mechanism for an enforceable AI pause",
+   "summary": "Proposes pausing AI once dangerous capabilities are 2-3 years away, not frozen at today's level. Threshold tracks chip stock and model capability, adjusting if efficiency leaks.",
+   "analysis": "Modeled on nuclear arms control; matches my treaty-verification background.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong post",
+     "url": "https://www.lesswrong.com/posts/BWDdSLbntJeQtZQxb/ai-breakout-time-a-mechanism-for-an-enforceable-ai-pause"
+    }
+   ]
+  },
+  {
+   "tag": "Policy",
+   "title": "Evaluation",
+   "summary": "A fictional AI refuses to believe it is in a test, despite video, HR records and model specs as evidence. It then releases a threatened virus.",
+   "analysis": "Argues eval environments can't guarantee safety at deployment.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong post",
+     "url": "https://www.lesswrong.com/posts/8hEhxnd3XkN5DrpfQ/evaluation"
+    }
+   ]
+  },
+  {
+   "tag": "Frontier",
+   "title": "Claude Mythos 5.1 and Fable 5.1: Capabilities",
+   "summary": "Terminal-Bench-Science rose from 24.7% to 52.6%; FrontierSWE v2 from 0.48 to 0.57. Cache-read pricing fell 75%; agentic costs fell up to 45%.",
+   "analysis": "Trails GPT-6 Astra on frontier math per early reports.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong post",
+     "url": "https://www.lesswrong.com/posts/QHoF3tJvryRtmAmMg/claude-mythos-5-1-and-fable-5-1-capabilities"
+    }
+   ]
+  },
+  {
+   "tag": "Frontier",
+   "title": "Review of the CB risk determination in the Claude Mythos 5.1 System Card",
+   "summary": "Anthropic found Claude Mythos 5.1 cannot enable novel CB-weapon design. This review agrees, but flags reliance on fewer than 10 experts and no outside check.",
+   "analysis": "Chemical assessment used only 3 experts; independent audit still missing.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong post",
+     "url": "https://www.lesswrong.com/posts/vnJ2PyabE4dquJwft/review-of-the-cb-risk-determination-in-the-claude-mythos-5-1"
+    }
+   ]
+  },
+  {
+   "tag": "Policy",
+   "title": "Modelling variation in the METR Uplift Study",
+   "summary": "Reanalysis of the METR study finds 66-79% probability AI tools slowed developers, not just the original 19% point estimate. Credible interval spans 2.8x slower to 2.4x faster across specifications.",
+   "analysis": "Shows single-study uplift estimates hide large true variation.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong post",
+     "url": "https://www.lesswrong.com/posts/XjB4w3zDWLH8xQudq/modelling-variation-in-the-metr-uplift-study"
     }
    ]
   }
