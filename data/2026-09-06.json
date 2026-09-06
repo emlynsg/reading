@@ -1,0 +1,22 @@
+{
+ "schema_version": 2,
+ "date": "2026-09-06",
+ "generated_at": "2026-09-06T01:05:13.836912+00:00",
+ "disclaimer": "Compiled automatically by an AI and not human-reviewed - descriptions may contain errors or hallucinations. Always check the linked source before relying on anything here.",
+ "entries": [
+  {
+   "tag": "Frontier",
+   "title": "Claude Mythos 5.1 and Fable 5.1: Capabilities",
+   "summary": "Fable 5.1 beats Fable 5 on most benchmarks and cuts cache-read prices 75%. But token usage jumped 25-50%, and rival Astra closed Claude's lead.",
+   "analysis": "Solid iterative upgrade; competitive gap with OpenAI's Astra now real.",
+   "date": "2026-09-05",
+   "links": [
+    {
+     "title": "Don't Worry About the Vase (Substack)",
+     "url": "https://thezvi.substack.com/p/claude-mythos-51-and-fable-51-capabilities"
+    }
+   ]
+  }
+ ],
+ "opportunities": []
+}
