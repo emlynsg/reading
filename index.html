@@ -57,6 +57,12 @@
   details.earlier[open] > summary { margin-bottom: .5rem; }
   h2.earlier-h { font-size: 1.1rem; color: var(--muted); margin-top: 2.5rem;
                  border-bottom: 1px solid var(--line); padding-bottom: .3rem; }
+  .kind { display: inline-block; font: 700 .66rem/1 system-ui, sans-serif; letter-spacing: .05em;
+          text-transform: uppercase; color: var(--accent); border: 1px solid var(--accent);
+          border-radius: 3px; padding: .12rem .35rem; }
+  section.register { margin-top: 2.5rem; }
+  section.register h2 { font-size: 1.25rem; border-bottom: 2px solid var(--accent); padding-bottom: .3rem; }
+  section.register p.note { color: var(--muted); font-size: .85rem; margin: .3rem 0 .8rem; }
   footer { margin-top: 3rem; color: var(--muted); font-size: .8rem; }
   footer a { color: var(--accent); }
   #status { color: var(--muted); }
@@ -73,6 +79,7 @@
       source before relying on anything here.</p>
   </header>
   <main id="latest"><p id="status">Loading the latest digest…</p></main>
+  <section id="register" class="register"></section>
   <section id="earlier"></section>
   <footer>
     <p>Format inspired by <a href="https://thestephencasper.github.io/whatiscasreading/">What is Cas reading?</a>.
@@ -115,15 +122,34 @@
     const parts = (doc.entries || []).map(entryHtml);
     const opps = doc.opportunities || [];
     if (opps.length) {
-      const rows = opps.map(o => `<tr><td>${esc(o.name)}</td><td>${esc(o.what)}</td>
-        <td>${esc(o.deadline)}</td><td>${esc(o.dates)}</td><td>${esc(o.commitment)}</td>
-        <td>${esc(o.location_mode)}</td></tr>`).join('');
       parts.push(`<section class="opps"><h3>Opportunities</h3><div class="oppwrap">
-        <table><thead><tr><th>Name</th><th>What</th><th>Deadline</th><th>Dates</th>
-        <th>Commitment</th><th>Location &amp; mode</th></tr></thead>
-        <tbody>${rows}</tbody></table></div></section>`);
+        ${oppTable(opps)}</div></section>`);
     }
     return parts.join('\n');
+  }
+
+  function nameCell(o) {
+    const href = safeHref(o.url);
+    const kind = o.kind && o.kind !== 'other' ? `<span class="kind">${esc(o.kind)}</span> ` : '';
+    return href ? `${kind}<a href="${attr(href)}" rel="noopener">${esc(o.name)}</a>` : `${kind}${esc(o.name)}`;
+  }
+  function oppTable(opps) {
+    const rows = opps.map(o => `<tr><td>${nameCell(o)}</td><td>${esc(o.what)}</td>
+      <td>${esc(o.deadline)}</td><td>${esc(o.dates)}</td><td>${esc(o.commitment)}</td>
+      <td>${esc(o.location_mode)}</td></tr>`).join('');
+    return `<table><thead><tr><th>Name</th><th>What</th><th>Deadline</th><th>Dates</th>
+      <th>Commitment</th><th>Location &amp; mode</th></tr></thead><tbody>${rows}</tbody></table>`;
+  }
+  async function renderRegister() {
+    let reg;
+    try { reg = await (await fetch('data/opportunities.json', {cache: 'no-store'})).json(); }
+    catch (e) { return; }
+    const items = (reg.items || []);
+    if (!items.length) return;
+    $('#register').innerHTML = `<h2>Open positions &amp; programmes</h2>
+      <p class="note">Everything still open from recent digests — PhD positions (remote-friendly, France,
+      London, Brussels, Luxembourg, EPFL) and fellowships — soonest deadline first. Updated ${esc(reg.updated)}.</p>
+      <div class="oppwrap">${oppTable(items)}</div>`;
   }
 
   async function fetchDay(date) {
@@ -149,6 +175,8 @@
   } catch (e) {
     $('#latest').innerHTML = '<p id="status">Could not load the latest digest.</p>';
   }
+
+  renderRegister();
 
   // Earlier digests: collapsed, lazy-loaded on first open.
   const earlier = dates.filter(d => d !== mainDate);
