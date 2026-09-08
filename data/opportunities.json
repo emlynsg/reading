@@ -1,0 +1,62 @@
+{
+ "updated": "2026-09-08",
+ "roundup_urls": [],
+ "items": [
+  {
+   "key": "cambridge era:ai fellowship 2027",
+   "name": "Cambridge ERA:AI Fellowship 2027",
+   "what": "Research fellowship on catastrophic AI risk, 3 tracks (AI Governance, Technical AI Governance, Technical AI Safety); £10k stipend, visa support, mentorship. https://forum.effectivealtruism.org/posts/EAPBCPprKSnLqwEbt/apply-to-the-cambridge-era-ai-fellowship-2027",
+   "kind": "other",
+   "url": "",
+   "deadline": "Sep 13, 2026",
+   "deadline_iso": "2026-09-13",
+   "dates": "Jan 18 - Mar 26, 2027 (10 weeks)",
+   "commitment": "FT",
+   "location_mode": "in-person, Cambridge, UK",
+   "first_seen": "2026-09-01",
+   "last_seen": "2026-09-01"
+  },
+  {
+   "key": "lens academy: ai control",
+   "name": "Lens Academy: AI Control",
+   "what": "5-week part-time course on threat models, control evaluations, and oversight protocols",
+   "kind": "other",
+   "url": "",
+   "deadline": "2026-09-14",
+   "deadline_iso": "2026-09-14",
+   "dates": "2026-09-21 to 2026-10-25",
+   "commitment": "PT, ? hrs/week",
+   "location_mode": "remote/online",
+   "first_seen": "2026-09-05",
+   "last_seen": "2026-09-05"
+  },
+  {
+   "key": "iaseai – caif: september virtual seminar",
+   "name": "IASEAI – CAIF: September Virtual Seminar",
+   "what": "Free talk presenting a multi-agent AI governance blueprint from a CAIF workshop",
+   "kind": "other",
+   "url": "",
+   "deadline": "?",
+   "deadline_iso": "",
+   "dates": "2026-09-10",
+   "commitment": "PT, <1 hr",
+   "location_mode": "remote/online",
+   "first_seen": "2026-09-05",
+   "last_seen": "2026-09-05"
+  },
+  {
+   "key": "the overhang",
+   "name": "The Overhang",
+   "what": "Conference for forecasters and rationalists on policy needs amid major AI-driven social change",
+   "kind": "other",
+   "url": "",
+   "deadline": "?",
+   "deadline_iso": "",
+   "dates": "2026-09-19 to 2026-09-20",
+   "commitment": "FT, 2 days",
+   "location_mode": "in-person, Washington D.C., USA",
+   "first_seen": "2026-09-05",
+   "last_seen": "2026-09-05"
+  }
+ ]
+}
