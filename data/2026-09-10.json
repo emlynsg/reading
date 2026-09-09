@@ -1,0 +1,61 @@
+{
+ "schema_version": 2,
+ "date": "2026-09-10",
+ "generated_at": "2026-09-09T21:37:30.719009+00:00",
+ "disclaimer": "Compiled automatically by an AI and not human-reviewed - descriptions may contain errors or hallucinations. Always check the linked source before relying on anything here.",
+ "entries": [
+  {
+   "tag": "Frontier",
+   "title": "Personal statement on joining the OpenAI nonprofit board",
+   "summary": "Paul Christiano explains, in his own words, why he joined OpenAI's nonprofit board.",
+   "analysis": "Signals renewed alignment-researcher access to OpenAI's governance structure.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong post",
+     "url": "https://www.lesswrong.com/posts/82z6FvbYRdjYjqigK/personal-statement-on-joining-the-openai-nonprofit-board"
+    }
+   ]
+  },
+  {
+   "tag": "Technical",
+   "title": "GPT-6 Astra: The System Card, Alignment and What Comes Next",
+   "summary": "Zvi reviews GPT-6 Astra's system card, covering its alignment content and what may follow.",
+   "analysis": "Zvi's system-card reviews are usually thorough and widely read.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong post",
+     "url": "https://www.lesswrong.com/posts/AmFJZyeCgvFjNKgNk/gpt-6-astra-the-system-card-alignment-and-what-comes-next"
+    }
+   ]
+  },
+  {
+   "tag": "Frontier",
+   "title": "Estimating GPT-6 Astra's no-CoT Time Horizon",
+   "summary": "Francis Rhys Ward estimates how long a task GPT-6 Astra can do without chain-of-thought.",
+   "analysis": "Useful benchmark for capability that hides its reasoning trace.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong post",
+     "url": "https://www.lesswrong.com/posts/ntKx9YHWCwxSeGbRB/estimating-gpt-6-astra-s-no-cot-time-horizon"
+    }
+   ]
+  },
+  {
+   "tag": "Frontier",
+   "title": "GPT-6 Astra can do a lot of multi-hop reasoning without chain of thought",
+   "summary": "RohanS reports GPT-6 Astra does substantial multi-hop reasoning without chain-of-thought prompting.",
+   "analysis": "Bears on whether CoT monitoring would catch hidden reasoning.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong post",
+     "url": "https://www.lesswrong.com/posts/FsCkkoGsNmPzFKRhg/gpt-6-astra-can-do-a-lot-of-multi-hop-reasoning-without"
+    }
+   ]
+  }
+ ],
+ "opportunities": []
+}
