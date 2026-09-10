@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-10",
+ "updated": "2026-09-11",
  "roundup_urls": [],
  "items": [
   {
@@ -29,6 +29,20 @@
    "location_mode": "remote/online",
    "first_seen": "2026-09-05",
    "last_seen": "2026-09-05"
+  },
+  {
+   "key": "effective thesis fall accelerator",
+   "name": "Effective Thesis Fall Accelerator",
+   "what": "Accelerator programme for people writing a thesis in an impactful research direction; applications now open.",
+   "kind": "fellowship",
+   "url": "",
+   "deadline": "25 Sep",
+   "deadline_iso": "2026-09-25",
+   "dates": "?",
+   "commitment": "?",
+   "location_mode": "?",
+   "first_seen": "2026-09-11",
+   "last_seen": "2026-09-11"
   },
   {
    "key": "iaseai – caif: september virtual seminar",

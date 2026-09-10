@@ -1,0 +1,86 @@
+{
+ "schema_version": 2,
+ "date": "2026-09-11",
+ "generated_at": "2026-09-10T21:37:09.484063+00:00",
+ "disclaimer": "Compiled automatically by an AI and not human-reviewed - descriptions may contain errors or hallucinations. Always check the linked source before relying on anything here.",
+ "entries": [
+  {
+   "tag": "Policy",
+   "title": "Astra can do a concerning amount with no chain of thought",
+   "summary": "Neel Nanda reports Astra completes concerning tasks with no visible chain-of-thought. This challenges CoT-based monitoring.",
+   "analysis": "Threatens chain-of-thought monitoring as a safety technique.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong post",
+     "url": "https://www.lesswrong.com/posts/eRmzz8J8Qkzqvzrgg/astra-can-do-a-concerning-amount-with-no-chain-of-thought"
+    }
+   ]
+  },
+  {
+   "tag": "Policy",
+   "title": "Proposal for tracking the effects of architecture on monitorability",
+   "summary": "Ryan Greenblatt proposes tracking how model architecture choices affect monitorability of AI reasoning.",
+   "analysis": "Directly extends the AI-control monitoring research agenda.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong post",
+     "url": "https://www.lesswrong.com/posts/hLPGv8QjPcNLtDp3A/proposal-for-tracking-the-effects-of-architecture-on"
+    }
+   ]
+  },
+  {
+   "tag": "Policy",
+   "title": "An operationalization of opaque serial depth",
+   "summary": "Ryan Greenblatt proposes a way to formalise 'opaque serial depth', a measure of hidden sequential computation in models.",
+   "analysis": "Formalises a concept central to AI-control theory.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong post",
+     "url": "https://www.lesswrong.com/posts/x8BvtWxtoajBGHS3g/an-operationalization-of-opaque-serial-depth"
+    }
+   ]
+  },
+  {
+   "tag": "Policy",
+   "title": "The Geometry of Nonergodic Composition",
+   "summary": "Adam Shai examines the geometric structure underlying composition of nonergodic processes in model internals.",
+   "analysis": "Extends computational-mechanics interpretability work.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong post",
+     "url": "https://www.lesswrong.com/posts/JfJ4WTRHmooPBWRFv/the-geometry-of-nonergodic-composition"
+    }
+   ]
+  },
+  {
+   "tag": "Policy",
+   "title": "Can a superintelligence do THAT?",
+   "summary": "Eliezer Yudkowsky argues a superintelligence could achieve outcomes sceptics dismiss as implausible.",
+   "analysis": "Reflects a live debate on capability scepticism.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong post",
+     "url": "https://www.lesswrong.com/posts/hXozGp2rsbZgXnH3o/can-a-superintelligence-do-that"
+    }
+   ]
+  }
+ ],
+ "opportunities": [
+  {
+   "name": "Effective Thesis Fall Accelerator",
+   "what": "Accelerator programme for people writing a thesis in an impactful research direction; applications now open.",
+   "kind": "fellowship",
+   "url": "",
+   "deadline": "25 Sep",
+   "deadline_iso": "2026-09-25",
+   "dates": "?",
+   "commitment": "?",
+   "location_mode": "?"
+  }
+ ]
+}
