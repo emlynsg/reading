@@ -1,0 +1,113 @@
+{
+ "schema_version": 2,
+ "date": "2026-09-12",
+ "generated_at": "2026-09-11T21:37:31.465263+00:00",
+ "disclaimer": "Compiled automatically by an AI and not human-reviewed - descriptions may contain errors or hallucinations. Always check the linked source before relying on anything here.",
+ "entries": [
+  {
+   "tag": "Policy",
+   "title": "First Bill Introduced to Ban Superintelligent AI",
+   "summary": "A bill to ban development of superintelligent AI has been introduced, reportedly the first of its kind.",
+   "analysis": "Signals AI-risk advocacy is reaching legislative text.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong post",
+     "url": "https://www.lesswrong.com/posts/uzoLm4prFzRiuznJt/first-bill-introduced-to-ban-superintelligent-ai"
+    }
+   ]
+  },
+  {
+   "tag": "Technical",
+   "title": "Explaining Knightianism on one foot",
+   "summary": "Ngo restates the core question behind his agent-foundations research, after earlier tries in essays and a talk, framing it around Knightian (unmeasurable) uncertainty.",
+   "analysis": "Restates a research direction; no new result yet.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong post",
+     "url": "https://www.lesswrong.com/posts/pYFBD2SnqiWkuNns5/explaining-knightianism-on-one-foot"
+    }
+   ]
+  },
+  {
+   "tag": "Policy",
+   "title": "Congress must not waste the AI policy window",
+   "summary": "Hawley and Bonta open an investigation into OpenAI. Khanna admits a past AI-policy mistake. Democrats launch a new AI PAC.",
+   "analysis": "Good weekly context on US AI-policy players.",
+   "date": "",
+   "links": [
+    {
+     "title": "Transformer piece",
+     "url": "https://www.transformernews.ai/p/congress-must-not-waste-the-ai-policy-window"
+    }
+   ]
+  },
+  {
+   "tag": "Frontier",
+   "title": "OpenAI spent millions to solve this famous math problem — mathematicians are furious",
+   "summary": "OpenAI reportedly spent millions using AI to crack a famous unsolved math problem. Mathematicians object, citing norms of open, shared research.",
+   "analysis": "Tests how closed AI-driven research fits open math norms.",
+   "date": "",
+   "links": [
+    {
+     "title": "Understanding AI piece",
+     "url": "https://www.understandingai.org/p/openai-spent-millions-to-solve-this"
+    }
+   ]
+  },
+  {
+   "tag": "Technical",
+   "title": "CoT controllability evals seem very under-elicited",
+   "summary": "Argues current chain-of-thought controllability evals underestimate what models can do, because elicitation methods are too weak.",
+   "analysis": "Matters directly for evals and control-monitoring work.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong post",
+     "url": "https://www.lesswrong.com/posts/BbP2wCyDGdPWJ7PwP/cot-controllability-evals-seem-very-under-elicited"
+    }
+   ]
+  },
+  {
+   "tag": "Technical",
+   "title": "Astra is much better at reasoning with filler tokens than previous models",
+   "summary": "Reports that Astra reasons much better with filler (non-semantic) tokens than earlier models, per the author's tests.",
+   "analysis": "Bears on chain-of-thought faithfulness and monitorability.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong post",
+     "url": "https://www.lesswrong.com/posts/uvhuZHFtrgk8kNiZc/astra-is-much-better-at-reasoning-with-filler-tokens-than"
+    }
+   ]
+  },
+  {
+   "tag": "Policy",
+   "title": "Doom as a bad method not a utopia trade-off",
+   "summary": "Argues AI-doom risk comes from labs using bad methods, not from an unavoidable trade-off against building utopia.",
+   "analysis": "Reframes the safety-vs-progress trade-off debate.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong post",
+     "url": "https://www.lesswrong.com/posts/pDyLMRoi2BDq34rFe/doom-as-a-bad-method-not-a-utopia-trade-off"
+    }
+   ]
+  },
+  {
+   "tag": "Policy",
+   "title": "Jacob Coxon Warns of Human Extinction and Triggers a Preference Cascade",
+   "summary": "Reports that a public extinction warning from Jacob Coxon triggered a rapid shift in stated public views, per Zvi.",
+   "analysis": "Illustrates how public AI-risk sentiment can shift fast.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong post",
+     "url": "https://www.lesswrong.com/posts/5MB7KENgEAW6Q4JtJ/jacob-coxon-warns-of-human-extinction-and-triggers-a"
+    }
+   ]
+  }
+ ],
+ "opportunities": []
+}
