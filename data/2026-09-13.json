@@ -1,0 +1,78 @@
+{
+ "schema_version": 2,
+ "date": "2026-09-13",
+ "generated_at": "2026-09-12T21:37:20.806592+00:00",
+ "disclaimer": "Compiled automatically by an AI and not human-reviewed - descriptions may contain errors or hallucinations. Always check the linked source before relying on anything here.",
+ "entries": [
+  {
+   "tag": "Policy",
+   "title": "Amodei's \"Pacing the Frontier\" essay (linkpost)",
+   "summary": "A LessWrong linkpost surfaces Anthropic CEO Amodei's essay \"Pacing the Frontier\"; no further detail is available from the title alone this run.",
+   "analysis": "Amodei essays usually set the pace of policy debate.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong linkpost",
+     "url": "https://www.lesswrong.com/posts/GFhT9Xr4YEsiLkTLr/pacing-the-frontier-dario-amodei-essay-linkpost"
+    }
+   ]
+  },
+  {
+   "tag": "Technical",
+   "title": "Reward hacking as an institutional-design problem",
+   "summary": "Beren argues reward hacking is best framed as an institutional-design problem, not a training bug; specific mechanisms are not available from the title alone.",
+   "analysis": "Ties reward hacking directly to governance and institution design.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong post",
+     "url": "https://www.lesswrong.com/posts/tgcooi77NXMquCR5L/mitigating-reward-hacking-as-institutional-design"
+    }
+   ]
+  },
+  {
+   "tag": "Frontier",
+   "title": "An \"OpenAI-HuggingFace incident\" draws altruism analysis and a reproduction",
+   "summary": "Two LessWrong posts analyze and reproduce an unspecified \"OpenAI-HuggingFace incident\"; titles alone do not say what happened, so this is a thread to watch.",
+   "analysis": "Live discussion; nature of the incident is still unclear to me.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong: altruism analysis",
+     "url": "https://www.lesswrong.com/posts/meLjz8giGS55rdfyg/on-the-origins-of-altruistic-behaviour-in-the-hugging-face"
+    },
+    {
+     "title": "LessWrong: reproduction appendix",
+     "url": "https://www.lesswrong.com/posts/mXPCpJCvFGybQ4mwc/appendix-reproduction-of-the-openai-huggingface-incident"
+    }
+   ]
+  },
+  {
+   "tag": "Frontier",
+   "title": "GPT-6-Astra can do ambitious things (Zvi)",
+   "summary": "Zvi reports GPT-6-Astra can complete ambitious tasks, per the post title; specific examples or benchmarks are not available from the title alone.",
+   "analysis": "Frontier-capability signal on a newly named model.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong post",
+     "url": "https://www.lesswrong.com/posts/snaKjCwazKcRiS4qs/gpt-6-astra-can-do-ambitious-things"
+    }
+   ]
+  },
+  {
+   "tag": "Policy",
+   "title": "Some ways AI could kill us all",
+   "summary": "Ruby catalogs distinct routes by which AI could cause human extinction, per the title; the post's specific mechanisms are not available from title alone.",
+   "analysis": "Highest-karma item this run; a useful checklist to compare against.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong post",
+     "url": "https://www.lesswrong.com/posts/LAPa2jxoq3n63GzTr/some-ways-ai-could-kill-us-all"
+    }
+   ]
+  }
+ ],
+ "opportunities": []
+}
