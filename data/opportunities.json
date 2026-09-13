@@ -1,21 +1,7 @@
 {
- "updated": "2026-09-13",
+ "updated": "2026-09-14",
  "roundup_urls": [],
  "items": [
-  {
-   "key": "cambridge era:ai fellowship 2027",
-   "name": "Cambridge ERA:AI Fellowship 2027",
-   "what": "Research fellowship on catastrophic AI risk, 3 tracks (AI Governance, Technical AI Governance, Technical AI Safety); £10k stipend, visa support, mentorship. https://forum.effectivealtruism.org/posts/EAPBCPprKSnLqwEbt/apply-to-the-cambridge-era-ai-fellowship-2027",
-   "kind": "other",
-   "url": "",
-   "deadline": "Sep 13, 2026",
-   "deadline_iso": "2026-09-13",
-   "dates": "Jan 18 - Mar 26, 2027 (10 weeks)",
-   "commitment": "FT",
-   "location_mode": "in-person, Cambridge, UK",
-   "first_seen": "2026-09-01",
-   "last_seen": "2026-09-01"
-  },
   {
    "key": "lens academy: ai control",
    "name": "Lens Academy: AI Control",

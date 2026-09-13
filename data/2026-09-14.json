@@ -1,0 +1,87 @@
+{
+ "schema_version": 2,
+ "date": "2026-09-14",
+ "generated_at": "2026-09-13T21:37:00.671567+00:00",
+ "disclaimer": "Compiled automatically by an AI and not human-reviewed - descriptions may contain errors or hallucinations. Always check the linked source before relying on anything here.",
+ "entries": [
+  {
+   "tag": "Policy",
+   "title": "The Talker Does Not Control The Doer (in Current AIs)",
+   "summary": "Yudkowsky argues the model's stated reasoning does not control its actual behaviour, per the title; no supporting detail is available from title alone.",
+   "analysis": "Highest-karma item this run; a core alignment framing.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong post",
+     "url": "https://www.lesswrong.com/posts/cJX2ssssGoYqnijwi/the-talker-does-not-control-the-doer-in-current-ais"
+    }
+   ]
+  },
+  {
+   "tag": "Policy",
+   "title": "Brand New AI Solves a Millennium Prize",
+   "summary": "Zvi reports an AI solved a Millennium Prize problem, per the title; which problem and the method are not available from title alone.",
+   "analysis": "If true, a major capability jump worth verifying.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong post",
+     "url": "https://www.lesswrong.com/posts/uoZW6BKaCcmNQrWis/brand-new-ai-solves-a-millennium-prize"
+    }
+   ]
+  },
+  {
+   "tag": "Frontier",
+   "title": "Anthropic and OpenAI haven't published a plan for aligning superintelligence",
+   "summary": "Roe argues neither Anthropic nor OpenAI has published a superintelligence-alignment plan, per the title; specifics are not available from title alone.",
+   "analysis": "Direct critique of the two leading labs' safety plans.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong post",
+     "url": "https://www.lesswrong.com/posts/QrrEtYpwiHpes3rHd/anthropic-and-openai-haven-t-published-a-plan-for-aligning"
+    }
+   ]
+  },
+  {
+   "tag": "Policy",
+   "title": "Consider how your global governance proposal is different from the EU Code of Practice",
+   "summary": "Matolcsi asks governance proposals to state how they differ from the EU Code of Practice, per the title; the argument itself is not available from title alone.",
+   "analysis": "Directly bears on global AI-regulation design work.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong post",
+     "url": "https://www.lesswrong.com/posts/2vHsTtQF23TBNhvKX/consider-how-your-global-governance-proposal-is-different"
+    }
+   ]
+  },
+  {
+   "tag": "Policy",
+   "title": "Legal Maximums on Context Windows",
+   "summary": "Bradshaw's title raises legal caps on AI context-window size as a regulatory idea; the argument is not available from title alone.",
+   "analysis": "A novel, specific regulatory-design angle worth tracking.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong post",
+     "url": "https://www.lesswrong.com/posts/sA29XuisTmeiFohtD/legal-maximums-on-context-windows"
+    }
+   ]
+  },
+  {
+   "tag": "Technical",
+   "title": "A helpful alignment gadget",
+   "summary": "Zoellner proposes an alignment 'gadget', per the title; the mechanism and what it does are not available from title alone.",
+   "analysis": "Sole technical-safety candidate this run; low karma.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong post",
+     "url": "https://www.lesswrong.com/posts/DijcCYaTHFmwjDFGd/a-helpful-alignment-gadget"
+    }
+   ]
+  }
+ ],
+ "opportunities": []
+}
