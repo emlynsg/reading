@@ -1,21 +1,7 @@
 {
- "updated": "2026-09-14",
+ "updated": "2026-09-16",
  "roundup_urls": [],
  "items": [
-  {
-   "key": "lens academy: ai control",
-   "name": "Lens Academy: AI Control",
-   "what": "5-week part-time course on threat models, control evaluations, and oversight protocols",
-   "kind": "other",
-   "url": "",
-   "deadline": "2026-09-14",
-   "deadline_iso": "2026-09-14",
-   "dates": "2026-09-21 to 2026-10-25",
-   "commitment": "PT, ? hrs/week",
-   "location_mode": "remote/online",
-   "first_seen": "2026-09-05",
-   "last_seen": "2026-09-05"
-  },
   {
    "key": "effective thesis fall accelerator",
    "name": "Effective Thesis Fall Accelerator",
