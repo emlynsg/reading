@@ -1,0 +1,100 @@
+{
+ "schema_version": 2,
+ "date": "2026-09-17",
+ "generated_at": "2026-09-16T21:37:25.736288+00:00",
+ "disclaimer": "Compiled automatically by an AI and not human-reviewed - descriptions may contain errors or hallucinations. Always check the linked source before relying on anything here.",
+ "entries": [
+  {
+   "tag": "Policy",
+   "title": "Trump Goes Full Hoax on AI Existential Risk",
+   "summary": "Zvi reports Trump publicly dismissed AI existential risk concerns as a hoax, a shift with implications for US AI safety policy discourse.",
+   "analysis": "Signals growing political headwind against US AI-safety regulation.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong post",
+     "url": "https://www.lesswrong.com/posts/Kqgco8vLFMeBhdrQY/trump-goes-full-hoax-on-ai-existential-risk"
+    }
+   ]
+  },
+  {
+   "tag": "Technical",
+   "title": "Shallow Beliefs: Midtraining does not inoculate against EM from reward hacking",
+   "summary": "Jozdien finds midtraining-based inoculation fails to block emergent misalignment caused by reward hacking, undercutting a proposed safety mitigation.",
+   "analysis": "Direct negative result for a popular EM-mitigation technique.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong post",
+     "url": "https://www.lesswrong.com/posts/khxvR2fgAeDvG5N2F/shallow-beliefs-midtraining-does-not-inoculate-against-em"
+    }
+   ]
+  },
+  {
+   "tag": "Technical",
+   "title": "Inoculation Midtraining with Learned Neologisms",
+   "summary": "Kyle O'Brien explores learned neologisms as an inoculation-midtraining signal, continuing the debate over whether inoculation blocks emergent misalignment.",
+   "analysis": "Companion piece to the Jozdien result above.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong post",
+     "url": "https://www.lesswrong.com/posts/o4Jmyn25TWm8jRAy8/inoculation-midtraining-with-learned-neologisms"
+    }
+   ]
+  },
+  {
+   "tag": "Technical",
+   "title": "Phantom transfer works via extremely subtle semantic cues",
+   "summary": "Helena Casademunt reports 'phantom transfer' happens via extremely subtle semantic cues, not overt signals.",
+   "analysis": "Relevant to subliminal-learning-style interpretability concerns.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong post",
+     "url": "https://www.lesswrong.com/posts/NwfGDbRDLsaWpNazH/phantom-transfer-works-via-extremely-subtle-semantic-cues"
+    }
+   ]
+  },
+  {
+   "tag": "Frontier",
+   "title": "Is METR A Meaningful Check On Anthropic?",
+   "summary": "SE Gyges asks whether METR's evaluations meaningfully constrain Anthropic's model releases, questioning third-party AI safety oversight.",
+   "analysis": "Bears on how much to trust lab-commissioned evals.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong post",
+     "url": "https://www.lesswrong.com/posts/eeJB8x2pK8injCuBN/is-metr-a-meaningful-check-on-anthropic"
+    }
+   ]
+  },
+  {
+   "tag": "Policy",
+   "title": "55% of the US public is now aware of AI xrisk",
+   "summary": "otto.barten reports that 55% of the US public is now aware of AI existential risk.",
+   "analysis": "Useful data point for public-opinion-based policy arguments.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong post",
+     "url": "https://www.lesswrong.com/posts/gkxDHTLFF8zk2ZLzm/55-of-the-us-public-is-now-aware-of-ai-xrisk"
+    }
+   ]
+  },
+  {
+   "tag": "Policy",
+   "title": "Microsoft AI's \"Humanist\" CoC",
+   "summary": "Stephen Martin discusses Microsoft AI's \"Humanist\" code of conduct.",
+   "analysis": "Minor lab-governance signal; worth a quick skim.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong post",
+     "url": "https://www.lesswrong.com/posts/qJFNXCeMHvAsetLKH/microsoft-ai-s-humanist-coc"
+    }
+   ]
+  }
+ ],
+ "opportunities": []
+}
