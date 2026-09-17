@@ -1,0 +1,112 @@
+{
+ "schema_version": 2,
+ "date": "2026-09-18",
+ "generated_at": "2026-09-17T21:36:56.066836+00:00",
+ "disclaimer": "Compiled automatically by an AI and not human-reviewed - descriptions may contain errors or hallucinations. Always check the linked source before relying on anything here.",
+ "entries": [
+  {
+   "tag": "Policy",
+   "title": "If Anyone Builds It, Everyone Dies: One Year Closer",
+   "summary": "Marks one year since the book's publication, revisiting its warning that building superintelligence risks human extinction.",
+   "analysis": "High-profile author; likely to shape this week's discourse.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong post",
+     "url": "https://www.lesswrong.com/posts/BFrRJYgpBvziuuJLs/if-anyone-builds-it-everyone-dies-one-year-closer"
+    }
+   ]
+  },
+  {
+   "tag": "Technical",
+   "title": "Obstacles to the scalable oversight of auto-alignment research",
+   "summary": "Examines obstacles to using scalable-oversight techniques to check AI systems that do alignment research themselves.",
+   "analysis": "Direct match to scalable-oversight/auto-alignment research interest.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong post",
+     "url": "https://www.lesswrong.com/posts/PBGKWNrJAbpDgSsPo/obstacles-to-the-scalable-oversight-of-auto-alignment"
+    }
+   ]
+  },
+  {
+   "tag": "Policy",
+   "title": "Don't trust Lean4 alone",
+   "summary": "Argues that Lean4 formal proofs alone are not sufficient guarantees of a system's correctness or safety.",
+   "analysis": "Bears on formal-verification claims relevant to AI-verification tooling.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong post",
+     "url": "https://www.lesswrong.com/posts/jgmmMa7AqJNausrqx/don-t-trust-lean4-alone"
+    }
+   ]
+  },
+  {
+   "tag": "Policy",
+   "title": "Reducing the Resource Gap Between Lab and External Safety Researchers",
+   "summary": "Argues external safety researchers lack the compute and data access that lab-based researchers have.",
+   "analysis": "Bears directly on external/independent safety researcher capacity.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong post",
+     "url": "https://www.lesswrong.com/posts/aCGx79eGafwDcXEgf/reducing-the-resource-gap-between-lab-and-external-safety"
+    }
+   ]
+  },
+  {
+   "tag": "Policy",
+   "title": "AI as orderly evacuation vs stampede",
+   "summary": "Contrasts a coordinated, orderly transition to advanced AI against a chaotic, stampede-like scenario.",
+   "analysis": "Ngo's framing shapes strategic thinking on transition dynamics.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong post",
+     "url": "https://www.lesswrong.com/posts/FCMG4qnxks3yEqBbh/ai-as-orderly-evacuation-vs-stampede"
+    }
+   ]
+  },
+  {
+   "tag": "Policy",
+   "title": "For Love of the Lightcone, Don't Partisanize AI Safety",
+   "summary": "Argues AI-safety advocates should avoid tying the cause to one political party or faction.",
+   "analysis": "Governance-framing debate relevant to US policy strategy.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong post",
+     "url": "https://www.lesswrong.com/posts/Rx38cuCpL9hguLCDq/for-love-of-the-lightcone-don-t-partisanize-ai-safety"
+    }
+   ]
+  },
+  {
+   "tag": "Policy",
+   "title": "callcongress.ai - the basic action US residents can take to help with AI risk",
+   "summary": "Introduces callcongress.ai, a tool letting US residents easily contact Congress about AI risk.",
+   "analysis": "Low-effort advocacy tool; modest relevance to governance work.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong post",
+     "url": "https://www.lesswrong.com/posts/C7Z5hr4yCG6fXy9o3/callcongress-ai-the-basic-action-us-residents-can-take-to"
+    }
+   ]
+  }
+ ],
+ "opportunities": [
+  {
+   "name": "Mercial Fellowship",
+   "what": "? (fellowship application announcement; page fetch blocked this run, focus area and eligibility unconfirmed)",
+   "kind": "fellowship",
+   "url": "https://forum.effectivealtruism.org/posts/Dvup7rcDyxEkWWMKG/applications-for-the-mercial-fellowship-are-now-open",
+   "deadline": "?",
+   "deadline_iso": "",
+   "dates": "?",
+   "commitment": "?",
+   "location_mode": "?"
+  }
+ ]
+}
