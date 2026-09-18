@@ -1,0 +1,100 @@
+{
+ "schema_version": 2,
+ "date": "2026-09-19",
+ "generated_at": "2026-09-18T21:37:21.434813+00:00",
+ "disclaimer": "Compiled automatically by an AI and not human-reviewed - descriptions may contain errors or hallucinations. Always check the linked source before relying on anything here.",
+ "entries": [
+  {
+   "tag": "Deep",
+   "title": "Trump's AI stance is politically toxic",
+   "summary": "Transformer's weekly roundup: Trump's AI stance draws political backlash. It also covers an OpenAI hack, US-China AI talks, and R&D automation.",
+   "analysis": "Central to US AI-policy tracking; ties to hack and China talks.",
+   "date": "",
+   "links": [
+    {
+     "title": "Transformer piece",
+     "url": "https://www.transformernews.ai/p/trump-ai-stance-is-politically-toxic"
+    }
+   ]
+  },
+  {
+   "tag": "Frontier",
+   "title": "Three Hackers used Opus 5 to Hack Into OpenAI's Core Codebase [WSJ]",
+   "summary": "WSJ reports three hackers used Opus 5 to breach OpenAI's core codebase, per LessWrong (Linch).",
+   "analysis": "Major AI-enabled security breach; verification/security-relevant.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong post",
+     "url": "https://www.lesswrong.com/posts/274BMCYj2BFES2FsZ/three-hackers-used-opus-5-to-hack-into-openai-s-core"
+    }
+   ]
+  },
+  {
+   "tag": "Deep",
+   "title": "How Chinese AI Radicalizes",
+   "summary": "ChinaTalk (Irene Zhang) covers DeepSeek and Anthropic's Dario Amodei, framed as 'the boy who cried wolf' on China-AI alarm.",
+   "analysis": "Questions whether China-threat rhetoric backfires.",
+   "date": "",
+   "links": [
+    {
+     "title": "ChinaTalk piece",
+     "url": "https://www.chinatalk.media/p/how-anthropic-became-chinas-goliath"
+    }
+   ]
+  },
+  {
+   "tag": "Policy",
+   "title": "The Game is Set for a Targeted Memetic Attack on the AI Safety Community",
+   "summary": "LessWrong post (keltan, 85 karma) argues the AI safety community faces a coordinated memetic attack.",
+   "analysis": "Community-dynamics warning; unverified beyond title.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong post",
+     "url": "https://www.lesswrong.com/posts/5mcDjo5gjn3Leahhu/the-game-is-set-for-a-targeted-memetic-attack-on-the-ai"
+    }
+   ]
+  },
+  {
+   "tag": "Policy",
+   "title": "Deep recurrent models are less robustly CoT-monitorable than normal CoT models in a toy setting",
+   "summary": "LessWrong post (Nick Kuhn) finds recurrent models are less reliably CoT-monitorable than standard CoT models, in a toy setting.",
+   "analysis": "Toy-setting result; limits scalable-oversight generalization claims.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong post",
+     "url": "https://www.lesswrong.com/posts/5guQJSqstkjgys3PE/deep-recurrent-models-are-less-robustly-cot-monitorable-than"
+    }
+   ]
+  },
+  {
+   "tag": "Policy",
+   "title": "Pretraining data, not verifiability, is why LLMs are especially good at math (and coding)",
+   "summary": "Steven Byrnes argues LLM math and coding skill stems from pretraining-data composition, not RL-verifiability of answers.",
+   "analysis": "Contrarian take on RL-verification-driven capability gains.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong post",
+     "url": "https://www.lesswrong.com/posts/xvdngZAqFZfek7KGH/pretraining-data-not-verifiability-is-why-llms-are"
+    }
+   ]
+  },
+  {
+   "tag": "Policy",
+   "title": "[Paper] Stringological sequence prediction III",
+   "summary": "Vanessa Kosoy posts part III of a formal 'stringological sequence prediction' paper, in her learning-theory/agent-foundations research agenda.",
+   "analysis": "Directly on-profile learning-theory/agent-foundations technical work.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong post",
+     "url": "https://www.lesswrong.com/posts/virawHQekJsozwotz/paper-stringological-sequence-prediction-iii"
+    }
+   ]
+  }
+ ],
+ "opportunities": []
+}
