@@ -1,0 +1,74 @@
+{
+ "schema_version": 2,
+ "date": "2026-09-20",
+ "generated_at": "2026-09-19T21:36:48.481673+00:00",
+ "disclaimer": "Compiled automatically by an AI and not human-reviewed - descriptions may contain errors or hallucinations. Always check the linked source before relying on anything here.",
+ "entries": [
+  {
+   "tag": "Technical",
+   "title": "Anthropic Looks At Some Of Its Alignment Problems",
+   "summary": "LessWrong post (Zvi, 30 karma) reviews problems Anthropic has found in its own alignment work, per the title.",
+   "analysis": "Frontier-lab self-assessment; direct technical-safety relevance.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong post",
+     "url": "https://www.lesswrong.com/posts/ggFx5Wb3Hi4pJsueK/anthropic-looks-at-some-of-its-alignment-problems"
+    }
+   ]
+  },
+  {
+   "tag": "Technical",
+   "title": "There Is No Alignment Without Value Stability",
+   "summary": "LessWrong post (Nissa Seru, 20 karma) argues alignment requires stable values, per the title.",
+   "analysis": "Theoretical alignment claim; unverified beyond title.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong post",
+     "url": "https://www.lesswrong.com/posts/GqaoXb9qsFWPhC49x/there-is-no-alignment-without-value-stability-1"
+    }
+   ]
+  },
+  {
+   "tag": "Technical",
+   "title": "CommentBench: Can Models Match Human Comments on AI Safety Posts?",
+   "summary": "LessWrong post (OscarGilg, 15 karma) introduces CommentBench, testing whether models can match human comments on AI-safety posts.",
+   "analysis": "New eval benchmark; matches my evals interest.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong post",
+     "url": "https://www.lesswrong.com/posts/WbmAqtfkrCqRHxAGh/commentbench-can-models-match-human-comments-on-ai-safety"
+    }
+   ]
+  },
+  {
+   "tag": "Policy",
+   "title": "The AI race is already multipolar",
+   "summary": "LessWrong post (June Jimenez, 21 karma) argues the AI race is already multipolar, not a two-power contest.",
+   "analysis": "Counters US-China binary framing in AI-race discourse.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong post",
+     "url": "https://www.lesswrong.com/posts/cyMx8cM3xgoMfjh6F/the-ai-race-is-already-multipolar"
+    }
+   ]
+  },
+  {
+   "tag": "Policy",
+   "title": "The AI Risk Network",
+   "summary": "LessWrong post (derelict5432, 25 karma) maps or proposes a network of AI-risk actors, per the title.",
+   "analysis": "Community-mapping angle; unverified beyond title.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong post",
+     "url": "https://www.lesswrong.com/posts/XundBXqKSo3bB2A6a/the-ai-risk-network"
+    }
+   ]
+  }
+ ],
+ "opportunities": []
+}
