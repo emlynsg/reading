@@ -1,0 +1,87 @@
+{
+ "schema_version": 2,
+ "date": "2026-09-21",
+ "generated_at": "2026-09-20T21:36:54.570083+00:00",
+ "disclaimer": "Compiled automatically by an AI and not human-reviewed - descriptions may contain errors or hallucinations. Always check the linked source before relying on anything here.",
+ "entries": [
+  {
+   "tag": "Policy",
+   "title": "We've Saved the World Before: What the Ozone Hole Teaches Us About AI",
+   "summary": "LessWrong post (leogao, 69 karma) draws on the ozone-hole success to argue coordination can work against AI risk.",
+   "analysis": "Directly relevant to treaty-verification framing of AI governance.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong post",
+     "url": "https://www.lesswrong.com/posts/zxXPEtSSSEdwpjopb/we-ve-saved-the-world-before-what-the-ozone-hole-teaches-us"
+    }
+   ]
+  },
+  {
+   "tag": "Policy",
+   "title": "NYT Editorial Board Comes Out Against Extinction",
+   "summary": "LessWrong post (Ben Pace, 52 karma) reports the New York Times editorial board published a stance against AI extinction risk.",
+   "analysis": "Mainstream media validation signals wider political momentum.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong post",
+     "url": "https://www.lesswrong.com/posts/gDQzntJCusNbshWyD/nyt-editorial-board-comes-out-against-extinction"
+    }
+   ]
+  },
+  {
+   "tag": "Policy",
+   "title": "Common Mistakes in AI Safety Group Organizing",
+   "summary": "LessWrong post (Nikola Jurkovic, 108 karma) lists common mistakes AI safety group organizers make, drawn from field-building experience.",
+   "analysis": "Useful for community/field-building awareness, not core research.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong post",
+     "url": "https://www.lesswrong.com/posts/XFzqDJjAJBt8fkn8i/common-mistakes-in-ai-safety-group-organizing"
+    }
+   ]
+  },
+  {
+   "tag": "Policy",
+   "title": "The Anatomy of a Chinese AI Researcher",
+   "summary": "LessWrong post (CMLKevin, 79 karma) profiles the background, incentives, and worldview shaping a typical Chinese AI researcher.",
+   "analysis": "Adds texture to China AI-governance tracking.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong post",
+     "url": "https://www.lesswrong.com/posts/qmxkHm2dTLKG6GZ6i/the-anatomy-of-a-chinese-ai-researcher"
+    }
+   ]
+  },
+  {
+   "tag": "Policy",
+   "title": "Please Give Them a Chance: On China, Rationalism, and AI Safety",
+   "summary": "LessWrong post (gzjw, 29 karma) argues the rationalist AI-safety community should engage Chinese researchers and institutions in good faith.",
+   "analysis": "Community-relations argument; thin engagement beyond title.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong post",
+     "url": "https://www.lesswrong.com/posts/GoX3uYQ4QN5HKvL7u/please-give-them-a-chance-on-china-rationalism-and-ai-safety"
+    }
+   ]
+  },
+  {
+   "tag": "Policy",
+   "title": "Failure of the Coding Theorem for Randomized Stopping Machines",
+   "summary": "LessWrong post (Mikhail Mironov, 23 karma) reports a counterexample breaking the coding theorem for randomized stopping-time machines.",
+   "analysis": "On-profile agent-foundations theory; low karma, unverified depth.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong post",
+     "url": "https://www.lesswrong.com/posts/wJzhoe4hB8Xc8Fbvw/failure-of-the-coding-theorem-for-randomized-stopping"
+    }
+   ]
+  }
+ ],
+ "opportunities": []
+}
