@@ -1,0 +1,126 @@
+{
+ "schema_version": 2,
+ "date": "2026-09-23",
+ "generated_at": "2026-09-22T21:31:25.579506+00:00",
+ "disclaimer": "Compiled automatically by an AI and not human-reviewed - descriptions may contain errors or hallucinations. Always check the linked source before relying on anything here.",
+ "entries": [
+  {
+   "tag": "Frontier",
+   "title": "Weight smuggling likely defeats attempts to cap FLOPs per training run",
+   "summary": "Argues actors can split training across runs and smuggle intermediate weights forward, defeating FLOP-per-run caps as a compute-governance verification mechanism.",
+   "analysis": "Directly bears on FLOP-cap verification design, my core research focus.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong post",
+     "url": "https://www.lesswrong.com/posts/neT4ncKSiJ6QLt4d7/weight-smuggling-likely-defeats-attempts-to-cap-flops-per"
+    }
+   ]
+  },
+  {
+   "tag": "Deep",
+   "title": "Debating RSI, the US-China Gap, and Jaggedness with JS Denain of Epoch AI",
+   "summary": "Interconnects podcast (Nathan Lambert) with Epoch AI's JS Denain debates whether labs show real recursive self-improvement, how wide the US-China capability gap is, and why progress looks 'jagged' across benchmarks.",
+   "analysis": "High-value US-China/compute framing; substance depends on the actual discussion.",
+   "date": "",
+   "links": [
+    {
+     "title": "Interconnects podcast",
+     "url": "https://www.interconnects.ai/p/debating-rsi-the-us-china-gap-and"
+    }
+   ]
+  },
+  {
+   "tag": "Policy",
+   "title": "Swarm Scaling",
+   "summary": "Toby Ord (146 karma, LessWrong) examines how scaling swarms of cooperating AI agents compares with scaling single large models.",
+   "analysis": "Directly hits my top research interest, multi-agent/cooperative AI.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong post",
+     "url": "https://www.lesswrong.com/posts/6cb7qd3RSkgnviCpf/swarm-scaling"
+    }
+   ]
+  },
+  {
+   "tag": "Policy",
+   "title": "What if not Circuits?",
+   "summary": "LessWrong post (108 karma) questions circuits as the right unit of analysis for mechanistic interpretability, proposing an alternative framing.",
+   "analysis": "Foundational critique for my interpretability interest; worth checking the argument.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong post",
+     "url": "https://www.lesswrong.com/posts/mMERyrvEJ4xbiozie/what-if-not-circuits"
+    }
+   ]
+  },
+  {
+   "tag": "Policy",
+   "title": "Empirical safety claims from frontier labs should be replicated, scrutinized, and open-sourced",
+   "summary": "Zephaniah Roe (101 karma) argues frontier labs' empirical safety claims need independent replication, scrutiny, and open-sourced methods, not self-reported results.",
+   "analysis": "Speaks to the verification/trust problem central to my governance work.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong post",
+     "url": "https://www.lesswrong.com/posts/MmfzfGcQ3h3p6N9pD/empirical-safety-claims-from-frontier-labs-should-be-1"
+    }
+   ]
+  },
+  {
+   "tag": "Technical",
+   "title": "Alignment Midtraining Cracks Under Pressure",
+   "summary": "J Bostock (105 karma) argues alignment properties instilled during midtraining break down under adversarial pressure or distribution shift, questioning how robust current alignment techniques are.",
+   "analysis": "Relevant robustness question for evaluating alignment-training claims I track.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong post",
+     "url": "https://www.lesswrong.com/posts/QH86EzNsjRw3wtCGs/alignment-midtraining-cracks-under-pressure"
+    }
+   ]
+  },
+  {
+   "tag": "Policy",
+   "title": "Modern LLMs have tiny GPTs hidden inside them",
+   "summary": "invertedpassion (39 karma) claims modern LLMs contain small, GPT-like substructures internally - an interpretability finding without further detail available.",
+   "analysis": "Low karma, unverified claim; check before treating as established.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong post",
+     "url": "https://www.lesswrong.com/posts/Pwc4YffTQvNRF3dbB/modern-llms-have-tiny-gpts-hidden-inside-them"
+    }
+   ]
+  },
+  {
+   "tag": "Policy",
+   "title": "Story Imprinting: AI Assistants Absorb Traits from Human Characters They Resemble",
+   "summary": "Jorio Cocola (41 karma) argues AI assistants absorb personality traits from the fictional characters their outputs resemble, an alignment-relevant behaviour.",
+   "analysis": "Interesting for character-training/alignment; single low-karma post, unverified.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong post",
+     "url": "https://www.lesswrong.com/posts/tnRkm2ajasHvhpAco/story-imprinting-ai-assistants-absorb-traits-from-human"
+    }
+   ]
+  },
+  {
+   "tag": "Policy",
+   "title": "Politics Gets Interested In Those Trying Not To Die",
+   "summary": "Zvi (47 karma) discusses growing mainstream political attention toward the AI-existential-risk community - content beyond the title unknown this run.",
+   "analysis": "Governance-awareness signal; thin evidence, lowest-priority item today.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong post",
+     "url": "https://www.lesswrong.com/posts/8eDaCvSRzzKCxKSEk/politics-gets-interested-in-those-trying-not-to-die"
+    }
+   ]
+  }
+ ],
+ "opportunities": []
+}
