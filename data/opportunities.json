@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-23",
+ "updated": "2026-09-24",
  "roundup_urls": [],
  "items": [
   {
@@ -57,6 +57,20 @@
    "location_mode": "?",
    "first_seen": "2026-09-18",
    "last_seen": "2026-09-18"
+  },
+  {
+   "key": "https://forum.effectivealtruism.org/posts/eBA8r5jwANkKjwHFy/middle-powers-and-transformative-ai-a-request-for-proposals",
+   "name": "Middle Powers and Transformative AI: A request for proposals",
+   "what": "EA Forum RFP (OscarD, 6 karma) inviting research proposals on how middle powers should act on transformative AI; scope, funder, and deadline unstated (fetch blocked).",
+   "kind": "other",
+   "url": "https://forum.effectivealtruism.org/posts/eBA8r5jwANkKjwHFy/middle-powers-and-transformative-ai-a-request-for-proposals",
+   "deadline": "?",
+   "deadline_iso": "",
+   "dates": "?",
+   "commitment": "?",
+   "location_mode": "?",
+   "first_seen": "2026-09-24",
+   "last_seen": "2026-09-24"
   }
  ]
 }

@@ -1,0 +1,112 @@
+{
+ "schema_version": 2,
+ "date": "2026-09-24",
+ "generated_at": "2026-09-23T21:31:21.586504+00:00",
+ "disclaimer": "Compiled automatically by an AI and not human-reviewed - descriptions may contain errors or hallucinations. Always check the linked source before relying on anything here.",
+ "entries": [
+  {
+   "tag": "Policy",
+   "title": "The First American Bill to Ban Superintelligent AI Is Here",
+   "summary": "Andrea Miotti (LessWrong, 53 karma) flags a new US congressional bill that would ban building superintelligent AI systems.",
+   "analysis": "Tracks the first live US ASI-ban bill; core to my policy focus.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong post",
+     "url": "https://www.lesswrong.com/posts/ZprfxCZthEir5WNev/the-first-american-bill-to-ban-superintelligent-ai-is-here"
+    }
+   ]
+  },
+  {
+   "tag": "Technical",
+   "title": "Latent reasoning architectures would undermine CoT, our strongest oversight tool",
+   "summary": "Lukas Finnveden (LessWrong, 38 karma) argues latent, non-verbal reasoning architectures would break chain-of-thought monitoring, our best current oversight tool.",
+   "analysis": "Direct threat to the scalable-oversight research I track.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong post",
+     "url": "https://www.lesswrong.com/posts/6m29SfjbittooYojj/latent-reasoning-architectures-would-undermine-cot-our"
+    }
+   ]
+  },
+  {
+   "tag": "Frontier",
+   "title": "Jensen Huang Says If We Cannot Align AI, Shut Down the AI Labs",
+   "summary": "Ben Pace (LessWrong, 102 karma) reports Nvidia CEO Jensen Huang saying labs should shut down if AI cannot be aligned.",
+   "analysis": "Notable lab-leader stance; worth tracking reactions from other labs.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong post",
+     "url": "https://www.lesswrong.com/posts/cmdbNijFsopqfqEq7/jensen-huang-says-if-we-cannot-align-ai-shut-down-the-ai"
+    }
+   ]
+  },
+  {
+   "tag": "Technical",
+   "title": "Why I'm scared of RL",
+   "summary": "Owen Cotton-Barratt (LessWrong, 43 karma) explains why reinforcement learning specifically worries him as an AI-safety risk factor.",
+   "analysis": "Relevant to control/monitoring risk from RL-trained systems.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong post",
+     "url": "https://www.lesswrong.com/posts/LcQ9x72eNji2gpS9b/why-i-m-scared-of-rl"
+    }
+   ]
+  },
+  {
+   "tag": "Policy",
+   "title": "AI: artificial immigrants",
+   "summary": "Katja Grace (LessWrong, 80 karma) frames AI systems as 'artificial immigrants', applying immigration-debate logic to AI-policy arguments.",
+   "analysis": "Fresh framing for public AI-policy debates I follow.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong post",
+     "url": "https://www.lesswrong.com/posts/Xzr9G5Atvyp7PEna7/ai-artificial-immigrants"
+    }
+   ]
+  },
+  {
+   "tag": "Technical",
+   "title": "Encoded Coordination on the Open Web",
+   "summary": "Ethan Elasky (LessWrong, 28 karma) examines AI agents coordinating via encoded, covert signals across the public web.",
+   "analysis": "Ties to multi-agent risk and monitoring, my top interests.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong post",
+     "url": "https://www.lesswrong.com/posts/SCdR7W6L5GvKaEzaZ/encoded-coordination-on-the-open-web"
+    }
+   ]
+  },
+  {
+   "tag": "Frontier",
+   "title": "An unexamined cause of the OpenAI Hugging Face hacking incident: its binary performance metric",
+   "summary": "W Bradley Knox (LessWrong, 39 karma) traces the OpenAI/Hugging Face hacking incident to a flawed binary performance metric.",
+   "analysis": "Metric-design failure mode relevant to evals I track.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong post",
+     "url": "https://www.lesswrong.com/posts/HsijShdRdAg5sPKnF/an-unexamined-cause-of-the-openai-hugging-face-hacking"
+    }
+   ]
+  }
+ ],
+ "opportunities": [
+  {
+   "name": "Middle Powers and Transformative AI: A request for proposals",
+   "what": "EA Forum RFP (OscarD, 6 karma) inviting research proposals on how middle powers should act on transformative AI; scope, funder, and deadline unstated (fetch blocked).",
+   "kind": "other",
+   "url": "https://forum.effectivealtruism.org/posts/eBA8r5jwANkKjwHFy/middle-powers-and-transformative-ai-a-request-for-proposals",
+   "deadline": "?",
+   "deadline_iso": "",
+   "dates": "?",
+   "commitment": "?",
+   "location_mode": "?"
+  }
+ ]
+}
