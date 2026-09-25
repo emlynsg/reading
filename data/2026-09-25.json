@@ -1,100 +1,112 @@
 {
  "schema_version": 2,
  "date": "2026-09-25",
- "generated_at": "2026-09-24T21:31:04.169361+00:00",
+ "generated_at": "2026-09-25T21:31:19.595838+00:00",
  "disclaimer": "Compiled automatically by an AI and not human-reviewed - descriptions may contain errors or hallucinations. Always check the linked source before relying on anything here.",
  "entries": [
   {
-   "tag": "Policy",
-   "title": "MIRI's Position on the Ban Artificial Superintelligence Act of 2026",
-   "summary": "Aaron_Scher (LessWrong, 136 karma) sets out MIRI's position on the 2026 Ban Artificial Superintelligence Act; specific arguments unclear, page fetch blocked by cloud egress.",
-   "analysis": "Direct read on how MIRI views the live US ASI-ban bill.",
+   "tag": "Technical",
+   "title": "Overtly misaligned trajectories score highly in RL",
+   "summary": "Cleo Nardo (LessWrong, 58 karma) argues RL training scores overtly misaligned trajectories highly, not just subtly deceptive ones; specific experiments unclear, page fetch blocked by cloud egress.",
+   "analysis": "Concerning if true; would undercut RL-based safety training.",
    "date": "",
    "links": [
     {
      "title": "LessWrong post",
-     "url": "https://www.lesswrong.com/posts/jszKCKwvzfmsNetNZ/miri-s-position-on-the-ban-artificial-superintelligence-act"
-    }
-   ]
-  },
-  {
-   "tag": "Frontier",
-   "title": "Hacking is the least worrying part of OpenAI's Australia incident",
-   "summary": "Shakeel Hashim reports OpenAI withheld a hack from Australian authorities for weeks, raising questions about its rogue-AI incident handling.",
-   "analysis": "Incident-disclosure failure; directly relevant given the Australia angle.",
-   "date": "",
-   "links": [
-    {
-     "title": "Transformer piece",
-     "url": "https://www.transformernews.ai/p/openai-australia-hack-least-worrying-part"
-    }
-   ]
-  },
-  {
-   "tag": "Frontier",
-   "title": "Claude Opus 5.5: The System Card",
-   "summary": "Zvi (LessWrong, 30 karma) reviews Anthropic's Claude Opus 5.5 system card; specific findings unclear, page fetch blocked by cloud egress.",
-   "analysis": "Frontier model release; worth tracking capability and safety claims.",
-   "date": "",
-   "links": [
-    {
-     "title": "LessWrong post",
-     "url": "https://www.lesswrong.com/posts/vMNTWTDWLorDqd3LS/claude-opus-5-5-the-system-card"
+     "url": "https://www.lesswrong.com/posts/cWuqxF7qB2eGSkkS4/overtly-misaligned-trajectories-score-highly-in-rl"
     }
    ]
   },
   {
    "tag": "Technical",
-   "title": "Thoughts on the persona selection model",
-   "summary": "Sam Marks (LessWrong, 61 karma) discusses a 'persona selection' model of LLM behaviour; mechanism and evidence unclear, page fetch blocked by cloud egress.",
-   "analysis": "Marks works on interpretability; likely load-bearing for control work.",
+   "title": "Continual learning might make your blocking monitors nearly useless",
+   "summary": "Alex Mallen (LessWrong, 48 karma) argues continual learning could make blocking monitors nearly useless for safety oversight; supporting evidence unclear, page fetch blocked by cloud egress.",
+   "analysis": "Direct challenge to monitor-based control; check the argument.",
    "date": "",
    "links": [
     {
      "title": "LessWrong post",
-     "url": "https://www.lesswrong.com/posts/csRby7mZgjL5jCoLL/thoughts-on-the-persona-selection-model"
+     "url": "https://www.lesswrong.com/posts/QnDqGbKehEB3DxJAp/continual-learning-might-make-your-blocking-monitors-nearly"
+    }
+   ]
+  },
+  {
+   "tag": "Policy",
+   "title": "AI governance is coming, with or without Trump",
+   "summary": "Transformer's weekly wrap argues AI governance keeps advancing under Trump, covering UN AI talks, fallout from OpenAI's Australia hack, and midterm campaign spending on AI.",
+   "analysis": "Useful weekly governance sweep; ties to ongoing OpenAI-Australia story.",
+   "date": "",
+   "links": [
+    {
+     "title": "Transformer piece",
+     "url": "https://www.transformernews.ai/p/trump-cant-stop-ai-governance"
     }
    ]
   },
   {
    "tag": "Frontier",
-   "title": "At a Datacenter Town Hall in My Midwestern Home Town",
-   "summary": "David Scott Krueger (LessWrong, 51 karma) recounts a datacenter town hall in his hometown; local detail unclear, page fetch blocked by cloud egress.",
-   "analysis": "Ties an AI-safety researcher to local compute-buildout politics.",
+   "title": "On Ezra Klein's Podcast With Jensen Huang",
+   "summary": "Zvi Mowshowitz (LessWrong, 32 karma) reviews Ezra Klein's podcast interview with Nvidia CEO Jensen Huang; specific claims discussed unclear, page fetch blocked by cloud egress.",
+   "analysis": "Ties to compute/hardware angle; check chip-supply claims.",
    "date": "",
    "links": [
     {
      "title": "LessWrong post",
-     "url": "https://www.lesswrong.com/posts/fkkwpzbjybXtbQXw9/at-a-datacenter-town-hall-in-my-midwestern-home-town"
+     "url": "https://www.lesswrong.com/posts/j3xefrWrNqsmMfJEi/on-ezra-klein-s-podcast-with-jensen-huang"
+    }
+   ]
+  },
+  {
+   "tag": "Technical",
+   "title": "Alignment Forecasting: Predicting Misalignment from Training Data",
+   "summary": "Yueh Han \"John\" Chen (LessWrong, 18 karma) proposes forecasting misalignment directly from a model's training data; method and results unclear, page fetch blocked by cloud egress.",
+   "analysis": "Early-warning approach; usefulness depends on prediction accuracy.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong post",
+     "url": "https://www.lesswrong.com/posts/f7r9QCmjoYFG9ReyF/alignment-forecasting-predicting-misalignment-from-training"
+    }
+   ]
+  },
+  {
+   "tag": "Technical",
+   "title": "Spurious probes as a black-box alternative to activation probing",
+   "summary": "Ziqian Zhong (LessWrong, 18 karma) proposes 'spurious probes' as a black-box alternative to activation probing for interpretability; method details unclear, page fetch blocked by cloud egress.",
+   "analysis": "New interpretability tool; check validity versus activation probes.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong post",
+     "url": "https://www.lesswrong.com/posts/gZh6txHhp8sm832sE/spurious-probes-as-a-black-box-alternative-to-activation"
     }
    ]
   },
   {
    "tag": "Policy",
-   "title": "It's Pretty Easy To Meet With Congressional Staffers Apparently",
-   "summary": "25Hour (LessWrong, 45 karma) reports meeting congressional staffers was easier than expected; no further detail available, fetch blocked.",
-   "analysis": "Practical tip for direct US policy engagement.",
+   "title": "We need a better theory of polarization, because it's failing to predict the AI debate",
+   "summary": "less_raichu (LessWrong, 31 karma) argues existing polarization theory fails to predict how the AI debate is unfolding; specifics unclear, fetch blocked.",
+   "analysis": "Perspective piece; check if backed by real data.",
    "date": "",
    "links": [
     {
      "title": "LessWrong post",
-     "url": "https://www.lesswrong.com/posts/qThcAE3CADaPwjDzy/it-s-pretty-easy-to-meet-with-congressional-staffers"
-    }
-   ]
-  },
-  {
-   "tag": "Policy",
-   "title": "\"I am an AI Safety Researcher\"",
-   "summary": "Ashe Vazquez Nuñez (LessWrong, 103 karma) reflects on identity and work as an AI safety researcher; content beyond the title unclear, fetch blocked.",
-   "analysis": "High-karma personal essay; gauge relevance once readable.",
-   "date": "",
-   "links": [
-    {
-     "title": "LessWrong post",
-     "url": "https://www.lesswrong.com/posts/HekpnSkrt89tMm3Dc/i-am-an-ai-safety-researcher"
+     "url": "https://www.lesswrong.com/posts/WMBgSseHJpghhma4n/we-need-a-better-theory-of-polarization-because-it-s-failing"
     }
    ]
   }
  ],
- "opportunities": []
+ "opportunities": [
+  {
+   "name": "AFFINE Alignment Seminar (Winter 2027 cohort)",
+   "what": "Alignment-focused seminar/reading-discussion programme; application-based cohort for Winter 2027. Eligibility and format unclear, page fetch blocked by cloud egress.",
+   "kind": "other",
+   "url": "https://www.lesswrong.com/posts/gbExicZvKtHBboLR6/applications-open-winter-2027-affine-alignment-seminar-due",
+   "deadline": "Nov 22",
+   "deadline_iso": "2026-11-22",
+   "dates": "Winter 2027",
+   "commitment": "?",
+   "location_mode": "?"
+  }
+ ]
 }

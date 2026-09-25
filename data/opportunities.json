@@ -17,6 +17,20 @@
    "last_seen": "2026-09-11"
   },
   {
+   "key": "https://www.lesswrong.com/posts/gbExicZvKtHBboLR6/applications-open-winter-2027-affine-alignment-seminar-due",
+   "name": "AFFINE Alignment Seminar (Winter 2027 cohort)",
+   "what": "Alignment-focused seminar/reading-discussion programme; application-based cohort for Winter 2027. Eligibility and format unclear, page fetch blocked by cloud egress.",
+   "kind": "other",
+   "url": "https://www.lesswrong.com/posts/gbExicZvKtHBboLR6/applications-open-winter-2027-affine-alignment-seminar-due",
+   "deadline": "Nov 22",
+   "deadline_iso": "2026-11-22",
+   "dates": "Winter 2027",
+   "commitment": "?",
+   "location_mode": "?",
+   "first_seen": "2026-09-25",
+   "last_seen": "2026-09-25"
+  },
+  {
    "key": "iaseai – caif: september virtual seminar",
    "name": "IASEAI – CAIF: September Virtual Seminar",
    "what": "Free talk presenting a multi-agent AI governance blueprint from a CAIF workshop",
