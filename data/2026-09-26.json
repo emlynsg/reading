@@ -1,0 +1,65 @@
+{
+ "schema_version": 2,
+ "date": "2026-09-26",
+ "generated_at": "2026-09-26T21:31:46.548836+00:00",
+ "disclaimer": "Compiled automatically by an AI and not human-reviewed - descriptions may contain errors or hallucinations. Always check the linked source before relying on anything here.",
+ "entries": [
+  {
+   "tag": "Policy",
+   "title": "Plan R: AI Safety by ASICs",
+   "summary": "Roko (LessWrong, 114 karma) proposes an AI-safety plan built on ASIC hardware restrictions; specific mechanism unclear, page fetch blocked by cloud egress.",
+   "analysis": "Directly touches compute-governance/verification, my specialty; check follow-up Plan R+.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong post",
+     "url": "https://www.lesswrong.com/posts/n8u3BfqFoGh4jnzpo/plan-r-ai-safety-by-asics"
+    },
+    {
+     "title": "LessWrong follow-up (Plan R+)",
+     "url": "https://www.lesswrong.com/posts/BHGoF7tPqtLo9mXFL/plan-r-diversity-escrow-and-political-rights-for-asics"
+    }
+   ]
+  },
+  {
+   "tag": "Policy",
+   "title": "Evidence about risk should be transparent",
+   "summary": "Ajeya Cotra (LessWrong, 131 karma) argues evidence about AI risk should be made transparent; specific argument unclear, page fetch blocked by cloud egress.",
+   "analysis": "High-karma post from a leading forecaster; ties to verification norms.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong post",
+     "url": "https://www.lesswrong.com/posts/LawgAaGTvbbnZi7u2/evidence-about-risk-should-be-transparent"
+    }
+   ]
+  },
+  {
+   "tag": "Frontier",
+   "title": "Claude Opus 5.5 Should Raise Your Ambitions",
+   "summary": "Zvi (LessWrong, 37 karma) argues Claude Opus 5.5's capabilities should raise expectations for AI-assisted work; specifics unclear, page fetch blocked by cloud egress.",
+   "analysis": "Frontier-capability gauge; useful for keeping current on model progress.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong post",
+     "url": "https://www.lesswrong.com/posts/rtPiip9igy3QvxYdM/claude-opus-5-5-should-raise-your-ambitions"
+    }
+   ]
+  },
+  {
+   "tag": "Policy",
+   "title": "Poverty in the midst of abundance: AI will make goods cheaper, but your labor will get cheaper faster",
+   "summary": "cousin_it (LessWrong, 36 karma) argues AI will cut goods prices but cut wages faster, leaving workers worse off; specifics unclear, fetch blocked.",
+   "analysis": "Speculative economics argument; part of the live AI-and-labor debate.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong post",
+     "url": "https://www.lesswrong.com/posts/eLXTcJfkheLbqZXHa/poverty-in-the-midst-of-abundance-ai-will-make-goods-cheaper"
+    }
+   ]
+  }
+ ],
+ "opportunities": []
+}
