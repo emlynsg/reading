@@ -1,15 +1,15 @@
 {
  "schema_version": 2,
  "date": "2026-09-26",
- "generated_at": "2026-09-26T21:31:46.548836+00:00",
+ "generated_at": "2026-09-28T01:56:52.917879+00:00",
  "disclaimer": "Compiled automatically by an AI and not human-reviewed - descriptions may contain errors or hallucinations. Always check the linked source before relying on anything here.",
  "entries": [
   {
    "tag": "Policy",
    "title": "Plan R: AI Safety by ASICs",
-   "summary": "Roko (LessWrong, 114 karma) proposes an AI-safety plan built on ASIC hardware restrictions; specific mechanism unclear, page fetch blocked by cloud egress.",
-   "analysis": "Directly touches compute-governance/verification, my specialty; check follow-up Plan R+.",
-   "date": "",
+   "summary": "Roko argues risk comes from one institution both building dangerous AI and owning its unbounded surplus. Separating the two, with ASICs, could remove most risk without a pause.",
+   "analysis": "Compute-hardware institutional design; directly relevant to verification work.",
+   "date": "2026-09-25",
    "links": [
     {
      "title": "LessWrong post",
@@ -24,9 +24,9 @@
   {
    "tag": "Policy",
    "title": "Evidence about risk should be transparent",
-   "summary": "Ajeya Cotra (LessWrong, 131 karma) argues evidence about AI risk should be made transparent; specific argument unclear, page fetch blocked by cloud egress.",
-   "analysis": "High-karma post from a leading forecaster; ties to verification norms.",
-   "date": "",
+   "summary": "Cotra argues talk of verifying and auditing labs is premature. Loss-of-control science is nascent, and labs make no standardized, falsifiable risk claims. Cotra wants risk evidence made transparent first.",
+   "analysis": "Challenges verify-first framing of pacing commitments; central to my work.",
+   "date": "2026-09-25",
    "links": [
     {
      "title": "LessWrong post",
@@ -37,9 +37,9 @@
   {
    "tag": "Frontier",
    "title": "Claude Opus 5.5 Should Raise Your Ambitions",
-   "summary": "Zvi (LessWrong, 37 karma) argues Claude Opus 5.5's capabilities should raise expectations for AI-assisted work; specifics unclear, page fetch blocked by cloud egress.",
-   "analysis": "Frontier-capability gauge; useful for keeping current on model progress.",
-   "date": "",
+   "summary": "Zvi calls Opus 5.5 Fable-5.1-level performance at Opus pricing. Zvi objects that it offers zero data retention despite 'extremely strong' cyber capabilities, unlike Fable 5.1.",
+   "analysis": "Frontier-release gauge; the ZDR point matters for misuse monitoring.",
+   "date": "2026-09-26",
    "links": [
     {
      "title": "LessWrong post",
@@ -50,9 +50,9 @@
   {
    "tag": "Policy",
    "title": "Poverty in the midst of abundance: AI will make goods cheaper, but your labor will get cheaper faster",
-   "summary": "cousin_it (LessWrong, 36 karma) argues AI will cut goods prices but cut wages faster, leaving workers worse off; specifics unclear, fetch blocked.",
-   "analysis": "Speculative economics argument; part of the live AI-and-labor debate.",
-   "date": "",
+   "summary": "cousin_it argues AI substitutes for labour, so wages fall faster than goods prices. A day's AI labour costs cents in electricity, less than a day's food.",
+   "analysis": "Simple argument, not new; relevant to the live AI-labour debate.",
+   "date": "2026-09-26",
    "links": [
     {
      "title": "LessWrong post",

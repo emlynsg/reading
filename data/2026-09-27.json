@@ -1,15 +1,15 @@
 {
  "schema_version": 2,
  "date": "2026-09-27",
- "generated_at": "2026-09-27T21:31:42.434079+00:00",
+ "generated_at": "2026-09-28T01:56:52.917879+00:00",
  "disclaimer": "Compiled automatically by an AI and not human-reviewed - descriptions may contain errors or hallucinations. Always check the linked source before relying on anything here.",
  "entries": [
   {
    "tag": "Policy",
    "title": "Why I expect AI replication incidents by 2027",
-   "summary": "Reworr forecasts AI self-replication incidents by 2027. LessWrong post, 9 karma. Reasoning unclear; page fetch blocked by cloud egress.",
-   "analysis": "Ties to monitoring/verification work; unverified forecast, treat cautiously.",
-   "date": "",
+   "summary": "Reworr expects a major autonomous-replication incident by end-2027. Open-model capability density doubles every 3.3 months, and consumer-GPU models trail the frontier by 6-12 months.",
+   "analysis": "Self-described 'thinking out loud'; the cited trend data is the useful part.",
+   "date": "2026-09-26",
    "links": [
     {
      "title": "LessWrong post",
@@ -20,9 +20,9 @@
   {
    "tag": "Policy",
    "title": "Skeuomorphic AI Safety",
-   "summary": "Roko critiques AI-safety approaches that copy old, non-AI paradigms. LessWrong post, 11 karma. Argument unclear; page fetch blocked by cloud egress.",
-   "analysis": "Conceptual framing from a known safety-design author; unconfirmed depth.",
-   "date": "",
+   "summary": "Roko proposes changing the AI stack so old human institutions still work. ASICs would impose human-like limits: no self-copying, no compute surges, no self-inspection.",
+   "analysis": "Hardware-constraint framing that maps onto compute-governance levers.",
+   "date": "2026-09-27",
    "links": [
     {
      "title": "LessWrong post",

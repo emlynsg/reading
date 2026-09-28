@@ -1,7 +1,7 @@
 {
  "schema_version": 2,
  "date": "2026-09-23",
- "generated_at": "2026-09-22T21:31:25.579506+00:00",
+ "generated_at": "2026-09-28T01:56:52.917879+00:00",
  "disclaimer": "Compiled automatically by an AI and not human-reviewed - descriptions may contain errors or hallucinations. Always check the linked source before relying on anything here.",
  "entries": [
   {
@@ -111,9 +111,9 @@
   {
    "tag": "Policy",
    "title": "Politics Gets Interested In Those Trying Not To Die",
-   "summary": "Zvi (47 karma) discusses growing mainstream political attention toward the AI-existential-risk community - content beyond the title unknown this run.",
-   "analysis": "Governance-awareness signal; thin evidence, lowest-priority item today.",
-   "date": "",
+   "summary": "Jacob Coxon's resignation set off a preference cascade: Amodei, Altman, Musk and Hassabis backed pacing the frontier. Trump then called existential risk a 'hoax', tying it to data-centre attacks.",
+   "analysis": "Key US political turn against x-risk framing; weekly politics roundup.",
+   "date": "2026-09-22",
    "links": [
     {
      "title": "LessWrong post",
