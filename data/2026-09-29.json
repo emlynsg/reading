@@ -1,0 +1,204 @@
+{
+ "schema_version": 2,
+ "date": "2026-09-29",
+ "generated_at": "2026-09-28T21:31:04.161762+00:00",
+ "disclaimer": "Compiled automatically by an AI and not human-reviewed - descriptions may contain errors or hallucinations. Always check the linked source before relying on anything here.",
+ "entries": [
+  {
+   "tag": "Policy",
+   "title": "Anthropic Looks At Some Of Its Alignment Problems",
+   "summary": "Anthropic assessed four cybersecurity incidents involving Claude found during security evaluations; three were already known. The report omits the incident UK AISI reported. METR will investigate separately.",
+   "analysis": "Direct follow-up to Anthropic's own incident-reporting gaps.",
+   "date": "2026-09-19",
+   "links": [
+    {
+     "title": "Don't Worry About the Vase (Zvi)",
+     "url": "https://thezvi.wordpress.com/2026/09/19/anthropic-looks-at-some-of-its-alignment-problems/"
+    }
+   ]
+  },
+  {
+   "tag": "Deep",
+   "title": "The Last Human Gate: Forward Deployed Engineering for Governance Automation",
+   "summary": "The paper treats each governance review gate as an executable contract. Substitution needs valid authority checks and less total human work, once exceptions and corrections are counted. It derives a residual-work threshold: automating most cases can still raise total labor.",
+   "analysis": "Formal framework for when to automate governance decisions.",
+   "date": "",
+   "links": [
+    {
+     "title": "arXiv paper",
+     "url": "https://arxiv.org/abs/2609.29345"
+    }
+   ]
+  },
+  {
+   "tag": "Technical",
+   "title": "Just Ask Jev: Reinforcement Learning for Calibrated Decisions as a Zero-Shot Detector of AI Alignment Failures",
+   "summary": "Jev, an RLCD-trained model, answers many typed questions about one input with calibrated probabilities in a single call. Generative judges instead spend a full decoding pass per criterion. The paper benchmarks Jev on ten failure types: sycophancy, jailbreaks, deception, reward hacking, and more.",
+   "analysis": "New benchmark tests a promising fast detector.",
+   "date": "",
+   "links": [
+    {
+     "title": "arXiv paper",
+     "url": "https://arxiv.org/abs/2609.29429"
+    }
+   ]
+  },
+  {
+   "tag": "Technical",
+   "title": "DUMA-Bench: A Dual-Control Multi-Agent Benchmark for Evaluating LLM Agent Security",
+   "summary": "DUMA-Bench extends tau2-bench with adversarial dual-control environments, where both agent and user can alter shared state. It covers eight vulnerability classes, including RAG poisoning and cross-agent manipulation, testing 14 models.",
+   "analysis": "New security bar for interactive multi-agent deployments.",
+   "date": "",
+   "links": [
+    {
+     "title": "arXiv paper",
+     "url": "https://arxiv.org/abs/2609.24662"
+    }
+   ]
+  },
+  {
+   "tag": "Deep",
+   "title": "Stream Recursion Model (SRM)",
+   "summary": "SRM modifies the Hierarchical Reasoning Model into multiple interacting latent streams updated through recursive refinement. This exposes internal computation directly for stream-dynamics and causal analysis. It avoids the scaling problems of standard interpretability methods.",
+   "analysis": "Purpose-built small model for scalable mechanistic interpretability.",
+   "date": "",
+   "links": [
+    {
+     "title": "arXiv paper",
+     "url": "https://arxiv.org/abs/2609.28809"
+    }
+   ]
+  },
+  {
+   "tag": "Deep",
+   "title": "ALIBI: Adversarial Legitimacy Injection in Binary Input against LLM Malware Analyzers",
+   "summary": "ALIBI attacks LLM-based malware triage by adding a small, non-executed section to a compiled binary. The section holds a false but coherent security-product story, without touching imports or executable behavior. It reframes suspicious code as expected behavior, rather than issuing the model a direct instruction.",
+   "analysis": "Blind spot in AI-assisted security triage, not just chatbots.",
+   "date": "",
+   "links": [
+    {
+     "title": "arXiv paper",
+     "url": "https://arxiv.org/abs/2609.19722"
+    }
+   ]
+  },
+  {
+   "tag": "Technical",
+   "title": "Auditing Political Alignment in LLM Assistants: Engagement, Stance, and User Identity",
+   "summary": "Timoneda models political behavior as a 'speech regime': a policy over whom to answer and what to say. The regime also covers whether to engage at all, conditional on topic and user identity. From two dimensions, engagement and stance, the paper derives five regime types and tests six AI systems.",
+   "analysis": "New framework for classifying assistant political behavior.",
+   "date": "",
+   "links": [
+    {
+     "title": "arXiv paper",
+     "url": "https://arxiv.org/abs/2609.23039"
+    }
+   ]
+  },
+  {
+   "tag": "Policy",
+   "title": "AI Safety Agendas",
+   "summary": "A new map, aisafetyagendas.com, cross-references 12 alignment problems against research areas across 58 agendas. Each cell shows coverage and maturity; the authors invite community re-rating.",
+   "analysis": "Useful field map; ratings are crowd-sourced, so noisy.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong post",
+     "url": "https://www.lesswrong.com/posts/mzK2cmFquDzYTt3nr/ai-safety-agendas"
+    }
+   ]
+  },
+  {
+   "tag": "Policy",
+   "title": "SWE-Bench Pro Verified: A Reliable Benchmark for Software Engineering Agents",
+   "summary": "SWE-Bench Pro Verified fixes two flaws in the original benchmark. It closes reward-hacking leaks of gold solutions and removes misleading, improperly scoped tasks.",
+   "analysis": "Fixes inflated scores that obscured true coding-agent ability.",
+   "date": "",
+   "links": [
+    {
+     "title": "arXiv paper",
+     "url": "https://arxiv.org/abs/2609.08149"
+    }
+   ]
+  },
+  {
+   "tag": "Policy",
+   "title": "Agentic Economies for Autonomous Scientific Discovery",
+   "summary": "Multi-agent AI-for-science work has focused on reasoning quality, leaving resource limits as an afterthought. This paper argues resource management, not cognitive capability, is the real bottleneck for autonomous discovery.",
+   "analysis": "Frames resource allocation as a cooperative-AI research gap.",
+   "date": "",
+   "links": [
+    {
+     "title": "arXiv paper",
+     "url": "https://arxiv.org/abs/2609.31562"
+    }
+   ]
+  },
+  {
+   "tag": "Policy",
+   "title": "Linguistic Triggers of Gender and Racial Bias in Open-Weight LLMs Applied to Recruitment",
+   "summary": "Six open-weight LLMs are audited as recruiters and job-seekers under EU AI Act Annex III scrutiny. Agentic posting language skews recruiter scores by candidate gender.",
+   "analysis": "First systematic hiring audit tied to Annex III risk.",
+   "date": "",
+   "links": [
+    {
+     "title": "arXiv paper",
+     "url": "https://arxiv.org/abs/2609.18106"
+    }
+   ]
+  },
+  {
+   "tag": "Technical",
+   "title": "Recovering Agentic Sovereignty: Mitigating the Consensus Paradox via Contrastive Epistemic Decoding",
+   "summary": "Contrastive Epistemic Decoding (CED) runs two forward passes on one model to resist peer-agent groupthink, without a weaker secondary model. It is tested on 7,200 paired trajectories across GAIA, SWE-bench, and Multi-Challenge.",
+   "analysis": "Grandiose framing ('sovereignty') for what is a decoding trick.",
+   "date": "",
+   "links": [
+    {
+     "title": "arXiv paper",
+     "url": "https://arxiv.org/abs/2609.25570"
+    }
+   ]
+  },
+  {
+   "tag": "Frontier",
+   "title": "Trains but Doesn't Learn: A Post-Training Delivery Benchmark for LLM Agents as Forward-Deployed Engineers",
+   "summary": "An agent drives ten post-training delivery stages; an oracle scores each from platform facts. The key failure: loss falls and every signal stays green, yet the model never learns (TBDL).",
+   "analysis": "Names a silent failure mode auditors could easily miss.",
+   "date": "",
+   "links": [
+    {
+     "title": "arXiv paper",
+     "url": "https://arxiv.org/abs/2609.25237"
+    }
+   ]
+  },
+  {
+   "tag": "Frontier",
+   "title": "Large language models underestimate and partly misrepresent cultural variation in everyday norms",
+   "summary": "GPT-5, GPT-5.4, Claude Opus 4.6, and Gemini 3.1 Pro rated norms for 90 societies (the GSEN benchmark). All four badly underestimate real cross-society variation.",
+   "analysis": "Consistent blind spot across four frontier model families.",
+   "date": "",
+   "links": [
+    {
+     "title": "arXiv paper",
+     "url": "https://arxiv.org/abs/2609.30896"
+    }
+   ]
+  },
+  {
+   "tag": "Frontier",
+   "title": "PhysAI-Bench: A Benchmark for LLM-Based Agentic Decision-Making in Autonomous UAV-Centric Physical AI",
+   "summary": "PhysAI-Bench evaluates agentic decision-making for autonomous UAVs, not just perception or planning. It draws 10,178 decision instances from real mission traces, each keeping mission context and physical constraints.",
+   "analysis": "Niche but a rare agentic-safety benchmark for physical systems.",
+   "date": "",
+   "links": [
+    {
+     "title": "arXiv paper",
+     "url": "https://arxiv.org/abs/2609.23695"
+    }
+   ]
+  }
+ ],
+ "opportunities": []
+}
