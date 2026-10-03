@@ -1,105 +1,19 @@
 {
  "schema_version": 2,
  "date": "2026-10-03",
- "generated_at": "2026-10-02T21:30:53.239444+00:00",
+ "generated_at": "2026-10-03T21:31:04.054946+00:00",
  "disclaimer": "Compiled automatically by an AI and not human-reviewed - descriptions may contain errors or hallucinations. Always check the linked source before relying on anything here.",
  "entries": [
   {
-   "tag": "Policy",
-   "title": "Capabilities research expands the safety-usefulness Pareto frontier too",
-   "summary": "The post argues that defining safety research as pushing out the safety-usefulness Pareto frontier counts almost all capabilities research as safety research. Example: cheaper inference lets developers use weaker, safer models more.",
-   "analysis": "Exposes a definitional flaw in how labs claim safety work.",
+   "tag": "Frontier",
+   "title": "What is recursive self-improvement and what would it mean to ban it?",
+   "summary": "The post defines recursive self-improvement (RSI) as frontier labs' goal of automating their own research. It argues this loop could run out of human control and asks what a ban would cover.",
+   "analysis": "Relevant to verification: a ban needs a definition you can check.",
    "date": "",
    "links": [
     {
      "title": "LessWrong post",
-     "url": "https://www.lesswrong.com/posts/nwrx9DHpZfW2Q6zLW/capabilities-research-expands-the-safety-usefulness-pareto"
-    },
-    {
-     "title": "Redwood Research blog",
-     "url": "https://blog.redwoodresearch.org/p/capabilities-research-expands-the"
-    }
-   ]
-  },
-  {
-   "tag": "Policy",
-   "title": "Architecture Without an Architect? Global Governance of AI in a Divided World",
-   "summary": "Chesterman reviews Maas's Architectures of Global AI Governance. He argues the hard question is who has the capacity and incentive to create, enforce, and adapt rules. He notes responses stay fragmented and non-binding.",
-   "analysis": "Useful framing for treaty-design work.",
-   "date": "2026-10-02",
-   "links": [
-    {
-     "title": "arXiv review essay",
-     "url": "https://arxiv.org/abs/2610.01716"
-    }
-   ]
-  },
-  {
-   "tag": "Policy",
-   "title": "On Social Reality in China",
-   "summary": "A Chinese-American author argues cultural differences will block AI-safety messaging in China. The essay offers intuitions and anecdotes, not data. It responds to recent projects aiming at an international AI pause.",
-   "analysis": "Anecdotal, but relevant to US-China outreach.",
-   "date": "",
-   "links": [
-    {
-     "title": "LessWrong post (karma 171)",
-     "url": "https://www.lesswrong.com/posts/b5cSYh4emQb2qrGmK/on-social-reality-in-china"
-    }
-   ]
-  },
-  {
-   "tag": "Technical",
-   "title": "False Floors: LLM Safety Routing Evaluations Break Under Distribution Shift",
-   "summary": "A major safety-routing benchmark picks its comparator model on the evaluation data. On HELM Safety, the selection cost is 0.045-0.113 of harm under held-out categories. That is comparable to the whole deficit attributed to routing. On AgentDojo it rises seven- to ninefold.",
-   "analysis": "Concrete eval-methodology flaw; check before trusting router results.",
-   "date": "2026-10-02",
-   "links": [
-    {
-     "title": "arXiv paper",
-     "url": "https://arxiv.org/abs/2610.01535"
-    }
-   ]
-  },
-  {
-   "tag": "Technical",
-   "title": "When Does a Second Model Help? Cross-Model Review in LLM Verification",
-   "summary": "The paper plants 150 errors in 30 artifacts and runs 900 review sessions with three reviewer models. A top-tier cross-model reviewer does not differ significantly in F1 from same-model review in a fresh session. The two find partly different errors.",
-   "analysis": "Small single-author study; relevant to monitoring and control.",
-   "date": "2026-10-02",
-   "links": [
-    {
-     "title": "arXiv paper",
-     "url": "https://arxiv.org/abs/2610.01471"
-    }
-   ]
-  },
-  {
-   "tag": "Frontier",
-   "title": "Every Ablation Is a Dose: Counterweights and the Semblance of Self-Repair",
-   "summary": "The paper argues self-repair after ablation has one explanation: a gain already present before ablation. It treats ablation methods as uncalibrated points on a signed-strength axis.",
-   "analysis": "Challenges the 'noisy, no single cause' view; mech interp relevant.",
-   "date": "2026-10-02",
-   "links": [
-    {
-     "title": "arXiv paper",
-     "url": "https://arxiv.org/abs/2610.02173"
-    }
-   ]
-  },
-  {
-   "tag": "Frontier",
-   "title": "Finding the Right Fit: Model-Harness Interactions across Agent Tasks",
-   "summary": "The authors test 66 model-harness configurations. Model rankings reverse across harnesses. On Terminal-Bench 4, Claude leads GPT by 7.94 points in OpenHands but trails by 30.16 in PI.",
-   "analysis": "Agent evals depend heavily on the harness.",
-   "date": "2026-10-02",
-   "links": [
-    {
-     "title": "arXiv paper",
-     "url": "https://arxiv.org/abs/2610.00917"
-    },
-    {
-     "title": "Related: Agents Are Systems, Not Models",
-     "url": "https://arxiv.org/abs/2610.01618"
+     "url": "https://www.lesswrong.com/posts/ZT2rKu3Z6RaargYYF/what-is-recursive-self-improvement-and-what-would-it-mean-to"
     }
    ]
   }
