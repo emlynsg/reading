@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-03",
+ "updated": "2026-10-04",
  "roundup_urls": [],
  "items": [
   {
@@ -71,6 +71,20 @@
    "location_mode": "?",
    "first_seen": "2026-09-24",
    "last_seen": "2026-09-24"
+  },
+  {
+   "key": "ml4good technical ai safety bootcamp",
+   "name": "ML4Good Technical AI Safety Bootcamp",
+   "what": "Eight-day bootcamp covering AI agents, alignment, evaluations, interpretability and governance; the source post describes a cohort near Lyon, France.",
+   "kind": "other",
+   "url": "",
+   "deadline": "?",
+   "deadline_iso": "",
+   "dates": "? (see ML4Good site, 'Find a Bootcamp')",
+   "commitment": "FT, 8 days",
+   "location_mode": "in-person (e.g. near Lyon, France; varies by cohort)",
+   "first_seen": "2026-10-04",
+   "last_seen": "2026-10-04"
   }
  ]
 }

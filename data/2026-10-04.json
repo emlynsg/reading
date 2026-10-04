@@ -1,0 +1,47 @@
+{
+ "schema_version": 2,
+ "date": "2026-10-04",
+ "generated_at": "2026-10-04T21:32:01.474984+00:00",
+ "disclaimer": "Compiled automatically by an AI and not human-reviewed - descriptions may contain errors or hallucinations. Always check the linked source before relying on anything here.",
+ "entries": [
+  {
+   "tag": "Technical",
+   "title": "Reducing synthetic markers makes some SDF false facts indistinguishable from real knowledge",
+   "summary": "Synthetic document finetuning (SDF) documents carry features that set them apart from pretraining text. Linear probes on middle-layer activations use these markers to separate SDF false facts from pretraining-acquired facts. Reducing the markers removes that gap for some subtly implausible facts. Applying RPO then strengthens the false facts, but overtraining is detectable.",
+   "analysis": "Single post; weakens probe-based detection of implanted beliefs.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong post",
+     "url": "https://www.lesswrong.com/posts/yYk5iwGqcn6XKLnWw/reducing-synthetic-markers-makes-some-sdf-false-facts"
+    }
+   ]
+  },
+  {
+   "tag": "Policy",
+   "title": "MATS x CG Pitch Week: what happened",
+   "summary": "The Q2 2026 pilot ran 38 expressions of interest, 17 applying teams and 15 pitches. It awarded $4.3M across six grants: five org-founding and two independent research. Funding did not correlate with observable founder traits. Successful pitches had mature, evaluable ideas.",
+   "analysis": "Shows what funders reward; useful for post-MATS funding plans.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong post",
+     "url": "https://www.lesswrong.com/posts/APRgDaNQjF4DWQhHg/mats-cg-pitch-week-what-happened-what-we-learned"
+    }
+   ]
+  }
+ ],
+ "opportunities": [
+  {
+   "name": "ML4Good Technical AI Safety Bootcamp",
+   "what": "Eight-day bootcamp covering AI agents, alignment, evaluations, interpretability and governance; the source post describes a cohort near Lyon, France.",
+   "kind": "other",
+   "url": "",
+   "deadline": "?",
+   "deadline_iso": "",
+   "dates": "? (see ML4Good site, 'Find a Bootcamp')",
+   "commitment": "FT, 8 days",
+   "location_mode": "in-person (e.g. near Lyon, France; varies by cohort)"
+  }
+ ]
+}
