@@ -1,0 +1,99 @@
+{
+ "schema_version": 2,
+ "date": "2026-10-08",
+ "generated_at": "2026-10-07T21:31:21.016211+00:00",
+ "disclaimer": "Compiled automatically by an AI and not human-reviewed - descriptions may contain errors or hallucinations. Always check the linked source before relying on anything here.",
+ "entries": [
+  {
+   "tag": "Technical",
+   "title": "Benchmarking Jev against no-CoT LLMs",
+   "summary": "Jev 1.13 is a non-autoregressive model that outputs probabilities and cannot emit text. As a transcript monitor, its AUROC on sabotage and sandbagging detection matches GPT-5.5 and Opus 4.7 without CoT. It costs about 1/200th as much. It ranks 209 of 279 on NCRI, near GPT-3.5 level.",
+   "analysis": "A cheap control monitor candidate; capabilities are jagged.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong post",
+     "url": "https://www.lesswrong.com/posts/QW2kPrAyZQvRtBXHG/benchmarking-jev-against-no-cot-llms"
+    }
+   ]
+  },
+  {
+   "tag": "Frontier",
+   "title": "An overview of frontier AI company monitoring practices in mid 2026",
+   "summary": "The post collects public evidence on monitoring of internal agents at OpenAI, Anthropic and GDM. Most transcripts get monitored offline, asynchronously. GDM evidence is thin.",
+   "analysis": "Useful reference for lab oversight claims relevant to verification.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong overview",
+     "url": "https://www.lesswrong.com/posts/E4Jpmo3igPnGnXtL4/an-overview-of-frontier-ai-company-monitoring-practices-in"
+    }
+   ]
+  },
+  {
+   "tag": "Technical",
+   "title": "Visual explainer of empirical Neural Tangent Kernels",
+   "summary": "The post explains a new mech interp method, feature identification via the empirical NTK (Jennifer Lin), applied to LLMs. The author is not an expert and flags possible mistakes.",
+   "analysis": "Commentary entry point to a new interpretability method; check the paper.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong explainer",
+     "url": "https://www.lesswrong.com/posts/Dp6QAadFPmwmQFtCE/visual-explainer-of-empirical-neural-tangent-kernels"
+    }
+   ]
+  },
+  {
+   "tag": "Technical",
+   "title": "DecepEval: A Benchmark for Evaluating Deception in LLM Agents",
+   "summary": "The benchmark has 1,532 instances across 3 task families and 28 professional scenarios. Its Deception Diamond framework names four conditions that induce deception, including pressure, incentive and opportunity.",
+   "analysis": "Systematic design; results are not in the preview.",
+   "date": "2026-10-07",
+   "links": [
+    {
+     "title": "arXiv paper",
+     "url": "https://arxiv.org/abs/2610.07967"
+    }
+   ]
+  },
+  {
+   "tag": "Technical",
+   "title": "Transect: Retaining Observability for Long-Horizon LLM Agent Evaluations",
+   "summary": "Transect is an open-source package on Inspect Scout. It helps evaluators understand long agent runs and find behaviour worth inspecting. It targets reproducibility and auditability of LLM-based transcript analysis.",
+   "analysis": "Practical evals tooling from UK AISI-linked authors.",
+   "date": "",
+   "links": [
+    {
+     "title": "arXiv paper",
+     "url": "https://arxiv.org/abs/2610.08364"
+    }
+   ]
+  },
+  {
+   "tag": "Technical",
+   "title": "SIGMA: Self-Improving Alignment Generalization from a Model Spec",
+   "summary": "The paper asks whether current models can improve their own safety alignment from a model spec. It frames this as a response to capability self-improvement on easy-to-verify objectives.",
+   "analysis": "Relevant idea; preview lacks results, so check before trusting.",
+   "date": "",
+   "links": [
+    {
+     "title": "arXiv paper",
+     "url": "https://arxiv.org/abs/2610.07935"
+    }
+   ]
+  }
+ ],
+ "opportunities": [
+  {
+   "name": "Brains Fellowship (Speculative Technologies)",
+   "what": "Four-month nights-and-weekends fellowship to develop ambitious research ideas into ARPA-style programmes or FRO-like nonprofits; AI safety ideas welcome.",
+   "kind": "fellowship",
+   "url": "https://forum.effectivealtruism.org/posts/fxanrYkzWELbLongb/brains-fellowship-applications-open",
+   "deadline": "October 26th, 2026",
+   "deadline_iso": "2026-10-26",
+   "dates": "Four months; start date ?",
+   "commitment": "PT (nights and weekends; hours/week ?)",
+   "location_mode": "remote/online (virtual Q&As; location ?)"
+  }
+ ]
+}
