@@ -1,0 +1,100 @@
+{
+ "schema_version": 2,
+ "date": "2026-10-09",
+ "generated_at": "2026-10-08T21:31:21.390116+00:00",
+ "disclaimer": "Compiled automatically by an AI and not human-reviewed - descriptions may contain errors or hallucinations. Always check the linked source before relying on anything here.",
+ "entries": [
+  {
+   "tag": "Technical",
+   "title": "The Persona Hierarchy Model: contextual generalization in fine-tuning",
+   "summary": "The paper proposes that a shared default persona drives behaviour across contexts. Across 120 fine-tuned models, four behaviours and 15 training contexts, narrow generalization correlates with similarity between the training context and the test context.",
+   "analysis": "Useful mechanism for emergent-misalignment-style generalization; effect sizes unclear from the abstract.",
+   "date": "",
+   "links": [
+    {
+     "title": "arXiv paper",
+     "url": "https://arxiv.org/abs/2610.09384"
+    }
+   ]
+  },
+  {
+   "tag": "Technical",
+   "title": "How to train your model organism",
+   "summary": "The authors argue that installing the target behaviour alone is not enough. They add two checks: general-capability preservation and output naturalness. Two public organism suites show problems in chat quality and CoT naturalness.",
+   "analysis": "Directly affects how much to trust interpretability evals built on model organisms.",
+   "date": "",
+   "links": [
+    {
+     "title": "arXiv paper",
+     "url": "https://arxiv.org/abs/2610.10203"
+    }
+   ]
+  },
+  {
+   "tag": "Deep",
+   "title": "Are OpenAI's math results \"creative\" in an important way?",
+   "summary": "Raemon revisits the disagreement over whether AI gains on verifiable tasks imply concept formation. Skeptics (Tsvi, Byrnes) say models still lack the ability to form new concepts on the fly.",
+   "analysis": "Live debate tied to this week's OpenAI math release.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong post",
+     "url": "https://www.lesswrong.com/posts/neHiCSdL4tJDg7Hrm/are-openai-s-math-results-creative-in-an-important-way"
+    }
+   ]
+  },
+  {
+   "tag": "Technical",
+   "title": "The Curve Bends You (Zvi)",
+   "summary": "Zvi argues the de facto plan is to automate alignment research with AI. He says this compounds errors and amounts to going full recursive self-improvement.",
+   "analysis": "Opinionated but captures post-Curve lab-strategy discussion.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong post",
+     "url": "https://www.lesswrong.com/posts/qFa5qpw9bJiQMpJks/the-curve-bends-you"
+    }
+   ]
+  },
+  {
+   "tag": "Frontier",
+   "title": "AI #189: New Math (Zvi)",
+   "summary": "OpenAI released solutions to 90 of the top 500 open math problems, at about three hours of Pro-level compute per question. Claude Haiku 5.5 launched at $0.10/$0.50 per million tokens.",
+   "analysis": "Capability signal; Zvi's math coverage follows.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong post",
+     "url": "https://www.lesswrong.com/posts/DZPodskqJJNEkMLvH/ai-189-new-math"
+    }
+   ]
+  },
+  {
+   "tag": "Frontier",
+   "title": "Viral Chinese essay by a DeepSeek kernel engineer",
+   "summary": "A DeepSeek engineer wrote the main attention kernel of DeepSeek v4.1. His 14 September WeChat essay on AI automating his job argues for open-weight frontier AI. It drew 100k+ reads.",
+   "analysis": "Window into Chinese lab-insider views on automation and openness.",
+   "date": "2026-09-14",
+   "links": [
+    {
+     "title": "LessWrong summary",
+     "url": "https://www.lesswrong.com/posts/o8roRrdisBAjngHJN/a-summary-of-a-viral-chinese-essay-on-what-a-deepseek-kernel"
+    }
+   ]
+  },
+  {
+   "tag": "Policy",
+   "title": "Robust Decentralized Fairness Auditing (Auditopus)",
+   "summary": "Auditopus lets multiple auditors with partial query sets audit an LLM together. It resists fairwashing by auditors acting for the provider.",
+   "analysis": "Adversarial-auditor trust model resembles verification problems; check the guarantees.",
+   "date": "",
+   "links": [
+    {
+     "title": "arXiv paper",
+     "url": "https://arxiv.org/abs/2610.10199"
+    }
+   ]
+  }
+ ],
+ "opportunities": []
+}
