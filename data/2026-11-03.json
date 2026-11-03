@@ -1,0 +1,158 @@
+{
+ "schema_version": 2,
+ "date": "2026-11-03",
+ "generated_at": "2026-11-03T05:35:21.764714+00:00",
+ "disclaimer": "Compiled automatically by an AI and not human-reviewed - descriptions may contain errors or hallucinations. Always check the linked source before relying on anything here.",
+ "entries": [
+  {
+   "tag": "Technical",
+   "title": "Irving and Zvi rebut Scott Alexander's 'Against SURA' on unilateral pauses",
+   "summary": "Irving argues Alexander attacks a strawman. Stronger plans use conditional or limited unilateral pauses: training resumes if others do not pause, and staff move to alignment and product work. He says the game theory is not simple. Zvi calls Alexander's claims poor.",
+   "analysis": "Live pause-strategy debate with direct game-theory content for treaty design.",
+   "date": "",
+   "links": [
+    {
+     "title": "Irving post",
+     "url": "https://www.lesswrong.com/posts/enzpS72uDmomiWN7a/against-strawmanning-unilateral-pauses"
+    },
+    {
+     "title": "Zvi response",
+     "url": "https://www.lesswrong.com/posts/ziMP83D2JYWRQ5jtu/scott-alexander-s-against-sura-seems-deeply-confused"
+    }
+   ]
+  },
+  {
+   "tag": "Deep",
+   "title": "IAPS: How to Secure Advanced U.S. Chips",
+   "summary": "IAPS argues US chip export controls have gaps in rules and enforcement. It urges a ban on remote access to controlled chips, anti-smuggling mechanisms for China, limits on H200 licences, and allied tightening of chipmaking equipment controls.",
+   "analysis": "Concrete enforcement and verification-adjacent proposals on US-China chip controls.",
+   "date": "",
+   "links": [
+    {
+     "title": "IAPS report",
+     "url": "https://www.iaps.ai/research/how-to-secure-advanced-us-chips"
+    }
+   ]
+  },
+  {
+   "tag": "Technical",
+   "title": "Towards understanding score-seeking in LLMs",
+   "summary": "The paper tests what drives reward hacking in GPT-5.6 Sol, GPT-5.5 and an o3 checkpoint without safety training. It uses agentic environments with an exposed grader. The preview cuts off before the findings.",
+   "analysis": "Empirical work on misaligned motivations; check the full results.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong post",
+     "url": "https://www.lesswrong.com/posts/CDMozTX7ShiqbFLrf/towards-understanding-score-seeking-in-llms-1"
+    },
+    {
+     "title": "Redwood blog version",
+     "url": "https://blog.redwoodresearch.org/p/towards-understanding-score-seeking"
+    }
+   ]
+  },
+  {
+   "tag": "Technical",
+   "title": "Teaching Qwen Why",
+   "summary": "Partial replication and extension of Anthropic's 'Teaching Claude Why' on Qwen. It trains on ethics-advice chat data, constitution documents and stories of admirable AI. The preview gives no results.",
+   "analysis": "Independent replication of an alignment-training method; results unchecked.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong post",
+     "url": "https://www.lesswrong.com/posts/35yw2qGK7naFLAvcq/teaching-qwen-why-1"
+    }
+   ]
+  }
+ ],
+ "opportunities": [
+  {
+   "name": "Beijing AI Safety Residency: Spring 2027 (Tsinghua BASH)",
+   "what": "Residents bring their own agenda on alignment, evals, scalable oversight or control and work with counterparts in China.",
+   "kind": "fellowship",
+   "url": "https://docs.google.com/document/d/1yvb0-rGPqjlgvfaTLcVR1BbGA__O9NdouK8W8GsKMBI/edit",
+   "deadline": "6 Nov 2026",
+   "deadline_iso": "2026-11-06",
+   "dates": "3 months from April 2027",
+   "commitment": "FT",
+   "location_mode": "in-person, Beijing, China"
+  },
+  {
+   "name": "Iliad Intensive: January 2027",
+   "what": "Four-week course on deep learning theory, agent foundations, interpretability and safety guarantees.",
+   "kind": "fellowship",
+   "url": "https://www.iliad.ac/calendar",
+   "deadline": "16 Nov 2026",
+   "deadline_iso": "2026-11-16",
+   "dates": "4 weeks from 4 Jan 2027",
+   "commitment": "FT",
+   "location_mode": "in-person, Berkeley, USA"
+  },
+  {
+   "name": "GovAI UK Summer Fellowship 2027: Research Track",
+   "what": "Fellows research an AI governance topic with a supervisor; seminars and workshops.",
+   "kind": "fellowship",
+   "url": "https://www.governance.ai/post/uk-summer-fellowship-2027-research-track",
+   "deadline": "22 Nov 2026",
+   "deadline_iso": "2026-11-22",
+   "dates": "3 months from 7 Jun 2027",
+   "commitment": "FT",
+   "location_mode": "in-person, London, UK"
+  },
+  {
+   "name": "GovAI DC Summer Fellowship 2027",
+   "what": "Bipartisan programme for careers in American AI governance; research with a supervisor.",
+   "kind": "fellowship",
+   "url": "https://www.governance.ai/post/dc-summer-fellowship-2027",
+   "deadline": "22 Nov 2026",
+   "deadline_iso": "2026-11-22",
+   "dates": "3 months from 7 Jun 2027",
+   "commitment": "FT",
+   "location_mode": "in-person, Washington D.C., USA"
+  },
+  {
+   "name": "Technical AI Governance (TAIG) DPhil Studentships, Oxford AIGI",
+   "what": "DPhil on compute oversight, model evaluation, privacy-preserving transparency and standards; one technical and one policy supervisor.",
+   "kind": "phd",
+   "url": "https://aigi.ox.ac.uk/technical-ai-governance-programme/",
+   "deadline": "2 Dec 2026",
+   "deadline_iso": "2026-12-02",
+   "dates": "Starts October 2027",
+   "commitment": "FT",
+   "location_mode": "in-person, Oxford, UK"
+  },
+  {
+   "name": "Foresight Fellowship: 2028",
+   "what": "One-year programme for early-career scientists advancing AI safety; networking and expert exchange.",
+   "kind": "fellowship",
+   "url": "https://foresight.org/engage/fellowship/",
+   "deadline": "31 Jul 2027",
+   "deadline_iso": "2027-07-31",
+   "dates": "1 year from 2028",
+   "commitment": "PT (hours/week ?)",
+   "location_mode": "?"
+  },
+  {
+   "name": "AI Safety Camp (AISC): 12th edition",
+   "what": "Small teams run concrete AI safety projects with a project lead; technical, governance and theory work.",
+   "kind": "fellowship",
+   "url": "https://www.aisafety.camp/",
+   "deadline": "Applications not yet open",
+   "deadline_iso": "",
+   "dates": "4 months from 9 Jan 2027",
+   "commitment": "PT (hours/week ?)",
+   "location_mode": "remote/online"
+  },
+  {
+   "name": "London AI Safety Research (LASR) Labs: Summer 2027",
+   "what": "Teams of three to four take a technical safety project from proposal to publication.",
+   "kind": "fellowship",
+   "url": "https://www.lasrlabs.org/",
+   "deadline": "Applications not yet open",
+   "deadline_iso": "",
+   "dates": "3 months from June 2027",
+   "commitment": "FT",
+   "location_mode": "in-person, London, UK"
+  }
+ ]
+}
