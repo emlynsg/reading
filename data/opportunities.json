@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03",
+ "updated": "2026-11-04",
  "roundup_urls": [],
  "items": [
   {
@@ -15,6 +15,34 @@
    "location_mode": "in-person, Beijing, China",
    "first_seen": "2026-11-03",
    "last_seen": "2026-11-03"
+  },
+  {
+   "key": "https://aisb.dev/2027/jan/san-francisco/",
+   "name": "AI Security Bootcamp (Jan 2027)",
+   "what": "Seven-day intensive on securing frontier AI systems: red/blue team exercises and threat modelling.",
+   "kind": "fellowship",
+   "url": "https://aisb.dev/2027/jan/san-francisco/",
+   "deadline": "2026-11-07",
+   "deadline_iso": "2026-11-07",
+   "dates": "Jan 2027",
+   "commitment": "FT, 7 days",
+   "location_mode": "in-person, San Francisco Bay Area, USA",
+   "first_seen": "2026-11-04",
+   "last_seen": "2026-11-04"
+  },
+  {
+   "key": "https://www.lesswrong.com/posts/5ihkrtMEJw9u9ZbFg/crucible-iarpa-funded-ai-alignment-research-applications-1",
+   "name": "CRUCIBLE (AE Studio, IARPA-funded)",
+   "what": "Two-week alignment research sprints paired with AE engineers and compute; six researchers selected.",
+   "kind": "fellowship",
+   "url": "https://www.lesswrong.com/posts/5ihkrtMEJw9u9ZbFg/crucible-iarpa-funded-ai-alignment-research-applications-1",
+   "deadline": "2026-11-15 11:59 PM PST",
+   "deadline_iso": "2026-11-15",
+   "dates": "Sprints start 23 Nov 2026, rolling",
+   "commitment": "PT, 2 hrs/week",
+   "location_mode": "remote/online (?)",
+   "first_seen": "2026-11-04",
+   "last_seen": "2026-11-04"
   },
   {
    "key": "https://www.iliad.ac/calendar",
@@ -60,17 +88,31 @@
   },
   {
    "key": "https://www.governance.ai/post/dc-summer-fellowship-2027",
-   "name": "GovAI DC Summer Fellowship 2027",
-   "what": "Bipartisan programme for careers in American AI governance; research with a supervisor.",
+   "name": "GovAI DC Summer Fellowship (2027)",
+   "what": "Three months of independent AI policy research with expert mentorship; $24,500 stipend.",
    "kind": "fellowship",
    "url": "https://www.governance.ai/post/dc-summer-fellowship-2027",
-   "deadline": "22 Nov 2026",
+   "deadline": "2026-11-22",
    "deadline_iso": "2026-11-22",
-   "dates": "3 months from 7 Jun 2027",
+   "dates": "Summer 2027, 3 months",
    "commitment": "FT",
-   "location_mode": "in-person, Washington D.C., USA",
+   "location_mode": "in-person, Washington DC, USA",
    "first_seen": "2026-11-03",
-   "last_seen": "2026-11-03"
+   "last_seen": "2026-11-04"
+  },
+  {
+   "key": "https://job-boards.greenhouse.io/anthropic/jobs/5438311008",
+   "name": "Anthropic Research Resident, US",
+   "what": "Paid residency running scoped empirical projects in alignment, interpretability or security with mentorship.",
+   "kind": "fellowship",
+   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5438311008",
+   "deadline": "2026-11-22",
+   "deadline_iso": "2026-11-22",
+   "dates": "6 weeks to 6 months",
+   "commitment": "FT",
+   "location_mode": "hybrid: remote or in-person, San Francisco/New York, USA",
+   "first_seen": "2026-11-04",
+   "last_seen": "2026-11-04"
   },
   {
    "key": "https://aigi.ox.ac.uk/technical-ai-governance-programme/",
