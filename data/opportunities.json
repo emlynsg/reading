@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05",
+ "updated": "2026-11-06",
  "roundup_urls": [],
  "items": [
   {
@@ -45,6 +45,20 @@
    "last_seen": "2026-11-04"
   },
   {
+   "key": "https://forum.effectivealtruism.org/posts/7uYGs2yEhMpLJddnb/crucible-iarpa-funded-ai-alignment-research-call-for",
+   "name": "CRUCIBLE: IARPA-funded AI alignment research sprints (AE Studio)",
+   "what": "Six researchers get two-week sprints with AE's engineering team, compute and frontier API access. Topics include multi-agent failure modes, hidden coordination and interpretability. $1000 stipend per sprint.",
+   "kind": "fellowship",
+   "url": "https://forum.effectivealtruism.org/posts/7uYGs2yEhMpLJddnb/crucible-iarpa-funded-ai-alignment-research-call-for",
+   "deadline": "15 Nov 2026 11:59 PM PST (rolling selection; apply early)",
+   "deadline_iso": "2026-11-15",
+   "dates": "First sprint starts 23 Nov 2026; notifications by 4 Dec",
+   "commitment": "PT, ~2 hours/week for 2-week sprints",
+   "location_mode": "remote/online",
+   "first_seen": "2026-11-06",
+   "last_seen": "2026-11-06"
+  },
+  {
    "key": "https://www.iliad.ac/calendar",
    "name": "Iliad Intensive: January 2027",
    "what": "Four-week course on deep learning theory, agent foundations, interpretability and safety guarantees.",
@@ -57,6 +71,20 @@
    "location_mode": "in-person, Berkeley, USA",
    "first_seen": "2026-11-03",
    "last_seen": "2026-11-03"
+  },
+  {
+   "key": "https://forum.effectivealtruism.org/posts/rmz7sNB4YALQTeQ4v/application-open-for-clr-fundamentals-program-autumn-2026",
+   "name": "CLR Fundamentals Program: Autumn 2026",
+   "what": "One-month course from the Center on Long-Term Risk on s-risks. Covers model personas, safe Pareto improvements and multiagent AI safety.",
+   "kind": "other",
+   "url": "https://forum.effectivealtruism.org/posts/rmz7sNB4YALQTeQ4v/application-open-for-clr-fundamentals-program-autumn-2026",
+   "deadline": "16 Nov 2026",
+   "deadline_iso": "2026-11-16",
+   "dates": "Starts 20 Nov 2026; 1 month",
+   "commitment": "PT (hours/week ?)",
+   "location_mode": "remote/online",
+   "first_seen": "2026-11-06",
+   "last_seen": "2026-11-06"
   },
   {
    "key": "https://www.lesswrong.com/posts/gbExicZvKtHBboLR6/applications-open-winter-2027-affine-alignment-seminar-due",
@@ -211,6 +239,20 @@
    "location_mode": "in-person, London, UK",
    "first_seen": "2026-11-03",
    "last_seen": "2026-11-03"
+  },
+  {
+   "key": "https://prism-research.org/",
+   "name": "PRISM AI Safety Research Fellowship: 2027 (W2D2)",
+   "what": "Mentor-guided teams of 4-5 take a research question to a paper submission. Technical and governance projects; ends with a poster showcase.",
+   "kind": "fellowship",
+   "url": "https://prism-research.org/",
+   "deadline": "Applications not yet open",
+   "deadline_iso": "",
+   "dates": "Starts 31 Jan 2027; 4 months",
+   "commitment": "PT (hours/week ?)",
+   "location_mode": "remote/online",
+   "first_seen": "2026-11-06",
+   "last_seen": "2026-11-06"
   }
  ]
 }

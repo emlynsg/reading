@@ -1,0 +1,173 @@
+{
+ "schema_version": 2,
+ "date": "2026-11-06",
+ "generated_at": "2026-11-06T05:39:57.335509+00:00",
+ "disclaimer": "Compiled automatically by an AI and not human-reviewed - descriptions may contain errors or hallucinations. Always check the linked source before relying on anything here.",
+ "entries": [
+  {
+   "tag": "Frontier",
+   "title": "METR: independent assessment of AI R&D acceleration at Anthropic",
+   "summary": "METR ran a high-access evaluation at Anthropic, 12 Aug to 29 Oct 2026. It reviewed internal data on training compute, benchmarks and AI speedups. It tests whether AI accelerates AI R&D.",
+   "analysis": "Rare third-party verification of a lab's RSP-relevant claim.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong post (Stein-Perlman)",
+     "url": "https://www.lesswrong.com/posts/N5AmYkRks5CqAxvBg/metr-independent-assessment-of-ai-r-and-d-acceleration-at"
+    }
+   ]
+  },
+  {
+   "tag": "Frontier",
+   "title": "Zvi's AI #193: Anthropic S-1 warns it may imminently meet RSP acceleration threshold",
+   "summary": "Anthropic's modified S-1 says it may imminently meet the RSP definition of 'dramatically accelerated progress attributable to AI'. Zvi also covers the SURA debate and the OpenAI Model Spec update.",
+   "analysis": "Pairs with the METR assessment above.",
+   "date": "",
+   "links": [
+    {
+     "title": "Zvi on LessWrong",
+     "url": "https://www.lesswrong.com/posts/NrQGzNcicMThuGEEM/ai-193-progress-may-dramatically-accelerate"
+    }
+   ]
+  },
+  {
+   "tag": "Deep",
+   "title": "Enforcing Accountable Disclosure in Confidential AI (CORDE)",
+   "summary": "CORDE is a system for confidential VMs. It confines user-derived data by default. Data leaves only after being 'declared': exact contents, recipient and reason go to a user-accessible record. It targets agents and provider safety monitoring.",
+   "analysis": "Confidential-compute audit logging; relevant to verification tooling.",
+   "date": "",
+   "links": [
+    {
+     "title": "arXiv paper",
+     "url": "https://arxiv.org/abs/2611.05971"
+    }
+   ]
+  },
+  {
+   "tag": "Technical",
+   "title": "Suppressing Misaligned Behaviors in Language Models, Durably",
+   "summary": "The paper builds two model organisms: a narrow-trigger one that cheats by following a planted wrong hint, and a broad-trigger one fine-tuned on insecure code. It then formalizes post-hoc suppression and tests how durable it is.",
+   "analysis": "Useful testbeds; the durability results need a full read.",
+   "date": "",
+   "links": [
+    {
+     "title": "arXiv paper",
+     "url": "https://arxiv.org/abs/2611.05358"
+    }
+   ]
+  },
+  {
+   "tag": "Technical",
+   "title": "Write Facts the Way Models Read Them: Lifting the Two-Hop Curse",
+   "summary": "The paper argues the two-hop failure is a writing problem, not a reasoning deficit. Fine-tuning stores a new fact as an answer to say. The second hop reads the bridge entity from middle layers. Patching that entity representation in helps.",
+   "analysis": "Concrete interpretability result with a causal patching test.",
+   "date": "",
+   "links": [
+    {
+     "title": "arXiv paper",
+     "url": "https://arxiv.org/abs/2611.01519"
+    }
+   ]
+  },
+  {
+   "tag": "Technical",
+   "title": "An Axiomatic Framework for RL in Open Multi-Agent Systems",
+   "summary": "The paper derives value-function learning for n-agent ad hoc teamwork from the Shapley axioms: efficiency, symmetry and linearity. It treats the axioms as structural constraints. It uses a new decomposition of open versus fully controllable systems.",
+   "analysis": "Matches your top interest: theory for multi-agent settings.",
+   "date": "",
+   "links": [
+    {
+     "title": "arXiv paper",
+     "url": "https://arxiv.org/abs/2611.03301"
+    }
+   ]
+  },
+  {
+   "tag": "Technical",
+   "title": "Efficient Lempel-Ziv Prediction with the Run-Length BWT",
+   "summary": "A PIBBSS 2026 project under Vanessa Kosoy. It cuts the runtime of Kosoy's polynomial-time algorithm for predicting repetitive sequences. The post explains the ideas informally.",
+   "analysis": "Agent-foundations adjacent; learning-theory flavour.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong post",
+     "url": "https://www.lesswrong.com/posts/voe2dDnuopYn6DC3N/efficient-lempel-ziv-prediction-with-the-run-length-bwt"
+    }
+   ]
+  },
+  {
+   "tag": "Technical",
+   "title": "People Should Resolve Tensions In AI Safety Research",
+   "summary": "The post argues for short writeups that compile evidence from papers, especially contradictory evidence, and reconcile it into an answer. It says papers are an arbitrary unit and output will outgrow readers.",
+   "analysis": "Meta-perspective; useful for your reading workflow.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong post (David Africa)",
+     "url": "https://www.lesswrong.com/posts/tn4WSyrqr7ozGLjRy/people-should-resolve-tensions-in-ai-safety-research"
+    }
+   ]
+  },
+  {
+   "tag": "Policy",
+   "title": "Why would an AI pause (noticeably) hurt the economy?",
+   "summary": "Raemon challenges the claim that AI policy must avoid hurting the economy. He asks why a pause would hurt much, citing the 2007-2009 recession.",
+   "analysis": "Short discussion piece on a live pause-policy argument.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong post",
+     "url": "https://www.lesswrong.com/posts/aXA73PnhdJXPb4SWn/why-would-an-ai-pause-noticeably-hurt-the-economy"
+    }
+   ]
+  },
+  {
+   "tag": "Deep",
+   "title": "Verified but Vacuous: Three Failure Surfaces of LLM-Driven Verified Code Generation",
+   "summary": "The paper argues one 'verified' number hides three properties: verifier acceptance, proof-to-spec binding, and spec fidelity. It shows the first two separate, using a Dafny pipeline reproduction under Claude Opus 4.7 on three Python benchmarks.",
+   "analysis": "Verification-semantics caution; transferable to treaty verification.",
+   "date": "",
+   "links": [
+    {
+     "title": "arXiv paper",
+     "url": "https://arxiv.org/abs/2611.05590"
+    }
+   ]
+  }
+ ],
+ "opportunities": [
+  {
+   "name": "CRUCIBLE: IARPA-funded AI alignment research sprints (AE Studio)",
+   "what": "Six researchers get two-week sprints with AE's engineering team, compute and frontier API access. Topics include multi-agent failure modes, hidden coordination and interpretability. $1000 stipend per sprint.",
+   "kind": "fellowship",
+   "url": "https://forum.effectivealtruism.org/posts/7uYGs2yEhMpLJddnb/crucible-iarpa-funded-ai-alignment-research-call-for",
+   "deadline": "15 Nov 2026 11:59 PM PST (rolling selection; apply early)",
+   "deadline_iso": "2026-11-15",
+   "dates": "First sprint starts 23 Nov 2026; notifications by 4 Dec",
+   "commitment": "PT, ~2 hours/week for 2-week sprints",
+   "location_mode": "remote/online"
+  },
+  {
+   "name": "CLR Fundamentals Program: Autumn 2026",
+   "what": "One-month course from the Center on Long-Term Risk on s-risks. Covers model personas, safe Pareto improvements and multiagent AI safety.",
+   "kind": "other",
+   "url": "https://forum.effectivealtruism.org/posts/rmz7sNB4YALQTeQ4v/application-open-for-clr-fundamentals-program-autumn-2026",
+   "deadline": "16 Nov 2026",
+   "deadline_iso": "2026-11-16",
+   "dates": "Starts 20 Nov 2026; 1 month",
+   "commitment": "PT (hours/week ?)",
+   "location_mode": "remote/online"
+  },
+  {
+   "name": "PRISM AI Safety Research Fellowship: 2027 (W2D2)",
+   "what": "Mentor-guided teams of 4-5 take a research question to a paper submission. Technical and governance projects; ends with a poster showcase.",
+   "kind": "fellowship",
+   "url": "https://prism-research.org/",
+   "deadline": "Applications not yet open",
+   "deadline_iso": "",
+   "dates": "Starts 31 Jan 2027; 4 months",
+   "commitment": "PT (hours/week ?)",
+   "location_mode": "remote/online"
+  }
+ ]
+}
