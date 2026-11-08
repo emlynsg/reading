@@ -1,35 +1,7 @@
 {
- "updated": "2026-11-06",
+ "updated": "2026-11-08",
  "roundup_urls": [],
  "items": [
-  {
-   "key": "https://docs.google.com/document/d/1yvb0-rGPqjlgvfaTLcVR1BbGA__O9NdouK8W8GsKMBI/edit",
-   "name": "Beijing AI Safety Residency: Spring 2027 (Tsinghua BASH)",
-   "what": "Residents bring their own agenda on alignment, evals, scalable oversight or control and work with counterparts in China.",
-   "kind": "fellowship",
-   "url": "https://docs.google.com/document/d/1yvb0-rGPqjlgvfaTLcVR1BbGA__O9NdouK8W8GsKMBI/edit",
-   "deadline": "6 Nov 2026",
-   "deadline_iso": "2026-11-06",
-   "dates": "3 months from April 2027",
-   "commitment": "FT",
-   "location_mode": "in-person, Beijing, China",
-   "first_seen": "2026-11-03",
-   "last_seen": "2026-11-03"
-  },
-  {
-   "key": "https://aisb.dev/2027/jan/san-francisco/",
-   "name": "AI Security Bootcamp (Jan 2027)",
-   "what": "Seven-day intensive on securing frontier AI systems: red/blue team exercises and threat modelling.",
-   "kind": "fellowship",
-   "url": "https://aisb.dev/2027/jan/san-francisco/",
-   "deadline": "2026-11-07",
-   "deadline_iso": "2026-11-07",
-   "dates": "Jan 2027",
-   "commitment": "FT, 7 days",
-   "location_mode": "in-person, San Francisco Bay Area, USA",
-   "first_seen": "2026-11-04",
-   "last_seen": "2026-11-04"
-  },
   {
    "key": "https://www.lesswrong.com/posts/5ihkrtMEJw9u9ZbFg/crucible-iarpa-funded-ai-alignment-research-applications-1",
    "name": "CRUCIBLE (AE Studio, IARPA-funded)",
@@ -85,6 +57,34 @@
    "location_mode": "remote/online",
    "first_seen": "2026-11-06",
    "last_seen": "2026-11-06"
+  },
+  {
+   "key": "https://longtermrisk.org/programs/fundamentals-program/",
+   "name": "Center on Long-Term Risk Fundamentals Program",
+   "what": "Five-week online course on s-risks from AI, including multiagent AI safety and safe Pareto improvements.",
+   "kind": "fellowship",
+   "url": "https://longtermrisk.org/programs/fundamentals-program/",
+   "deadline": "2026-11-16",
+   "deadline_iso": "2026-11-16",
+   "dates": "5 weeks, start ?",
+   "commitment": "PT, 5 hrs/week",
+   "location_mode": "remote/online",
+   "first_seen": "2026-11-08",
+   "last_seen": "2026-11-08"
+  },
+  {
+   "key": "https://princint.ai/research-scientists-at-principles-of-intelligence/",
+   "name": "Research Scientist (Principles of Intelligence)",
+   "what": "Physics-inspired mechanistic interpretability research on data structure and learned features.",
+   "kind": "job",
+   "url": "https://princint.ai/research-scientists-at-principles-of-intelligence/",
+   "deadline": "2026-11-20",
+   "deadline_iso": "2026-11-20",
+   "dates": "?",
+   "commitment": "FT",
+   "location_mode": "remote option (also London UK, SF Bay Area)",
+   "first_seen": "2026-11-08",
+   "last_seen": "2026-11-08"
   },
   {
    "key": "https://www.lesswrong.com/posts/gbExicZvKtHBboLR6/applications-open-winter-2027-affine-alignment-seminar-due",
@@ -155,6 +155,34 @@
    "location_mode": "in-person, Oxford, UK",
    "first_seen": "2026-11-03",
    "last_seen": "2026-11-03"
+  },
+  {
+   "key": "https://www.talosnetwork.org/talos-fellowship",
+   "name": "Talos Fellowship",
+   "what": "Eight-week online AI policy programme, policy brief, Brussels summit and placement.",
+   "kind": "fellowship",
+   "url": "https://www.talosnetwork.org/talos-fellowship",
+   "deadline": "2026-12-06",
+   "deadline_iso": "2026-12-06",
+   "dates": "?",
+   "commitment": "PT, hours/week ?",
+   "location_mode": "remote/online, with 7-day Brussels summit",
+   "first_seen": "2026-11-08",
+   "last_seen": "2026-11-08"
+  },
+  {
+   "key": "https://www.talosnetwork.org/policy-leaders-programme",
+   "name": "AI Policy Leaders Programme (Talos Network)",
+   "what": "Ten-week virtual bootcamp, Brussels summit, then a 12-month paid placement at an AI organisation.",
+   "kind": "fellowship",
+   "url": "https://www.talosnetwork.org/policy-leaders-programme",
+   "deadline": "2026-12-06",
+   "deadline_iso": "2026-12-06",
+   "dates": "12-month placement, start ?",
+   "commitment": "FT",
+   "location_mode": "in-person, Brussels, Belgium (virtual bootcamp first)",
+   "first_seen": "2026-11-08",
+   "last_seen": "2026-11-08"
   },
   {
    "key": "https://foresight.org/engage/fellowship/",
