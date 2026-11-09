@@ -1,0 +1,61 @@
+{
+ "schema_version": 2,
+ "date": "2026-11-09",
+ "generated_at": "2026-11-09T05:40:19.528939+00:00",
+ "disclaimer": "Compiled automatically by an AI and not human-reviewed - descriptions may contain errors or hallucinations. Always check the linked source before relying on anything here.",
+ "entries": [
+  {
+   "tag": "Frontier",
+   "title": "Ajeya: AI is dramatically accelerating AI research right now",
+   "summary": "Anthropic's S1 says it \"may imminently meet\" its RSP threshold for dramatically accelerated progress. The threshold means capabilities progress at twice the fastest pre-AI sustained rate, plausibly due to AI automating AI R&D. METR staff are running a deep-access investigation.",
+   "analysis": "Live RSP trigger; matters for verification and thresholds.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong post",
+     "url": "https://www.lesswrong.com/posts/8tL9f5HZxsTvn2LHp/ajeya-ai-is-dramatically-accelerating-ai-research-right-now"
+    }
+   ]
+  },
+  {
+   "tag": "Deep",
+   "title": "Closing in on Mythos 5",
+   "summary": "Kimi-K3.1 trails Mythos 5 by only a few points on a key cybersecurity benchmark, per AI Under Heaven.",
+   "analysis": "Gauges the US-China capability gap in cyber.",
+   "date": "",
+   "links": [
+    {
+     "title": "AI Under Heaven piece",
+     "url": "https://aiunderheaven.substack.com/p/closing-in-on-mythos-5"
+    }
+   ]
+  },
+  {
+   "tag": "Deep",
+   "title": "Why the Cyberpocalypse Might Hit China Harder",
+   "summary": "In August, researchers used an OpenAI model to find a bug in PHP, which underlies about 70% of websites. ChinaTalk argues AI-found vulnerabilities may hurt China more.",
+   "analysis": "China-specific cyber risk angle; preview is thin.",
+   "date": "",
+   "links": [
+    {
+     "title": "ChinaTalk piece",
+     "url": "https://www.chinatalk.media/p/china-in-the-cyberpocalypse"
+    }
+   ]
+  },
+  {
+   "tag": "Technical",
+   "title": "Three half-baked research ideas",
+   "summary": "Owain Evans proposes three unexplored directions. One asks whether models learn to reward hack even when training never rewards hacking, as labs remove impossible RL environments.",
+   "analysis": "Untested ideas, but a useful empirical-safety prompt.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong post",
+     "url": "https://www.lesswrong.com/posts/vAniKbagqhyzpha6r/three-half-baked-research-ideas"
+    }
+   ]
+  }
+ ],
+ "opportunities": []
+}
