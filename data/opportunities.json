@@ -1,7 +1,21 @@
 {
- "updated": "2026-11-10",
+ "updated": "2026-11-11",
  "roundup_urls": [],
  "items": [
+  {
+   "key": "https://oaisi.org/arbox/",
+   "name": "ARBOx5 (Alignment Research Bootcamp Oxford)",
+   "what": "12-day bootcamp adapted from ARENA: ML fundamentals, GPT-2 small, mech interp, RL, evals, capstone. Expenses covered.",
+   "kind": "fellowship",
+   "url": "https://oaisi.org/arbox/",
+   "deadline": "14 Nov 2026",
+   "deadline_iso": "2026-11-14",
+   "dates": "Starts 4 Jan 2027, 12 days",
+   "commitment": "FT, 12 days",
+   "location_mode": "in-person, Oxford, UK",
+   "first_seen": "2026-11-11",
+   "last_seen": "2026-11-11"
+  },
   {
    "key": "https://www.lesswrong.com/posts/5ihkrtMEJw9u9ZbFg/crucible-iarpa-funded-ai-alignment-research-applications-1",
    "name": "CRUCIBLE (AE Studio, IARPA-funded)",
@@ -141,6 +155,20 @@
    "location_mode": "hybrid: remote or in-person, San Francisco/New York, USA",
    "first_seen": "2026-11-04",
    "last_seen": "2026-11-04"
+  },
+  {
+   "key": "https://www.averi.org/careers?ashby_jid=b0556dec-dfe9-459e-b25b-0e3bc45061ab",
+   "name": "Audit Manager (AI Verification and Evaluation Research Institute)",
+   "what": "Lead third-party audits of frontier AI systems: scoping, fieldwork, evidence review, reporting.",
+   "kind": "job",
+   "url": "https://www.averi.org/careers?ashby_jid=b0556dec-dfe9-459e-b25b-0e3bc45061ab",
+   "deadline": "2026-11-30",
+   "deadline_iso": "2026-11-30",
+   "dates": "?",
+   "commitment": "FT",
+   "location_mode": "remote (Canada/USA)",
+   "first_seen": "2026-11-11",
+   "last_seen": "2026-11-11"
   },
   {
    "key": "https://aigi.ox.ac.uk/technical-ai-governance-programme/",
