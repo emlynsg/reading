@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11",
+ "updated": "2026-11-12",
  "roundup_urls": [],
  "items": [
   {
@@ -43,6 +43,20 @@
    "location_mode": "remote/online",
    "first_seen": "2026-11-06",
    "last_seen": "2026-11-06"
+  },
+  {
+   "key": "https://ae.studio/iarpa-crucible",
+   "name": "Crucible Program (AE Studio)",
+   "what": "Propose an AI alignment hypothesis and test it with an engineering team in two-week sprints. IARPA recommendation at the end.",
+   "kind": "fellowship",
+   "url": "https://ae.studio/iarpa-crucible",
+   "deadline": "2026-11-15",
+   "deadline_iso": "2026-11-15",
+   "dates": "?",
+   "commitment": "PT, about 2 hrs/week of input per sprint",
+   "location_mode": "remote/online",
+   "first_seen": "2026-11-12",
+   "last_seen": "2026-11-12"
   },
   {
    "key": "https://www.iliad.ac/calendar",
@@ -309,6 +323,48 @@
    "location_mode": "remote/online",
    "first_seen": "2026-11-06",
    "last_seen": "2026-11-06"
+  },
+  {
+   "key": "https://jobs.lever.co/epoch-ai/bd6856b7-c6bb-4793-acfa-9870671959ee",
+   "name": "Software Engineer, Benchmarking (Epoch AI)",
+   "what": "Build and maintain benchmarking infrastructure for frontier model evaluation.",
+   "kind": "job",
+   "url": "https://jobs.lever.co/epoch-ai/bd6856b7-c6bb-4793-acfa-9870671959ee",
+   "deadline": "?",
+   "deadline_iso": "",
+   "dates": "?",
+   "commitment": "FT",
+   "location_mode": "remote/online",
+   "first_seen": "2026-11-12",
+   "last_seen": "2026-11-12"
+  },
+  {
+   "key": "https://sequent.inc/hiring/research-engineer/",
+   "name": "Research Engineer, Autonomous Verification (Sequent)",
+   "what": "Build AI plus proof-checker verification technology and benchmarks for frontier model reasoning on verification tasks.",
+   "kind": "job",
+   "url": "https://sequent.inc/hiring/research-engineer/",
+   "deadline": "?",
+   "deadline_iso": "",
+   "dates": "?",
+   "commitment": "FT",
+   "location_mode": "remote/online",
+   "first_seen": "2026-11-12",
+   "last_seen": "2026-11-12"
+  },
+  {
+   "key": "https://jobs.ashbyhq.com/aiuc/2816bb05-2a1f-4600-8780-deb152ac11ad",
+   "name": "Member of Technical Staff (Artificial Intelligence Underwriting Company)",
+   "what": "Lead red-teaming of AI agents and build the evaluation engine for customer assessments.",
+   "kind": "job",
+   "url": "https://jobs.ashbyhq.com/aiuc/2816bb05-2a1f-4600-8780-deb152ac11ad",
+   "deadline": "?",
+   "deadline_iso": "",
+   "dates": "?",
+   "commitment": "FT",
+   "location_mode": "in-person, San Francisco Bay Area, USA (E-3 route)",
+   "first_seen": "2026-11-12",
+   "last_seen": "2026-11-12"
   }
  ]
 }
