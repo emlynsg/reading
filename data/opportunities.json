@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12",
+ "updated": "2026-11-13",
  "roundup_urls": [],
  "items": [
   {
@@ -101,6 +101,20 @@
    "last_seen": "2026-11-08"
   },
   {
+   "key": "https://aisafetyuci.org/research",
+   "name": "AI Safety Collective at Irvine (AISCI) Research Projects",
+   "what": "Teams of 1-3 do mentored technical safety projects: agent monitoring, eval awareness, jailbreak defenses. Ends with a blog post.",
+   "kind": "fellowship",
+   "url": "https://aisafetyuci.org/research",
+   "deadline": "17 Nov 2026",
+   "deadline_iso": "2026-11-17",
+   "dates": "3 weeks from 20 Nov 2026",
+   "commitment": "PT (hours/week ?)",
+   "location_mode": "remote/online (also Irvine, USA)",
+   "first_seen": "2026-11-13",
+   "last_seen": "2026-11-13"
+  },
+  {
    "key": "https://princint.ai/research-scientists-at-principles-of-intelligence/",
    "name": "Research Scientist (Principles of Intelligence)",
    "what": "Physics-inspired mechanistic interpretability research on data structure and learned features.",
@@ -200,17 +214,17 @@
   },
   {
    "key": "https://www.talosnetwork.org/talos-fellowship",
-   "name": "Talos Fellowship",
-   "what": "Eight-week online AI policy programme, policy brief, Brussels summit and placement.",
+   "name": "Talos Fellowship: Spring 2027",
+   "what": "Seminar, 1-1s, published policy piece, summit and optional placement for early-career European AI governance.",
    "kind": "fellowship",
    "url": "https://www.talosnetwork.org/talos-fellowship",
-   "deadline": "2026-12-06",
+   "deadline": "6 Dec 2026",
    "deadline_iso": "2026-12-06",
-   "dates": "?",
-   "commitment": "PT, hours/week ?",
-   "location_mode": "remote/online, with 7-day Brussels summit",
+   "dates": "7 weeks from 24 Feb 2027",
+   "commitment": "PT (hours/week ?)",
+   "location_mode": "hybrid (online and Brussels, Belgium)",
    "first_seen": "2026-11-08",
-   "last_seen": "2026-11-08"
+   "last_seen": "2026-11-13"
   },
   {
    "key": "https://www.talosnetwork.org/policy-leaders-programme",
@@ -225,6 +239,20 @@
    "location_mode": "in-person, Brussels, Belgium (virtual bootcamp first)",
    "first_seen": "2026-11-08",
    "last_seen": "2026-11-08"
+  },
+  {
+   "key": "https://ai-evaluation.org/",
+   "name": "AI Evaluation Programme: 2027",
+   "what": "Course on adversarial evals and red teaming, mechanistic interpretability, misuse and extreme risk, with a team capstone.",
+   "kind": "other",
+   "url": "https://ai-evaluation.org/",
+   "deadline": "11 Dec 2026",
+   "deadline_iso": "2026-12-11",
+   "dates": "5 months from 1 Feb 2027",
+   "commitment": "PT (hours/week ?)",
+   "location_mode": "remote/online",
+   "first_seen": "2026-11-13",
+   "last_seen": "2026-11-13"
   },
   {
    "key": "https://foresight.org/engage/fellowship/",
@@ -365,6 +393,20 @@
    "location_mode": "in-person, San Francisco Bay Area, USA (E-3 route)",
    "first_seen": "2026-11-12",
    "last_seen": "2026-11-12"
+  },
+  {
+   "key": "https://www.cnas.org/careers/fellow-senior-fellow-2",
+   "name": "Fellow / Senior Fellow, Technology and National Security Program (CNAS)",
+   "what": "Lead research on monitoring, allocating and controlling compute for US national security, including on-chip governance.",
+   "kind": "job",
+   "url": "https://www.cnas.org/careers/fellow-senior-fellow-2",
+   "deadline": "?",
+   "deadline_iso": "",
+   "dates": "?",
+   "commitment": "FT",
+   "location_mode": "in-person (Washington DC, USA)",
+   "first_seen": "2026-11-13",
+   "last_seen": "2026-11-13"
   }
  ]
 }
