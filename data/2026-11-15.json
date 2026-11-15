@@ -1,0 +1,48 @@
+{
+ "schema_version": 2,
+ "date": "2026-11-15",
+ "generated_at": "2026-11-15T05:40:16.893858+00:00",
+ "disclaimer": "Compiled automatically by an AI and not human-reviewed - descriptions may contain errors or hallucinations. Always check the linked source before relying on anything here.",
+ "entries": [
+  {
+   "tag": "Technical",
+   "title": "Yudkowsky and Irving debate scalable oversight (transcript)",
+   "summary": "The two debate how hard superalignment is. They discuss the theory of impact of Irving's new organization, Resolution. They then go deep on scalable oversight. A human-edited transcript of the August 2026 ILIAD III debate.",
+   "analysis": "Direct clash on scalable oversight and debate, one of my ranked interests.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong transcript",
+     "url": "https://www.lesswrong.com/posts/Cssj22TretAQQajZ4/transcript-yudkowsky-and-irving-debate-scalable-oversight"
+    }
+   ]
+  },
+  {
+   "tag": "Technical",
+   "title": "Datasets Determine the Difficulty of Interpretability",
+   "summary": "The post answers Goodfire's claim that transformer neurons are already interpretable. Goodfire reports that pruning 92% of weak MoE neuron activations raises loss only 2.9%. The post argues the dataset sets how hard interpretation is.",
+   "analysis": "Useful pushback on a live mech-interp claim; the preview is partial.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong post",
+     "url": "https://www.lesswrong.com/posts/EMKRpxKswPZEbP8ey/datasets-determine-the-difficulty-of-interpretability"
+    }
+   ]
+  },
+  {
+   "tag": "Technical",
+   "title": "RL Reward-Hack Auditing for Chinese AI Safety",
+   "summary": "The authors say China lacks AI safety talent and resources during lab training. They plan to audit reward hacks in RL environments sold by data vendors. In Xiaomi's open-sourced MiMo v2.6 environments, 2 of 3 leaked through Git logs.",
+   "analysis": "Concrete China safety-ecosystem project; a plan, not a result.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong post",
+     "url": "https://www.lesswrong.com/posts/jwCPQhLWbWnwMhHME/rl-reward-hack-auditing-for-chinese-ai-safety"
+    }
+   ]
+  }
+ ],
+ "opportunities": []
+}

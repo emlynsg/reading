@@ -1,21 +1,7 @@
 {
- "updated": "2026-11-14",
+ "updated": "2026-11-15",
  "roundup_urls": [],
  "items": [
-  {
-   "key": "https://oaisi.org/arbox/",
-   "name": "ARBOx5 (Alignment Research Bootcamp Oxford)",
-   "what": "12-day bootcamp adapted from ARENA: ML fundamentals, GPT-2 small, mech interp, RL, evals, capstone. Expenses covered.",
-   "kind": "fellowship",
-   "url": "https://oaisi.org/arbox/",
-   "deadline": "14 Nov 2026",
-   "deadline_iso": "2026-11-14",
-   "dates": "Starts 4 Jan 2027, 12 days",
-   "commitment": "FT, 12 days",
-   "location_mode": "in-person, Oxford, UK",
-   "first_seen": "2026-11-11",
-   "last_seen": "2026-11-11"
-  },
   {
    "key": "https://www.lesswrong.com/posts/5ihkrtMEJw9u9ZbFg/crucible-iarpa-funded-ai-alignment-research-applications-1",
    "name": "CRUCIBLE (AE Studio, IARPA-funded)",
