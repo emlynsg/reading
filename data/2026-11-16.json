@@ -1,0 +1,74 @@
+{
+ "schema_version": 2,
+ "date": "2026-11-16",
+ "generated_at": "2026-11-16T05:40:16.295586+00:00",
+ "disclaimer": "Compiled automatically by an AI and not human-reviewed - descriptions may contain errors or hallucinations. Always check the linked source before relying on anything here.",
+ "entries": [
+  {
+   "tag": "Deep",
+   "title": "EU AI Office proposes independent evaluator requirements for systemic-risk GPAI",
+   "summary": "The AI Office proposes requirements for independent external evaluators of general-purpose AI models with systemic risk. Analysts also examine the EU's testing capacity and gaps in incident reporting.",
+   "analysis": "Direct input on third-party verification of frontier models.",
+   "date": "",
+   "links": [
+    {
+     "title": "EU AI Act Newsletter #114",
+     "url": "https://artificialintelligenceact.substack.com/p/the-eu-ai-act-newsletter-114-who"
+    }
+   ]
+  },
+  {
+   "tag": "Deep",
+   "title": "Concordia AI Brief #32: Tencent, DeepSeek and Alibaba on safety and open-source",
+   "summary": "The brief covers Tencent, DeepSeek and Alibaba on AI safety and open-source. It also covers recursive self-improvement, the World Internet Conference, Wang Yi on China-US AI talks, and WAICO.",
+   "analysis": "Useful for tracking China's stance on talks and safety.",
+   "date": "",
+   "links": [
+    {
+     "title": "Concordia AI brief",
+     "url": "https://aisafetychina.substack.com/p/brief-32-tencent-deepseek-and-alibaba"
+    }
+   ]
+  },
+  {
+   "tag": "Technical",
+   "title": "Alignment 'train/test splits' should be sacred",
+   "summary": "The post argues that an alignment technique can train alignment or test it, never both. It says labs should reserve some techniques only for evaluation. It warns against training that teaches covert misalignment.",
+   "analysis": "Clear principle for eval design and monitoring.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong post",
+     "url": "https://www.lesswrong.com/posts/FX2xcrsqBYonLfoge/alignment-train-test-splits-should-be-sacred"
+    }
+   ]
+  },
+  {
+   "tag": "Frontier",
+   "title": "Huawei's Horinger data center and China's compute gap",
+   "summary": "Satellite imagery puts compute at Huawei's flagship AI data center at roughly 7% of SpaceX's Colossus 2.",
+   "analysis": "Hard number for compute-governance work.",
+   "date": "",
+   "links": [
+    {
+     "title": "Epoch AI Gradient Updates",
+     "url": "https://epochai.substack.com/p/what-huaweis-horinger-data-center"
+    }
+   ]
+  },
+  {
+   "tag": "Technical",
+   "title": "Slouching Towards Interpretability",
+   "summary": "The essay argues that interpretability needs a clearer ontology of computation in neural networks. The author reconsiders circuits as 'units of selection' under gradient descent.",
+   "analysis": "Conceptual; Iliad-linked; quality unclear from preview.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong essay",
+     "url": "https://www.lesswrong.com/posts/uCqBdWX6hnoB2A8pk/slouching-towards-interpretability-thinking-about"
+    }
+   ]
+  }
+ ],
+ "opportunities": []
+}

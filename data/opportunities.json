@@ -1,49 +1,7 @@
 {
- "updated": "2026-11-15",
+ "updated": "2026-11-16",
  "roundup_urls": [],
  "items": [
-  {
-   "key": "https://www.lesswrong.com/posts/5ihkrtMEJw9u9ZbFg/crucible-iarpa-funded-ai-alignment-research-applications-1",
-   "name": "CRUCIBLE (AE Studio, IARPA-funded)",
-   "what": "Two-week alignment research sprints paired with AE engineers and compute; six researchers selected.",
-   "kind": "fellowship",
-   "url": "https://www.lesswrong.com/posts/5ihkrtMEJw9u9ZbFg/crucible-iarpa-funded-ai-alignment-research-applications-1",
-   "deadline": "2026-11-15 11:59 PM PST",
-   "deadline_iso": "2026-11-15",
-   "dates": "Sprints start 23 Nov 2026, rolling",
-   "commitment": "PT, 2 hrs/week",
-   "location_mode": "remote/online (?)",
-   "first_seen": "2026-11-04",
-   "last_seen": "2026-11-04"
-  },
-  {
-   "key": "https://forum.effectivealtruism.org/posts/7uYGs2yEhMpLJddnb/crucible-iarpa-funded-ai-alignment-research-call-for",
-   "name": "CRUCIBLE: IARPA-funded AI alignment research sprints (AE Studio)",
-   "what": "Six researchers get two-week sprints with AE's engineering team, compute and frontier API access. Topics include multi-agent failure modes, hidden coordination and interpretability. $1000 stipend per sprint.",
-   "kind": "fellowship",
-   "url": "https://forum.effectivealtruism.org/posts/7uYGs2yEhMpLJddnb/crucible-iarpa-funded-ai-alignment-research-call-for",
-   "deadline": "15 Nov 2026 11:59 PM PST (rolling selection; apply early)",
-   "deadline_iso": "2026-11-15",
-   "dates": "First sprint starts 23 Nov 2026; notifications by 4 Dec",
-   "commitment": "PT, ~2 hours/week for 2-week sprints",
-   "location_mode": "remote/online",
-   "first_seen": "2026-11-06",
-   "last_seen": "2026-11-06"
-  },
-  {
-   "key": "https://ae.studio/iarpa-crucible",
-   "name": "Crucible Program (AE Studio)",
-   "what": "Propose an AI alignment hypothesis and test it with an engineering team in two-week sprints. IARPA recommendation at the end.",
-   "kind": "fellowship",
-   "url": "https://ae.studio/iarpa-crucible",
-   "deadline": "2026-11-15",
-   "deadline_iso": "2026-11-15",
-   "dates": "?",
-   "commitment": "PT, about 2 hrs/week of input per sprint",
-   "location_mode": "remote/online",
-   "first_seen": "2026-11-12",
-   "last_seen": "2026-11-12"
-  },
   {
    "key": "https://www.iliad.ac/calendar",
    "name": "Iliad Intensive: January 2027",
