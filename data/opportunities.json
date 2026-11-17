@@ -1,49 +1,7 @@
 {
- "updated": "2026-11-16",
+ "updated": "2026-11-17",
  "roundup_urls": [],
  "items": [
-  {
-   "key": "https://www.iliad.ac/calendar",
-   "name": "Iliad Intensive: January 2027",
-   "what": "Four-week course on deep learning theory, agent foundations, interpretability and safety guarantees.",
-   "kind": "fellowship",
-   "url": "https://www.iliad.ac/calendar",
-   "deadline": "16 Nov 2026",
-   "deadline_iso": "2026-11-16",
-   "dates": "4 weeks from 4 Jan 2027",
-   "commitment": "FT",
-   "location_mode": "in-person, Berkeley, USA",
-   "first_seen": "2026-11-03",
-   "last_seen": "2026-11-03"
-  },
-  {
-   "key": "https://forum.effectivealtruism.org/posts/rmz7sNB4YALQTeQ4v/application-open-for-clr-fundamentals-program-autumn-2026",
-   "name": "CLR Fundamentals Program: Autumn 2026",
-   "what": "One-month course from the Center on Long-Term Risk on s-risks. Covers model personas, safe Pareto improvements and multiagent AI safety.",
-   "kind": "other",
-   "url": "https://forum.effectivealtruism.org/posts/rmz7sNB4YALQTeQ4v/application-open-for-clr-fundamentals-program-autumn-2026",
-   "deadline": "16 Nov 2026",
-   "deadline_iso": "2026-11-16",
-   "dates": "Starts 20 Nov 2026; 1 month",
-   "commitment": "PT (hours/week ?)",
-   "location_mode": "remote/online",
-   "first_seen": "2026-11-06",
-   "last_seen": "2026-11-06"
-  },
-  {
-   "key": "https://longtermrisk.org/programs/fundamentals-program/",
-   "name": "Center on Long-Term Risk Fundamentals Program",
-   "what": "Five-week online course on s-risks from AI, including multiagent AI safety and safe Pareto improvements.",
-   "kind": "fellowship",
-   "url": "https://longtermrisk.org/programs/fundamentals-program/",
-   "deadline": "2026-11-16",
-   "deadline_iso": "2026-11-16",
-   "dates": "5 weeks, start ?",
-   "commitment": "PT, 5 hrs/week",
-   "location_mode": "remote/online",
-   "first_seen": "2026-11-08",
-   "last_seen": "2026-11-08"
-  },
   {
    "key": "https://aisafetyuci.org/research",
    "name": "AI Safety Collective at Irvine (AISCI) Research Projects",

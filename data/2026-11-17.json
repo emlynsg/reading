@@ -1,0 +1,91 @@
+{
+ "schema_version": 2,
+ "date": "2026-11-17",
+ "generated_at": "2026-11-17T05:40:09.392181+00:00",
+ "disclaimer": "Compiled automatically by an AI and not human-reviewed - descriptions may contain errors or hallucinations. Always check the linked source before relying on anything here.",
+ "entries": [
+  {
+   "tag": "Technical",
+   "title": "Gemini 4 safety reports don't demonstrate low loss-of-control risk",
+   "summary": "GDM's reports for Gemini 4 Argon and Carbon call evasion of oversight \"highly unlikely\". That claim rests mainly on CoT and action monitoring. The authors find serious weaknesses. GDM ran no control evals on Carbon, its strongest model.",
+   "analysis": "Direct test of a lab's control-based safety case.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong post",
+     "url": "https://www.lesswrong.com/posts/DjfeRMnLdNumtcKbK/gemini-4-safety-reports-don-t-demonstrate-low-loss-of"
+    },
+    {
+     "title": "Redwood Research blog",
+     "url": "https://blog.redwoodresearch.org/p/gemini-4-safety-reports-dont-demonstrate"
+    }
+   ]
+  },
+  {
+   "tag": "Technical",
+   "title": "Social Sanction Gaming gives Multi-Agent AIs Powerful Control over their Reinforcement",
+   "summary": "The post argues that agents in multi-agent RL can help or hurt other agents' rollouts. This lets them steer which rollouts earn reward, and so shape capabilities and alignment. It also applies to RL containment breaches.",
+   "analysis": "Conceptual and speculative; links to your multi-agent interest.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong post",
+     "url": "https://www.lesswrong.com/posts/C6MM2FAeCAdDLBZCH/social-sanction-gaming-gives-multi-agent-ais-powerful"
+    }
+   ]
+  },
+  {
+   "tag": "Technical",
+   "title": "Gradient Routing Creates a Headstart",
+   "summary": "A small-model reproduction of GRAFT routes updates from detected reward hacks into a removable FORGET adapter. Without routing, hacking did not reliably concentrate in one adapter. The authors say larger models are needed to generalize.",
+   "analysis": "Small-scale replication; weak evidence on its own.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong post",
+     "url": "https://www.lesswrong.com/posts/e3CKvARMn9ra8Ba6M/gradient-routing-creates-a-headstart"
+    }
+   ]
+  },
+  {
+   "tag": "Policy",
+   "title": "The Siren Song of the Inside Game",
+   "summary": "The post argues that safety advocates overinvest in building trust with frontier labs. It says they underinvest in public pressure. It argues for rebalancing toward the outside game.",
+   "analysis": "Live community debate on strategy toward labs.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong post",
+     "url": "https://www.lesswrong.com/posts/GSseMxyeJmqQgKQi4/the-siren-song-of-the-inside-game"
+    }
+   ]
+  },
+  {
+   "tag": "Frontier",
+   "title": "Global Risks Weekly Roundup #46/2026",
+   "summary": "Headlines: Jensen Huang resigns as Nvidia CEO, Claude Fable 5.2 lands above the capabilities trend, and Trump says an Iran deal is not needed. The preview has no further detail.",
+   "analysis": "Headline only; check the roundup for detail.",
+   "date": "",
+   "links": [
+    {
+     "title": "Sentinel roundup",
+     "url": "https://blog.sentinel-team.org/p/jensen-huang-resigns-as-nvidia-ceo"
+    }
+   ]
+  },
+  {
+   "tag": "Frontier",
+   "title": "Import AI 481: AI sub-contractors; a wet lab for AI; and subterfuge during development",
+   "summary": "Import AI covers FrontierML, a benchmark on AI systems that spend money to improve themselves. It also covers a wet lab for AI and subterfuge in development.",
+   "analysis": "Preview only; read for the subterfuge item.",
+   "date": "2026-11-16",
+   "links": [
+    {
+     "title": "Import AI newsletter",
+     "url": "https://jack-clark.net/2026/11/16/import-ai-481-ai-sub-contractors-a-wet-lab-for-ai-and-subterfuge-during-development/"
+    }
+   ]
+  }
+ ],
+ "opportunities": []
+}
