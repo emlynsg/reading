@@ -171,48 +171,6 @@
    "last_seen": "2026-11-03"
   },
   {
-   "key": "https://forum.effectivealtruism.org/posts/Dvup7rcDyxEkWWMKG/applications-for-the-mercial-fellowship-are-now-open",
-   "name": "Mercial Fellowship",
-   "what": "? (fellowship application announcement; page fetch blocked this run, focus area and eligibility unconfirmed)",
-   "kind": "fellowship",
-   "url": "https://forum.effectivealtruism.org/posts/Dvup7rcDyxEkWWMKG/applications-for-the-mercial-fellowship-are-now-open",
-   "deadline": "?",
-   "deadline_iso": "",
-   "dates": "?",
-   "commitment": "?",
-   "location_mode": "?",
-   "first_seen": "2026-09-18",
-   "last_seen": "2026-09-18"
-  },
-  {
-   "key": "https://forum.effectivealtruism.org/posts/eBA8r5jwANkKjwHFy/middle-powers-and-transformative-ai-a-request-for-proposals",
-   "name": "Middle Powers and Transformative AI: A request for proposals",
-   "what": "EA Forum RFP (OscarD, 6 karma) inviting research proposals on how middle powers should act on transformative AI; scope, funder, and deadline unstated (fetch blocked).",
-   "kind": "other",
-   "url": "https://forum.effectivealtruism.org/posts/eBA8r5jwANkKjwHFy/middle-powers-and-transformative-ai-a-request-for-proposals",
-   "deadline": "?",
-   "deadline_iso": "",
-   "dates": "?",
-   "commitment": "?",
-   "location_mode": "?",
-   "first_seen": "2026-09-24",
-   "last_seen": "2026-09-24"
-  },
-  {
-   "key": "ml4good technical ai safety bootcamp",
-   "name": "ML4Good Technical AI Safety Bootcamp",
-   "what": "Eight-day bootcamp covering AI agents, alignment, evaluations, interpretability and governance; the source post describes a cohort near Lyon, France.",
-   "kind": "other",
-   "url": "",
-   "deadline": "?",
-   "deadline_iso": "",
-   "dates": "? (see ML4Good site, 'Find a Bootcamp')",
-   "commitment": "FT, 8 days",
-   "location_mode": "in-person (e.g. near Lyon, France; varies by cohort)",
-   "first_seen": "2026-10-04",
-   "last_seen": "2026-10-04"
-  },
-  {
    "key": "https://www.aisafety.camp/",
    "name": "AI Safety Camp (AISC): 12th edition",
    "what": "Small teams run concrete AI safety projects with a project lead; technical, governance and theory work.",

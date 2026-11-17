@@ -51,6 +51,12 @@
   th, td { text-align: left; border-bottom: 1px solid var(--line);
            padding: .4rem .6rem .4rem 0; vertical-align: top; }
   th { color: var(--muted); font-weight: 600; }
+  td a { color: var(--fg); font-weight: 600; text-decoration: underline;
+         text-decoration-color: var(--accent); text-underline-offset: 2px; }
+  td a:hover { color: var(--accent); }
+  details.undated { margin-top: 1rem; }
+  details.undated > summary { cursor: pointer; color: var(--muted);
+                              font: 600 .88rem/1.4 system-ui, sans-serif; }
   details.earlier { border-top: 1px solid var(--line); padding: .55rem 0; }
   details.earlier > summary { cursor: pointer; font: 600 .95rem/1.4 system-ui, sans-serif;
                               color: var(--accent); }
@@ -146,10 +152,15 @@
     catch (e) { return; }
     const items = (reg.items || []);
     if (!items.length) return;
+    const dated = items.filter(o => DATE_RE.test(o.deadline_iso || ''));
+    const undated = items.filter(o => !DATE_RE.test(o.deadline_iso || ''));
     $('#register').innerHTML = `<h2>Open positions &amp; programmes</h2>
       <p class="note">Everything still open from recent digests — PhD positions (remote-friendly, France,
       London, Brussels, Luxembourg, EPFL) and fellowships — soonest deadline first. Updated ${esc(reg.updated)}.</p>
-      <div class="oppwrap">${oppTable(items)}</div>`;
+      ${dated.length ? `<div class="oppwrap">${oppTable(dated)}</div>` : ''}
+      ${undated.length ? `<details class="undated"><summary>No deadline listed (${undated.length})
+        — rolling, not yet open, or unknown</summary>
+        <div class="oppwrap">${oppTable(undated)}</div></details>` : ''}`;
   }
 
   async function fetchDay(date) {
