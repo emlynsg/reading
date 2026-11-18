@@ -1,0 +1,99 @@
+{
+ "schema_version": 2,
+ "date": "2026-11-18",
+ "generated_at": "2026-11-18T05:39:57.543681+00:00",
+ "disclaimer": "Compiled automatically by an AI and not human-reviewed - descriptions may contain errors or hallucinations. Always check the linked source before relying on anything here.",
+ "entries": [
+  {
+   "tag": "Policy",
+   "title": "How should we define \"capabilities activities\" for pacing?",
+   "summary": "The post asks how to define which compute use counts as capabilities work. A pacing rule would cap that compute through legislation or voluntary commitments. The definition decides what the cap covers.",
+   "analysis": "Direct input to compute-cap verification design.",
+   "date": "",
+   "links": [
+    {
+     "title": "Redwood Research post",
+     "url": "https://blog.redwoodresearch.org/p/how-should-we-define-capabilities"
+    }
+   ]
+  },
+  {
+   "tag": "Policy",
+   "title": "Jensen Huang Really Liked Selling China Advanced AI Chips",
+   "summary": "Zvi's post says Jensen Huang resigned after affairs came to light, one with an alleged Chinese spy tied to chip smuggling. It also argues Nvidia ran a long lobbying campaign to sell advanced chips to China.",
+   "analysis": "Check the resignation claim against primary news; export-control relevant.",
+   "date": "",
+   "links": [
+    {
+     "title": "Zvi on LessWrong",
+     "url": "https://www.lesswrong.com/posts/T3oJfyHEy6uLEJ9FB/jensen-huang-really-liked-selling-china-advanced-ai-chips"
+    }
+   ]
+  },
+  {
+   "tag": "Frontier",
+   "title": "Why do AIFP forecasters disagree so much on the gap between SARs and TED-AIs?",
+   "summary": "The post says a METR report found Anthropic's models improving twice as fast as before, by an internal metric (AECI). AI Futures Project shifted its timelines in response. The post explains forecaster disagreement.",
+   "analysis": "Secondhand summary; read the METR report itself.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong post",
+     "url": "https://www.lesswrong.com/posts/8wEAJtLRA3YtaQDxj/why-do-aifp-forecasters-disagree-so-much-on-the-gap-between"
+    }
+   ]
+  },
+  {
+   "tag": "Frontier",
+   "title": "Thoughts on \"safety bad bc warning shots good\"",
+   "summary": "The post tests the argument that making current AIs safer is bad because it removes warning shots. It lays out the argument as numbered premises and then responds.",
+   "analysis": "Useful framing for an ongoing debate.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong post",
+     "url": "https://www.lesswrong.com/posts/qJrhEoNbzKRQYhybh/thoughts-on-safety-bad-bc-warning-shots-good"
+    }
+   ]
+  },
+  {
+   "tag": "Frontier",
+   "title": "A lab employee's guide to raising concerns",
+   "summary": "The post argues frontier-lab employees hold power mainly through their ability to speak up, internally or externally. It gives practical guidance on raising concerns.",
+   "analysis": "Relevant to verification and whistleblowing channels.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong post",
+     "url": "https://www.lesswrong.com/posts/JPwYH3hEfLhEDaNFp/a-lab-employee-s-guide-to-raising-concerns"
+    }
+   ]
+  },
+  {
+   "tag": "Policy",
+   "title": "Almost-orthogonal directions can look circular in PCA plots",
+   "summary": "Vectors that are almost orthogonal, with a small circular correlation, look circular in a 2D PCA projection. This can mislead mech-interp work that reads circles as features.",
+   "analysis": "Short, practical caution for interpretability.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong post",
+     "url": "https://www.lesswrong.com/posts/W9hyNv8EukB4WLniX/almost-orthogonal-directions-can-look-circular-in-pca-plots"
+    }
+   ]
+  }
+ ],
+ "opportunities": [
+  {
+   "name": "Researcher, Technical AI Governance (CeSIA)",
+   "what": "Measure what AI developers and governments do about AI risk using public data; own indicators for the EU AI Act compliance tracker.",
+   "kind": "job",
+   "url": "https://cesia.org/en/careers/technical-ai-governance-researcher/",
+   "deadline": "2026-12-15",
+   "deadline_iso": "2026-12-15",
+   "dates": "?",
+   "commitment": "FT",
+   "location_mode": "remote/online (Europe; EU work authorisation unstated)"
+  }
+ ]
+}
