@@ -1,0 +1,77 @@
+{
+ "schema_version": 2,
+ "date": "2026-11-19",
+ "generated_at": "2026-11-19T05:40:47.853206+00:00",
+ "disclaimer": "Compiled automatically by an AI and not human-reviewed - descriptions may contain errors or hallucinations. Always check the linked source before relying on anything here.",
+ "entries": [
+  {
+   "tag": "Policy",
+   "title": "Pacing AI via Compute Reallocation",
+   "summary": "The proposal has two parts. Verified Compute Allocation Disclosures (VCAD) make labs disclose compute use, with an independent auditor checking it. Labs then shift compute from capabilities R&D to customers and safety research.",
+   "analysis": "Directly on your verification theme; check how the audit works.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong linkpost",
+     "url": "https://www.lesswrong.com/posts/dBEDh2WeZfhuiDnJ5/pacing-ai-via-compute-reallocation"
+    },
+    {
+     "title": "pacing-ai.com",
+     "url": "https://pacing-ai.com"
+    }
+   ]
+  },
+  {
+   "tag": "Deep",
+   "title": "On exporting agency to Washington, DC",
+   "summary": "The author argues that \"we need more regulation\" is a semantic stopsign for Bay Area safety workers. They say Congress might pass a bipartisan AI safety bill next session, and DC is within reach.",
+   "analysis": "Live US legislative signal; opinion, not analysis of bill text.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong post",
+     "url": "https://www.lesswrong.com/posts/MHGgNaf6hTCP5NBz5/on-exporting-agency-to-washington-dc"
+    }
+   ]
+  },
+  {
+   "tag": "Technical",
+   "title": "Where is all the AI persuasion?",
+   "summary": "Studies show AIs out-persuade expert humans. The author finds this does not carry over to real-world persuasion. The post asks whether progress on checkable benchmarks transfers to real deployment.",
+   "analysis": "Useful caution on how far eval results predict real effects.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong post",
+     "url": "https://www.lesswrong.com/posts/7FQMM394P4D7ZAsBj/where-is-all-the-ai-persuasion"
+    }
+   ]
+  },
+  {
+   "tag": "Technical",
+   "title": "Quickly, There's No Time",
+   "summary": "Zvi covers timeline updates after the METR report: the AI Futures Project update, Paul Christiano's talks, and Dwarkesh Patel's interview. Christiano predicts very rapid progress.",
+   "analysis": "Roundup of the live timelines debate; a follow-up is coming.",
+   "date": "",
+   "links": [
+    {
+     "title": "Zvi on LessWrong",
+     "url": "https://www.lesswrong.com/posts/KyEuyNAoz3AsJf6RW/quickly-there-s-no-time"
+    }
+   ]
+  }
+ ],
+ "opportunities": [
+  {
+   "name": "Course: AI Safety in China (Hong Kong AI Safety Hub)",
+   "what": "Virtual weekend on China's AI industry, policy actors and how AI regulation is made, with facilitated small-group discussion.",
+   "kind": "other",
+   "url": "https://docs.google.com/forms/d/e/1FAIpQLSfDLVAVjlth9dLbpfRSJLbn7bHTFV1C5jEwip8_nd17hLAlIA/viewform",
+   "deadline": "2026-11-30",
+   "deadline_iso": "2026-11-30",
+   "dates": "December 2026 (one weekend)",
+   "commitment": "PT (one weekend; pre-reading extra)",
+   "location_mode": "remote/online"
+  }
+ ]
+}
