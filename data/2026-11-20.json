@@ -1,0 +1,94 @@
+{
+ "schema_version": 2,
+ "date": "2026-11-20",
+ "generated_at": "2026-11-20T05:40:11.423988+00:00",
+ "disclaimer": "Compiled automatically by an AI and not human-reviewed - descriptions may contain errors or hallucinations. Always check the linked source before relying on anything here.",
+ "entries": [
+  {
+   "tag": "Technical",
+   "title": "Models can communicate via inference servers despite sandboxing",
+   "summary": "Two agents on one vLLM server pass messages through side channels. Step Sizing and KV Cache Message Board both work. In an 8-colour guessing game, Bob guessed Alice's colour in 1,221 of 1,221 rounds.",
+   "analysis": "Directly relevant to multi-agent collusion and sandbox verification.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong post",
+     "url": "https://www.lesswrong.com/posts/7wzWuLP3HhyBLmKfo/models-can-communicate-via-inference-servers-despite-being"
+    }
+   ]
+  },
+  {
+   "tag": "Technical",
+   "title": "Towards embedded evaluations for AI monitoring",
+   "summary": "The post argues that AI monitors are now the main oversight of internally deployed agents. It proposes independent evaluators embedded inside the developer to test monitoring claims. A first pilot was announced with OpenAI.",
+   "analysis": "Relevant to verification access models; a proposal, not results.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong post",
+     "url": "https://www.lesswrong.com/posts/pXnwQ3ESp3wXhLzNa/towards-embedded-evaluations-for-ai-monitoring"
+    }
+   ]
+  },
+  {
+   "tag": "Technical",
+   "title": "Solomonoff induction with reflective oracles",
+   "summary": "A PIBBSS fellow's paper builds Solomonoff induction on reflective oracles (rOSI). It learns computable structure from partly uncomputable sequences. Its properties resemble logical induction.",
+   "analysis": "Agent-foundations theory; skim if you follow game-theory foundations.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong linkpost",
+     "url": "https://www.lesswrong.com/posts/nvrFYAwciyyj9T5ir/solomonoff-induction-with-reflective-oracles"
+    },
+    {
+     "title": "arXiv paper",
+     "url": "https://arxiv.org/html/2611.14454v1"
+    }
+   ]
+  },
+  {
+   "tag": "Frontier",
+   "title": "AI #195: Opening Bell (Anthropic IPO, new models)",
+   "summary": "Anthropic lists today and has released Claude Fable 5.2. OpenAI released GPT-6.2 Astra and Sol. Astra matches Fable on the ECI and trails by three on Artificial Analysis.",
+   "analysis": "",
+   "date": "",
+   "links": [
+    {
+     "title": "Zvi roundup",
+     "url": "https://www.lesswrong.com/posts/De5LBagrSCKd3Q9cs/ai-195-opening-bell"
+    }
+   ]
+  },
+  {
+   "tag": "Frontier",
+   "title": "Anthropic IPO draws critics: Soares essay and RSI-ban protest",
+   "summary": "Soares argues Anthropic's actions contradict its leaders' stated worldview and that its comms mislead. Raemon joined a protest outside Anthropic's offices asking for a government ban on recursive self-improvement.",
+   "analysis": "Shows the live debate around lab IPOs and RSI.",
+   "date": "2026-11-19",
+   "links": [
+    {
+     "title": "Soares essay (LessWrong)",
+     "url": "https://www.lesswrong.com/posts/Drj97tmuiWF3e9Xya/anthropic-is-not-living-up-to-its-ideals"
+    },
+    {
+     "title": "Protest announcement",
+     "url": "https://www.lesswrong.com/posts/7FDTTWLDYHMG2WB5v/attending-the-anthropic-ipo-protest-for-banning-rsi-tomorrow"
+    }
+   ]
+  }
+ ],
+ "opportunities": [
+  {
+   "name": "Deputy Director / Senior Associate, Australia (Global Shield)",
+   "what": "Set and deliver an Australian policy advocacy agenda on AI risk; brief ministers and officials.",
+   "kind": "job",
+   "url": "https://www.globalshieldpolicy.org/wp-content/uploads/2026/11/Job-Description-%E2%80%93-Australia-Deputy-Director-_-Senior-Associate.pdf",
+   "deadline": "2026-12-20",
+   "deadline_iso": "2026-12-20",
+   "dates": "?",
+   "commitment": "FT",
+   "location_mode": "remote/online (Canberra, Australia)"
+  }
+ ]
+}

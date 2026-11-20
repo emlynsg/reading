@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19",
+ "updated": "2026-11-20",
  "roundup_urls": [],
  "items": [
   {
@@ -169,6 +169,20 @@
    "location_mode": "remote/online (Europe; EU work authorisation unstated)",
    "first_seen": "2026-11-18",
    "last_seen": "2026-11-18"
+  },
+  {
+   "key": "https://www.globalshieldpolicy.org/wp-content/uploads/2026/11/Job-Description-%E2%80%93-Australia-Deputy-Director-_-Senior-Associate.pdf",
+   "name": "Deputy Director / Senior Associate, Australia (Global Shield)",
+   "what": "Set and deliver an Australian policy advocacy agenda on AI risk; brief ministers and officials.",
+   "kind": "job",
+   "url": "https://www.globalshieldpolicy.org/wp-content/uploads/2026/11/Job-Description-%E2%80%93-Australia-Deputy-Director-_-Senior-Associate.pdf",
+   "deadline": "2026-12-20",
+   "deadline_iso": "2026-12-20",
+   "dates": "?",
+   "commitment": "FT",
+   "location_mode": "remote/online (Canberra, Australia)",
+   "first_seen": "2026-11-20",
+   "last_seen": "2026-11-20"
   },
   {
    "key": "https://foresight.org/engage/fellowship/",
