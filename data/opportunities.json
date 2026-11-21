@@ -1,21 +1,7 @@
 {
- "updated": "2026-11-20",
+ "updated": "2026-11-21",
  "roundup_urls": [],
  "items": [
-  {
-   "key": "https://princint.ai/research-scientists-at-principles-of-intelligence/",
-   "name": "Research Scientist (Principles of Intelligence)",
-   "what": "Physics-inspired mechanistic interpretability research on data structure and learned features.",
-   "kind": "job",
-   "url": "https://princint.ai/research-scientists-at-principles-of-intelligence/",
-   "deadline": "2026-11-20",
-   "deadline_iso": "2026-11-20",
-   "dates": "?",
-   "commitment": "FT",
-   "location_mode": "remote option (also London UK, SF Bay Area)",
-   "first_seen": "2026-11-08",
-   "last_seen": "2026-11-08"
-  },
   {
    "key": "https://www.lesswrong.com/posts/gbExicZvKtHBboLR6/applications-open-winter-2027-affine-alignment-seminar-due",
    "name": "AFFINE Alignment Seminar (Winter 2027 cohort)",
@@ -197,20 +183,6 @@
    "location_mode": "?",
    "first_seen": "2026-11-03",
    "last_seen": "2026-11-03"
-  },
-  {
-   "key": "https://prism-research.org/",
-   "name": "PRISM AI Safety Research Fellowship: 2027 (W2D2)",
-   "what": "Mentor-guided teams of 4-5 take a research question to a paper submission. Technical and governance projects; ends with a poster showcase.",
-   "kind": "fellowship",
-   "url": "https://prism-research.org/",
-   "deadline": "Applications not yet open",
-   "deadline_iso": "",
-   "dates": "Starts 31 Jan 2027; 4 months",
-   "commitment": "PT (hours/week ?)",
-   "location_mode": "remote/online",
-   "first_seen": "2026-11-06",
-   "last_seen": "2026-11-06"
   },
   {
    "key": "https://jobs.lever.co/epoch-ai/bd6856b7-c6bb-4793-acfa-9870671959ee",

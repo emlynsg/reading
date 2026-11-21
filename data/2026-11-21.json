@@ -1,0 +1,65 @@
+{
+ "schema_version": 2,
+ "date": "2026-11-21",
+ "generated_at": "2026-11-21T05:40:22.566080+00:00",
+ "disclaimer": "Compiled automatically by an AI and not human-reviewed - descriptions may contain errors or hallucinations. Always check the linked source before relying on anything here.",
+ "entries": [
+  {
+   "tag": "Policy",
+   "title": "Transformer Weekly: policy can still work on short timelines",
+   "summary": "The issue covers California's bid to regulate AI, a new FRONTIER ACT, and Anthropic's record-breaking IPO. The preview gives only headlines, with no bill details.",
+   "analysis": "Check the FRONTIER ACT text for verification or compute provisions.",
+   "date": "",
+   "links": [
+    {
+     "title": "Transformer piece",
+     "url": "https://www.transformernews.ai/p/policy-can-still-work-on-short-timelines-california-states-ai"
+    }
+   ]
+  },
+  {
+   "tag": "Technical",
+   "title": "CLR's 2027 SPI agenda plans",
+   "summary": "CLR's safe Pareto improvements lead sets 2027 plans. The theory of change holds that transformative AIs should implement SPIs and that agents they bargain with should accept them.",
+   "analysis": "Direct game-theory work for multi-agent cooperation.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong post",
+     "url": "https://www.lesswrong.com/posts/MkXHmbQ8jmnBKBT6S/clr-s-2027-spi-agenda-plans"
+    }
+   ]
+  },
+  {
+   "tag": "Technical",
+   "title": "Truth probes follow the persona, but the answer doesn't go through them",
+   "summary": "Given a 1500s European scholar persona, Qwen, Llama and Gemma probes shift toward \"true\" on false statements. The author argues the answer does not route through the probe direction. Only linear probes tested.",
+   "analysis": "Warns against probe-based lie detection; mechanism unproven.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong post",
+     "url": "https://www.lesswrong.com/posts/rzdZSGcinM4DEMaKG/truth-probes-follow-the-persona-but-the-answer-doesn-t-go-1"
+    }
+   ]
+  },
+  {
+   "tag": "Frontier",
+   "title": "Anthropic's Alpoge (with Claude) claims a Riemann Hypothesis proof",
+   "summary": "A linkpost points to a PDF at alpo.ge claiming a solution to the Riemann Hypothesis. The preview gives no details, and no expert verification is cited.",
+   "analysis": "Treat as unverified until mathematicians check it.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong linkpost",
+     "url": "https://www.lesswrong.com/posts/hxHt8NaQeFADrfeAp/linkpost-anthropic-s-alpoge-along-with-claude-claims-to-have"
+    },
+    {
+     "title": "Claimed proof PDF",
+     "url": "https://alpo.ge/remark.pdf"
+    }
+   ]
+  }
+ ],
+ "opportunities": []
+}
