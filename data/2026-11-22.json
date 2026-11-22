@@ -1,0 +1,48 @@
+{
+ "schema_version": 2,
+ "date": "2026-11-22",
+ "generated_at": "2026-11-22T05:40:19.448029+00:00",
+ "disclaimer": "Compiled automatically by an AI and not human-reviewed - descriptions may contain errors or hallucinations. Always check the linked source before relying on anything here.",
+ "entries": [
+  {
+   "tag": "Policy",
+   "title": "Trump on superintelligence: what is China saying?",
+   "summary": "On November 20, after meeting Xi at APEC in Shenzhen, Trump said both leaders agree to \"some joint guardrails\" for AI. Bessent said both want humans kept in military decisions. China's own readout adds little. Qiushi warned of goal-misaligned AI in an \"intelligence explosion\".",
+   "analysis": "Direct signal for US-China verification prospects; details still thin.",
+   "date": "2026-11-20",
+   "links": [
+    {
+     "title": "LessWrong post",
+     "url": "https://www.lesswrong.com/posts/yyz2LAptjWgR7PKBD/trump-on-superintelligence-it-may-be-too-super-what-is-china"
+    }
+   ]
+  },
+  {
+   "tag": "Policy",
+   "title": "GPT-6.2 Astra and Sol: The System Card",
+   "summary": "Zvi reads the GPT-6.2 system card and covers only new or important parts. Sections include internal deployment, Preparedness Assessment, and biological and cyber threats.",
+   "analysis": "Useful digest of lab evals and safeguards claims.",
+   "date": "2026-11-21",
+   "links": [
+    {
+     "title": "Zvi on LessWrong",
+     "url": "https://www.lesswrong.com/posts/7Skw6caJxPrBDetCC/gpt-6-2-astra-and-sol-the-system-card"
+    }
+   ]
+  },
+  {
+   "tag": "Frontier",
+   "title": "Human organisations as an intuition pump for AI's unit of agency",
+   "summary": "The post argues that intuitions about human organisations apply to groups of AIs acting together. It asks which notion of self AIs will adopt, and how many units of agency to expect.",
+   "analysis": "Conceptual input for multi-agent work; no empirical results.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong post",
+     "url": "https://www.lesswrong.com/posts/SGiNxS6vLeffbWhqo/human-organisations-as-an-intuition-pump-for-ai-s-unit-of"
+    }
+   ]
+  }
+ ],
+ "opportunities": []
+}
