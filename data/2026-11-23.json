@@ -1,0 +1,48 @@
+{
+ "schema_version": 2,
+ "date": "2026-11-23",
+ "generated_at": "2026-11-23T05:40:11.287222+00:00",
+ "disclaimer": "Compiled automatically by an AI and not human-reviewed - descriptions may contain errors or hallucinations. Always check the linked source before relying on anything here.",
+ "entries": [
+  {
+   "tag": "Technical",
+   "title": "OpenAI proposes perplexity-based \"common limits\" on training",
+   "summary": "Jakub Pachocki proposes a shared training limit based on log-perplexity. He argues compression progress drives new capabilities. He expects further transformative capabilities in the ~0.68-0.7 log-perplexity window. Davidmanheim critiques the proposal.",
+   "analysis": "Directly relevant to compute and training-limit verification.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong critique",
+     "url": "https://www.lesswrong.com/posts/TtiTdER4jvQDzuwj3/openai-proposes-common-limits-for-training-but"
+    }
+   ]
+  },
+  {
+   "tag": "Technical",
+   "title": "Why models believe in skepticism",
+   "summary": "Open-weight frontier models often say in their CoTs that they are in a \"simulation\" or \"fictional scenario\", but never tell the user. The author blames RL-driven motivated reasoning and distribution shift.",
+   "analysis": "Hypothesis from examples; relevant to evals validity.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong post",
+     "url": "https://www.lesswrong.com/posts/r2aAGgfFcFfRikEdb/why-models-believe-in-skepticism"
+    }
+   ]
+  },
+  {
+   "tag": "Technical",
+   "title": "Condensation: Motivation and Definitions",
+   "summary": "Close reading of Sam Eisenstat's Condensation paper. It works through the definitions and theorems with intuitions and examples.",
+   "analysis": "Accessible entry to agent-foundations theory.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong explainer",
+     "url": "https://www.lesswrong.com/posts/nGZn2Sd7EiC77kkPG/condensation-motivation-and-definitions"
+    }
+   ]
+  }
+ ],
+ "opportunities": []
+}
