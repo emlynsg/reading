@@ -1,0 +1,61 @@
+{
+ "schema_version": 2,
+ "date": "2026-11-24",
+ "generated_at": "2026-11-24T05:40:27.309933+00:00",
+ "disclaimer": "Compiled automatically by an AI and not human-reviewed - descriptions may contain errors or hallucinations. Always check the linked source before relying on anything here.",
+ "entries": [
+  {
+   "tag": "Deep",
+   "title": "Comparing AI R&D compute caps and deployment lags",
+   "summary": "The post compares two pacing policies. One caps the share of compute used for capabilities R&D. The other forces labs to use models X months old for AI R&D. It is a rough draft.",
+   "analysis": "Directly bears on compute-governance verification design.",
+   "date": "",
+   "links": [
+    {
+     "title": "AlignmentForum post",
+     "url": "https://www.lesswrong.com/posts/e758PJCpwAwyodvEj/comparing-ai-r-and-d-compute-caps-and-deployment-lags"
+    }
+   ]
+  },
+  {
+   "tag": "Deep",
+   "title": "Global Risks Weekly Roundup #47/2026",
+   "summary": "The roundup headlines say AI solved the Riemann hypothesis, Jensen Huang returns as Nvidia CEO, and Trump endorses some US-China AI guardrails. Preview text is empty.",
+   "analysis": "The US-China guardrails item needs checking at source.",
+   "date": "",
+   "links": [
+    {
+     "title": "Sentinel roundup",
+     "url": "https://blog.sentinel-team.org/p/riemann-hypothesis-solved-by-ai-jensen"
+    }
+   ]
+  },
+  {
+   "tag": "Deep",
+   "title": "Joseph Miller Actually Tried. Is that enough?",
+   "summary": "Over 1,000 people in six countries marched for an AI treaty. About 200 protested outside Anthropic as it IPOed. Over 1,000 marched in London against AI extinction.",
+   "analysis": "Shows growing public pressure for treaty action.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong post",
+     "url": "https://www.lesswrong.com/posts/nWRps3zxN7isngSsT/joseph-miller-actually-tried-is-that-enough"
+    }
+   ]
+  },
+  {
+   "tag": "Policy",
+   "title": "World Models and the Law",
+   "summary": "The paper proposes a taxonomy of world models by who or what acts on their predictions. It tests how EU, California and China rules handle them.",
+   "analysis": "Useful US/China/EU regulatory comparison.",
+   "date": "",
+   "links": [
+    {
+     "title": "arXiv paper",
+     "url": "https://arxiv.org/abs/2611.29899"
+    }
+   ]
+  }
+ ],
+ "opportunities": []
+}
