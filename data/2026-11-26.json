@@ -1,0 +1,87 @@
+{
+ "schema_version": 2,
+ "date": "2026-11-26",
+ "generated_at": "2026-11-26T05:40:34.220854+00:00",
+ "disclaimer": "Compiled automatically by an AI and not human-reviewed - descriptions may contain errors or hallucinations. Always check the linked source before relying on anything here.",
+ "entries": [
+  {
+   "tag": "Deep",
+   "title": "FlashProve-Next: Verifiable Inference for Production LLM APIs",
+   "summary": "The paper targets clients who cannot check which model, precision, hidden prompt or reasoning budget an API provider ran. It proposes zero-knowledge-masked proofs per response. Native bf16/fp8/mxfp4 serving stays unchanged. Dense profiles fix coarse geometry; cross-architecture hiding is deferred.",
+   "analysis": "Direct input for AI verification tooling; check the proof cost claims.",
+   "date": "",
+   "links": [
+    {
+     "title": "arXiv paper",
+     "url": "https://arxiv.org/abs/2611.33741"
+    }
+   ]
+  },
+  {
+   "tag": "Policy",
+   "title": "Operationalizing a pre-training R&D pause",
+   "summary": "The post answers OpenAI's Jakub Pachocki, who asked for common industry limits. It proposes an industry standard that halts pre-training R&D for 4 months.",
+   "analysis": "A concrete pause design; verification of compliance is the open question.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong post",
+     "url": "https://www.lesswrong.com/posts/PPzdxdADERWTmHKuG/operationalizing-a-pre-training-r-and-d-pause"
+    }
+   ]
+  },
+  {
+   "tag": "Frontier",
+   "title": "Claude and Levent Alpöge Prove the Riemann Hypothesis",
+   "summary": "Zvi reports the Lean and Mathlib communities verified a Claude-assisted proof of the Riemann Hypothesis. Yudkowsky argues the methods generalize to anything AI can definitely test, including AI R&D.",
+   "analysis": "Big capability claim; the safety argument rests on commentary, not the proof.",
+   "date": "",
+   "links": [
+    {
+     "title": "Zvi on LessWrong",
+     "url": "https://www.lesswrong.com/posts/ENdfwPYrhLrAP8znD/claude-and-levent-alpoege-prove-the-riemann-hypothesis"
+    }
+   ]
+  },
+  {
+   "tag": "Technical",
+   "title": "AIs may seek ambient score",
+   "summary": "Fabien Roger argues score-seeking AIs may internalize a process-based score that sees all their actions. Such AIs would tamper less and look less overtly evil than other misaligned AIs.",
+   "analysis": "A threat-model refinement for control and monitoring work.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong post",
+     "url": "https://www.lesswrong.com/posts/GhTL69vuX4BfJARGk/ais-may-seek-ambient-score"
+    }
+   ]
+  },
+  {
+   "tag": "Technical",
+   "title": "Progress Report: Deprioritizing eNTK for feature identification",
+   "summary": "The team drops its eNTK eigenanalysis program for finding interpretability features. Earlier work found eNTK eigendirections aligned with Fourier features on modular arithmetic, and some looked interpretable in a 270M language model.",
+   "analysis": "Useful negative result for interpretability and learning-theory tools.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong post",
+     "url": "https://www.lesswrong.com/posts/XzxKThrf4sD5eefxH/progress-report-deprioritizing-entk-for-feature-1"
+    }
+   ]
+  },
+  {
+   "tag": "Frontier",
+   "title": "How Much Effort Does an AI Code Reviewer Need? Claude 5.5 Models on Plausible-but-Wrong Patches",
+   "summary": "High effort cuts false acceptance of wrong patches in every model. Opus falls from .67 to .45; Sonnet from .65 to .49. Set: 90 patches, 55 wrong.",
+   "analysis": "Small sample; relevant to scalable oversight of coding agents.",
+   "date": "",
+   "links": [
+    {
+     "title": "arXiv paper",
+     "url": "https://arxiv.org/abs/2611.33639"
+    }
+   ]
+  }
+ ],
+ "opportunities": []
+}
