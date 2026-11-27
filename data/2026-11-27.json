@@ -1,0 +1,48 @@
+{
+ "schema_version": 2,
+ "date": "2026-11-27",
+ "generated_at": "2026-11-27T05:40:15.180231+00:00",
+ "disclaimer": "Compiled automatically by an AI and not human-reviewed - descriptions may contain errors or hallucinations. Always check the linked source before relying on anything here.",
+ "entries": [
+  {
+   "tag": "Technical",
+   "title": "Recursive Self Alignment: The Model is the Estimator",
+   "summary": "The post argues alignment must work during recursive self-improvement, not before it. It applies the learning-theory split of approximation, estimation and optimisation to alignment. It cites METR's October 2026 report on recent acceleration. First post in a planned sequence.",
+   "analysis": "Early, speculative sequence opener; learning-theory framing fits your theory interest.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong post",
+     "url": "https://www.lesswrong.com/posts/qvy8Tvhzg2PgfvHcs/recursive-self-alignment-the-model-is-the-estimator"
+    }
+   ]
+  },
+  {
+   "tag": "Technical",
+   "title": "GhostBusters: Understanding Hereditary Trait Distillation in Phantom Transfer",
+   "summary": "The post studies how distillation passes unwanted teacher traits to students when the signal is subtle and spread across the data. It builds on Conmy's work on hereditary traits, such as blackmail and political censorship. Simple LLM-judge attribution struggles here.",
+   "analysis": "Interpretability angle on data attribution; check methods before trusting.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong post",
+     "url": "https://www.lesswrong.com/posts/uAXt43Wg2PWzsagvr/ghostbusters-understanding-hereditary-trait-distillation-in"
+    }
+   ]
+  },
+  {
+   "tag": "Technical",
+   "title": "Go seeking mysteries",
+   "summary": "The post argues for hunting unexplained, surprising phenomena in models. It says this suits junior empirical researchers. It claims mystery-seeking avoids needing a deep theoretical agenda and helps build an agenda you own.",
+   "analysis": "Perspective piece; useful for choosing post-MATS empirical projects.",
+   "date": "",
+   "links": [
+    {
+     "title": "LessWrong post",
+     "url": "https://www.lesswrong.com/posts/f5r7FpLWiFQ7aeJu9/go-seeking-mysteries"
+    }
+   ]
+  }
+ ],
+ "opportunities": []
+}
