@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27",
+ "updated": "2026-11-28",
  "roundup_urls": [],
  "items": [
   {
@@ -129,18 +129,18 @@
    "last_seen": "2026-11-03"
   },
   {
-   "key": "https://www.cnas.org/careers/fellow-senior-fellow-2",
-   "name": "Fellow / Senior Fellow, Technology and National Security Program (CNAS)",
-   "what": "Lead research on monitoring, allocating and controlling compute for US national security, including on-chip governance.",
-   "kind": "job",
-   "url": "https://www.cnas.org/careers/fellow-senior-fellow-2",
+   "key": "https://www.heronsec.ai/researchfellowship",
+   "name": "AI Security Research Fellowship (Heron AI Security)",
+   "what": "Three-month fellowship on agent sandboxing, hardware security, model security and containment, guided by frontier AI researchers. Produces research or prototypes.",
+   "kind": "fellowship",
+   "url": "https://www.heronsec.ai/researchfellowship",
    "deadline": "?",
    "deadline_iso": "",
-   "dates": "?",
-   "commitment": "FT",
-   "location_mode": "in-person (Washington DC, USA)",
-   "first_seen": "2026-11-13",
-   "last_seen": "2026-11-13"
+   "dates": "3 months; start ?",
+   "commitment": "PT, 8-30 hrs/week",
+   "location_mode": "remote/online or in-person (London UK, Tel Aviv, San Francisco)",
+   "first_seen": "2026-11-28",
+   "last_seen": "2026-11-28"
   }
  ]
 }
